@@ -1,0 +1,158 @@
+{
+  // Slider boutiques ###########################################################################################################################################
+  "rich-text#slider-title-boutiques": {
+    "props": {
+      "text": "Nuestras Boutiques",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "slider-layout#boutiques": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "blockClass": "carousel-boutiques",
+      "autoplay":{
+        "timeout":3000,
+        "stopOnHover":true
+      }
+    },
+    "children": [
+      "flex-layout.row#boutique-1",
+      "flex-layout.row#boutique-2",
+      "flex-layout.row#boutique-3",
+      "flex-layout.row#boutique-4",
+      "flex-layout.row#boutique-5"
+      // "flex-layout.row#boutique-1",
+      // "flex-layout.row#boutique-2",
+      // "flex-layout.row#boutique-3",
+      // "flex-layout.row#boutique-4",
+      // "flex-layout.row#boutique-5"
+    ]
+  },
+  "flex-layout.row#boutique-1":{
+    "children":[
+      "image#boutique-1",
+      "rich-text#boutique-1"
+    ],
+    "props":{
+      "blockClass": "boutique-container"
+    }
+  },
+  "image#boutique-1": {
+    "props": {
+      "title": "imagen cat 1",
+      "src": "/arquivos/boutique-1.png",
+      "maxHeight": 342,
+      "alt": "boutique Image",
+      "link": {"url": "/#"}
+    }
+  },
+  "rich-text#boutique-1": {
+    "props": {
+      "title": "nombre cat 1",
+      "text": "Faber Castell"
+    }
+  },
+  "flex-layout.row#boutique-2":{
+    "children":[
+      "image#boutique-2",
+      "rich-text#boutique-2"
+    ],
+    "props":{
+      "blockClass": "boutique-container"
+    }
+  },
+  "image#boutique-2": {
+    "props": {
+      "title": "imagen cat 2",
+      "src": "/arquivos/boutique-2.png",
+      "maxHeight": 342,
+      "alt": "boutique Image",
+      "link": {"url": "/#"}
+    }
+  },
+  "rich-text#boutique-2": {
+    "props": {
+      "title": "nombre cat 2",
+      "text": "Crayola"
+    }
+  },
+  "flex-layout.row#boutique-3":{
+    "children":[
+      "image#boutique-3",
+      "rich-text#boutique-3"
+    ],
+    "props":{
+      "blockClass": "boutique-container"
+    }
+  },
+  "image#boutique-3": {
+    "props": {
+      "title": "imagen cat 3",
+      "src": "/arquivos/boutique-1.png",
+      "maxHeight": 342,
+      "alt": "boutique Image",
+      "link": {"url": "/#"}
+    }
+  },
+  "rich-text#boutique-3": {
+    "props": {
+      "title": "nombre cat 3",
+      "text": "Faber Castell"
+    }
+  },
+  "flex-layout.row#boutique-4":{
+    "children":[
+      "image#boutique-4",
+      "rich-text#boutique-4"
+    ],
+    "props":{
+      "blockClass": "boutique-container"
+    }
+  },
+  "image#boutique-4": {
+    "props": {
+      "title": "imagen cat 4",
+      "src": "/arquivos/boutique-2.png",
+      "maxHeight": 342,
+      "alt": "boutique Image",
+      "link": {"url": "/#"}
+    }
+  },
+  "rich-text#boutique-4": {
+    "props": {
+      "title": "nombre cat 4",
+      "text": "Crayola"
+    }
+  },
+  "flex-layout.row#boutique-5":{
+    "children":[
+      "image#boutique-5",
+      "rich-text#boutique-5"
+    ],
+    "props":{
+      "blockClass": "boutique-container"
+    }
+  },
+  "image#boutique-5": {
+    "props": {
+      "title": "imagen cat 5",
+      "src": "/arquivos/boutique-1.png",
+      "maxHeight": 342,
+      "alt": "boutique Image",
+      "link": {"url": "/#"}
+    }
+  },
+  "rich-text#boutique-5": {
+    "props": {
+      "title": "nombre cat 5",
+      "text": "Faber Castell"
+    }
+  }
+}

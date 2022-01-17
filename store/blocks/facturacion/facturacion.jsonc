@@ -1,0 +1,26 @@
+{
+  "store.custom#facturacion":{
+    "blocks" : [
+      "flex-layout.row#titulo-facturacion",
+      "flex-layout.row#form-layout"
+    ]
+  },
+
+  "flex-layout.row#form-layout": {
+    "children": [
+      "facturacion"
+    ]
+  },
+  /*Titulo*/
+  "flex-layout.row#titulo-facturacion": {
+    "children":[
+    "rich-text#tit-factura"
+    ]
+  },
+  "rich-text#tit-factura":{
+    "props":{
+    "text":"Solicitud de facturación",
+    "blockClass": "h1-instit-facturacion"
+    }
+  }
+}

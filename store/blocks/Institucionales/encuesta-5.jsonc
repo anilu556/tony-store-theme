@@ -1,0 +1,39 @@
+{
+  "store.custom#encuesta-5": {
+      "children":[
+          "flex-layout.row#titulo-encuesta-5",
+          "flex-layout.row#contenido-encuesta-5",
+          "back-to-top-button"
+      ]
+    },
+    "flex-layout.row#titulo-encuesta-5":{
+        "children":[
+            "flex-layout.col#coltit-encuesta-5"
+        ]
+    },
+    "flex-layout.col#coltit-encuesta-5":{
+        "children":[
+            "rich-text#titulo-encuesta-5"
+        ],"props":{
+          "horizontalAlign":"center"
+        }
+    },
+    "rich-text#titulo-encuesta-5":{
+        "props":{
+            "text":"## Lorem Ipsum",
+            "blockClass": "titins"
+        }
+    },
+    "flex-layout.row#contenido-encuesta-5":{
+        "children":[
+            "flex-layout.col#coltxt-encuesta-5"
+        ]
+    },
+    "flex-layout.col#coltxt-encuesta-5":{
+        "children":[
+            "ContenedorGoogleForm5"
+        ],
+        "props":{"blockClass":"content-institucional"}
+    }
+
+}

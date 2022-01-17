@@ -1,0 +1,57 @@
+{
+  "store.custom#categorias": {
+      "children":[
+          "flex-layout.row#top-banner-categorias",
+          "flex-layout.row#titulo-categorias",
+          "flex-layout.row#texto-categorias",
+          "back-to-top-button"
+      ]
+    },
+    "flex-layout.row#top-banner-categorias":{
+      "children":[
+        "image#top-banner-categorias"
+      ]
+    },
+    "image#top-banner-categorias":{
+      "props": {
+        "src": "/arquivos/box.png",
+        "maxHeight": 24
+      }
+    },
+    "flex-layout.row#titulo-categorias":{
+        "children":[
+            "flex-layout.col#coltit-categorias"
+        ]
+    },
+    "flex-layout.col#coltit-categorias":{
+        "children":[
+            "rich-text#titulo-categorias"
+        ],"props":{
+          "horizontalAlign":"center"
+        }
+    },
+    "rich-text#titulo-categorias":{
+        "props":{
+            "text":"## Lorem Ipsum",
+            "blockClass": "titins"
+        }
+    },
+    "flex-layout.row#texto-categorias":{
+        "children":[
+            "flex-layout.col#coltxt-categorias"
+        ]
+    },
+    "flex-layout.col#coltxt-categorias":{
+        "children":[
+            "rich-text#txtinst-categorias"
+        ],
+        "props":{"blockClass":"content-institucional"}
+    },
+    "rich-text#txtinst-categorias":{
+        "props":{
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass":"txtins"
+        }
+    }
+
+}

@@ -1,0 +1,115 @@
+{
+  "store.custom#promociones": {
+    "children": [
+      "flex-layout.row#titulo-promociones",
+      "flex-layout.row#texto-promociones",
+      "back-to-top-button"
+    ]
+  },
+  "flex-layout.row#titulo-promociones": {
+    "children": [
+      "flex-layout.col#coltit-promociones"
+    ]
+  },
+  "flex-layout.col#coltit-promociones": {
+    "children": [
+      "rich-text#titulo-promociones"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titulo-promociones": {
+    "props": {
+      "text": "## Lorem Ipsum",
+      "blockClass": "titins"
+    }
+  },
+  "flex-layout.row#texto-promociones": {
+    "children": [
+      "flex-layout.col#coltxt-promociones"
+    ],
+    "props": {
+      "blockClass": "row-content-promo-institucional"
+    }
+  },
+  "flex-layout.col#coltxt-promociones": {
+    "children": [
+      "flex-layout.row#cont-promo-1",
+      "flex-layout.row#cont-promo-2",
+      "flex-layout.row#cont-promo-3",
+      "flex-layout.row#cont-promo-4"
+    ],
+    "props": {
+      "blockClass": "content-promo-institucional"
+    }
+  },
+  "flex-layout.row#cont-promo-1":{
+    "children":[
+      "image#box-promo1"
+    ],
+    "props":{
+      "blockClass":"left-box"
+    }
+  },
+  "image#box-promo1":{
+    "props": {
+      "src": "/arquivos/Screenshot 2021-11-22 170408 (1).png",
+      "blockClass":"image-box-promo",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  },
+  "flex-layout.row#cont-promo-2":{
+    "children":[
+      "image#box-promo2"
+    ],
+    "props":{
+      "blockClass":"right-box"
+    }
+  },
+  "image#box-promo2":{
+    "props": {
+      "src": "/arquivos/Screenshot 2021-11-22 170408 (1).png",
+      "blockClass":"image-box-promo",
+      "link":{
+        "url": "/#promo2"
+      }
+    }
+  },
+  "flex-layout.row#cont-promo-3":{
+    "children":[
+      "image#box-promo3"
+    ],
+    "props":{
+      "blockClass":"left-box"
+    }
+  },
+  "image#box-promo3":{
+    "props": {
+      "src": "/arquivos/Screenshot 2021-11-22 170408 (1).png",
+      "blockClass":"image-box-promo",
+      "link":{
+        "url": "/#promo3"
+      }
+    }
+  },
+  "flex-layout.row#cont-promo-4":{
+    "children":[
+      "image#box-promo4"
+    ],
+    "props":{
+      "blockClass":"right-box"
+    }
+  },
+  "image#box-promo4":{
+    "props": {
+      "src": "/arquivos/Screenshot 2021-11-22 170408 (1).png",
+      "blockClass":"image-box-promo",
+      "link":{
+        "url": "/#promo4"
+      }
+    }
+  }
+}

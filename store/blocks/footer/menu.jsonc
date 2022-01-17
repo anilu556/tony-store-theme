@@ -1,0 +1,534 @@
+{
+  "vtex.menu@2.x:menu#Contacto": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contacto",
+      // "menu-item#telefonos",
+      "menu-item#tel-1",
+      // "menu-item#correo",
+      // "menu-item#correo1",
+      "menu-item#form-contacto"
+    ]
+  },
+  "menu-item#contacto": {
+    "props": {
+      "blockClass": "titulo-menu",
+      "id": "menu-item-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "menu-item#telefonos": {
+    "props": {
+      "blockClass": "telefonos-title",
+      "id": "menu-item-telefonos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Teléfono",
+        "text": "Teléfono"
+      }
+    }
+  },
+  "menu-item#tel-1": {
+    "children":[
+      "rich-text#tel-footer"
+    ],
+    "props": {
+      "blockClass": "telefono",
+      "id": "menu-item-tel-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false
+    }
+  },
+  "rich-text#tel-footer":{
+    "props": {
+      "text": "[800 000 TONY (8669)](tel:800-000-8669)",
+      "blockClass": "correo"
+    }
+  },
+  "menu-item#correo": {
+    "props": {
+      "blockClass": "correo-title",
+      "id": "menu-item-correo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Correo",
+        "text": "Correo"
+      }
+    }
+  },
+  "menu-item#correo1": {
+    "children":[
+      "rich-text#email-footer"
+    ],
+    "props": {
+      "blockClass": "correo",
+      "id": "menu-item-correo1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false
+    }
+  },
+  "rich-text#email-footer":{
+    "props": {
+      "text": "[servicioventas@tony.mx](mailto:servicioventas@tony.mx)",
+      "blockClass": "correo"
+    }
+  },
+  "menu-item#form-contacto": {
+    "props": {
+      "blockClass": "menu-item-form-contacto",
+      "id": "menu-item-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "/contacto",
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Formulario de contacto",
+        "text": "Formulario de contacto"
+      }
+    }
+  },
+
+  // Menu empresa ##########################################################################################################################################################
+  "vtex.menu@2.x:menu#Empresa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#empresa",
+      "menu-item#nuestra-historia",
+      "menu-item#unete"
+    ]
+  },
+
+  "menu-item#empresa": {
+    "props": {
+      "blockClass": "titulo-menu",
+      "id": "menu-item-empresa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Empresa",
+        "text": "Empresa"
+      }
+    }
+  },
+
+  "menu-item#nuestra-historia": {
+    "props": {
+      "id": "menu-item-nuestra-historia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-historia",
+        "noFollow": true,
+        "tagTitle": "Nuestra historia",
+        "text": "Nuestra historia"
+      }
+    }
+  },
+
+  "menu-item#unete": {
+    "props": {
+      "id": "menu-item-unete",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unete",
+        "noFollow": true,
+        "tagTitle": "Únete",
+        "text": "Únete a nuestro \n equipo de trabajo"
+      }
+    }
+  },
+
+  // Menu institucionales ##########################################################################################################################################################
+  "vtex.menu@2.x:menu#Institucionales": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institucionales",
+      "menu-item#aviso-de-privacidad",
+      "menu-item#terminos-y-condiciones",
+      "menu-item#politica-de-devoluciones",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+  "menu-item#institucionales": {
+    "props": {
+      "blockClass": "titulo-menu",
+      "id": "menu-item-category-institucionales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Institucionales",
+        "text": "Institucionales"
+      }
+    }
+  },
+  "menu-item#aviso-de-privacidad": {
+    "props": {
+      "id": "menu-item-aviso-de-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+  "menu-item#terminos-y-condiciones": {
+    "props": {
+      "id": "menu-item-terminos-y-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#politica-de-devoluciones": {
+    "props": {
+      "id": "menu-item-politica-de-devoluciones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-devoluciones",
+        "noFollow": false,
+        "tagTitle": "Política de devoluciones",
+        "text": "Política de devoluciones"
+      }
+    }
+  },
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-preguntas-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  // Menu facturacion ##########################################################################################################################################################
+  "vtex.menu@2.x:menu#Facturas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facturas",
+      "menu-item#facturacion",
+      "menu-item#consultar-factura"
+    ]
+  },
+  "menu-item#facturas": {
+    "props": {
+      "blockClass": "titulo-menu",
+      "id": "menu-item-facturas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Facturas",
+        "text": "Facturas"
+      }
+    }
+  },
+  "menu-item#facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/facturacion",
+        "noFollow": true,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+  "menu-item#consultar-factura": {
+    "props": {
+      "id": "menu-item-consultar-factura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "http://facturacion-tony.com.mx/portaltr/",
+        "noFollow": true,
+        "tagTitle": "Consultar factura",
+        "text": "Consultar factura"
+      }
+    }
+  },
+
+  // Menu formas de envio ##########################################################################################################################################################
+  "vtex.menu@2.x:menu#Formas-de-envio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#formas-de-envio",
+      "menu-item#entrega-a-domicilio",
+      "menu-item#entrega-en-sucursal"
+    ]
+  },
+  "menu-item#formas-de-envio": {
+    "props": {
+      "blockClass": "titulo-menu",
+      "id": "menu-item-formas-de-envio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Formas de envío",
+        "text": "Formas de envío"
+      }
+    }
+  },
+  "menu-item#entrega-a-domicilio": {
+    "props": {
+      "id": "menu-item-entrega-a-domicilio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-envios",
+        "noFollow": true,
+        "tagTitle": "Entrega a domicilio",
+        "text": "Entrega a domicilio"
+      }
+    }
+  },
+  "menu-item#entrega-en-sucursal": {
+    "props": {
+      "id": "menu-item-entrega-en-sucursal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-envios",
+        "noFollow": true,
+        "tagTitle": "Entrega en sucursal",
+        "text": "Entrega en sucursal"
+      }
+    }
+  },
+
+   // Footer menu mobile ##########################################################################################################################################################
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu-mobile"
+    },
+    "children": [
+      "menu-item#contacto-mobile",
+      "menu-item#empresa-mobile",
+      "menu-item#institucionales-mobile",
+      "menu-item#facturas-mobile",
+      "menu-item#formas-de-envio-mobile"
+    ]
+  },
+  "menu-item#contacto-mobile": {
+    "props": {
+      "blockClass": "link-menu-title-mobile",
+      "id": "menu-item-category-contacto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/d",
+        "noFollow": true,
+        "tagTitle": "contacto",
+        "text": "Contacto"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contacto"]
+  },
+  "vtex.menu@2.x:submenu.accordion#contacto": {
+    "children": ["vtex.menu@2.x:menu#contacto-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#contacto-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      // "menu-item#telefonos",
+      "menu-item#tel-1",
+      // "menu-item#correo",
+      // "menu-item#correo1",
+      "menu-item#form-contacto"
+    ]
+  },
+  "menu-item#empresa-mobile": {
+    "props": {
+      "blockClass": "link-menu-title-mobile",
+      "id": "menu-item-category-empresa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/d",
+        "noFollow": true,
+        "tagTitle": "empresa",
+        "text": "Empresa"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#empresa"]
+  },
+  "vtex.menu@2.x:submenu.accordion#empresa": {
+    "children": ["vtex.menu@2.x:menu#empresa-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#empresa-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#nuestra-historia",
+      "menu-item#unete"
+    ]
+  },
+
+  "menu-item#institucionales-mobile": {
+    "props": {
+      "blockClass": "link-menu-title-mobile",
+      "id": "menu-item-category-institucionales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/d",
+        "noFollow": true,
+        "tagTitle": "institucionales",
+        "text": "Institucionales"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucionales"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucionales": {
+    "children": ["vtex.menu@2.x:menu#institucionales-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#institucionales-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aviso-de-privacidad",
+      "menu-item#terminos-y-condiciones",
+      "menu-item#politica-de-devoluciones",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+
+  "menu-item#facturas-mobile": {
+    "props": {
+      "blockClass": "link-menu-title-mobile",
+      "itemProps": {
+        "tagTitle": "facturas",
+        "text": "Facturas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#facturas"]
+  },
+  "vtex.menu@2.x:submenu.accordion#facturas": {
+    "children": ["vtex.menu@2.x:menu#footer-facturas-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-facturas-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facturacion",
+      "menu-item#consultar-factura"
+    ]
+  },
+
+  "menu-item#formas-de-envio-mobile": {
+    "props": {
+      "blockClass": "link-menu-title-mobile",
+      "itemProps": {
+        "tagTitle": "formas-de-envio",
+        "text": "Formas de envío"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#formas-de-envio"]
+  },
+  "vtex.menu@2.x:submenu.accordion#formas-de-envio": {
+    "children": ["vtex.menu@2.x:menu#footer-formas-de-envio-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-formas-de-envio-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#entrega-a-domicilio",
+      "menu-item#entrega-en-sucursal"
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "vtex.menu@2.x:menu#categorias2desk": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mendesplegable"
+    ]
+  },"flex-layout.row#mendesplegable":{
+    "children":[
+      "flex-layout.col#menulista"
+    ],"props":{
+      "blockClass":"rowlistaprincipal"
+    }
+  },
+  "flex-layout.col#menulista":{
+    "children":[
+      "overlay-trigger#categoria1",
+      "overlay-trigger#categoria2",
+      "overlay-trigger#categoria3",
+      "overlay-trigger#categoria4",
+      "overlay-trigger#categoria5",
+      "overlay-trigger#categoria6",
+      "overlay-trigger#categoria7",
+      "overlay-trigger#categoria8",
+      "overlay-trigger#categoria9"
+    ],"props":{
+      "paddingLeft":5,
+      "blockClass":"colcontlista",
+      "verticalAlign":"middle"
+    }
+  },
+
+  "overlay-trigger#categoria1":{
+    "children":[
+      "rich-text#categoria1",
+      "overlay-layout#categoria1"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria1":{
+    "props":{
+      "text":"Arte y manualidades",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria1":{
+    "children":[
+      "flex-layout.row#categoria1"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":172
+      }
+    }
+  },"flex-layout.row#categoria1":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel1"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+
+
+  "overlay-trigger#categoria2":{
+    "children":[
+      "rich-text#categoria2",
+      "overlay-layout#categoria2"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria2":{
+    "props":{
+      "text":"Computo e impresión",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria2":{
+    "children":[
+      "flex-layout.row#categoria2"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":145
+      }
+    }
+  },"flex-layout.row#categoria2":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel2"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+
+  "overlay-trigger#categoria3":{
+    "children":[
+      "rich-text#categoria3",
+      "overlay-layout#categoria3"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria3":{
+    "props":{
+      "text":"Electrónica",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria3":{
+    "children":[
+      "flex-layout.row#categoria3"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":90
+      }
+    }
+  },"flex-layout.row#categoria3":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel3"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+
+  "overlay-trigger#categoria4":{
+    "children":[
+      "rich-text#categoria4",
+      "overlay-layout#categoria4"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria4":{
+    "props":{
+      "text":"Escolar",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria4":{
+    "children":[
+      "flex-layout.row#categoria4"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding": 52
+      }
+    }
+  },"flex-layout.row#categoria4":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel4"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+
+  "overlay-trigger#categoria5":{
+    "children":[
+      "rich-text#categoria5",
+      "overlay-layout#categoria5"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria5":{
+    "props":{
+      "text":"Higiene y limpieza",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria5":{
+    "children":[
+      "flex-layout.row#categoria5"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":9
+      }
+    }
+  },"flex-layout.row#categoria5":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel5"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+
+  "overlay-trigger#categoria6":{
+    "children":[
+      "rich-text#categoria6",
+      "overlay-layout#categoria6"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria6":{
+    "props":{
+      "text":"Muebles y pizarrones",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria6":{
+    "children":[
+      "flex-layout.row#categoria6"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":-33
+      }
+    }
+  },"flex-layout.row#categoria6":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel6"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+
+
+  "overlay-trigger#categoria7":{
+    "children":[
+      "rich-text#categoria7",
+      "overlay-layout#categoria7"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria7":{
+    "props":{
+      "text":"Oficina",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria7":{
+    "children":[
+      "flex-layout.row#categoria7"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":-50
+      }
+    }
+  },"flex-layout.row#categoria7":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel7"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+  "overlay-trigger#categoria8":{
+    "children":[
+      "rich-text#categoria8",
+      "overlay-layout#categoria8"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },"rich-text#categoria8":{
+    "props":{
+      "text":"Papel",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria8":{
+    "children":[
+      "flex-layout.row#categoria8"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":-115
+      }
+    }
+  },"flex-layout.row#categoria8":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel8"
+    ],
+    "props":{
+      "blockClass":"rowsubs"
+    }
+  },
+
+  "overlay-trigger#categoria9":{
+    "children":[
+      "rich-text#categoria9",
+      "overlay-layout#categoria9"
+    ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+  },
+  "rich-text#categoria9":{
+    "props":{
+      "text":"Regalos y fiestas",
+      "blockClass":"menucategoria"
+    }
+  },"overlay-layout#categoria9":{
+    "children":[
+      "vtex.menu@2.x:menu#secondlevel9"
+    ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+        "skidding":-156
+      }
+    }
+  }
+}

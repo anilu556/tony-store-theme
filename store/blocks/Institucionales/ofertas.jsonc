@@ -1,0 +1,94 @@
+{
+  "store.custom#ofertas": {
+      "children":[
+        "responsive-layout.desktop#ofertas",
+        "responsive-layout.tablet#ofertas",
+        "responsive-layout.phone#ofertas",
+        "back-to-top-button"
+      ]
+    },
+    "responsive-layout.desktop#ofertas":{
+      "children":[
+        "flex-layout.row#top-banner-ofertas",
+        "flex-layout.row#titulo-ofertas",
+        "flex-layout.row#texto-ofertas"
+      ]
+    },
+    "responsive-layout.tablet#ofertas":{
+      "children":[
+        "flex-layout.row#top-banner-ofertas",
+        "flex-layout.row#titulo-ofertas",
+        "flex-layout.row#texto-ofertas"
+      ]
+    },
+    "responsive-layout.phone#ofertas":{
+      "children":[
+        "flex-layout.row#top-banner-ofertas-mob",
+        "flex-layout.row#titulo-ofertas",
+        "flex-layout.row#texto-ofertas"
+      ]
+    },
+    "flex-layout.row#top-banner-ofertas":{
+      "children":[
+        "image#top-banner-ofertas"
+      ],
+      "props":{
+        "blockClass":"contenedor-banner-fertas"
+      }
+    },
+    "image#top-banner-ofertas":{
+      "props": {
+        "src": "/arquivos/ofertas-banner-desk.png",
+        "blockClass":"contenedor-banner-fertas"
+      }
+    },
+    "flex-layout.row#top-banner-ofertas-mob":{
+      "children":[
+        "image#top-banner-ofertas-mob"
+      ],
+      "props":{
+        "blockClass":"contenedor-banner-fertas"
+      }
+    },
+    "image#top-banner-ofertas-mob":{
+      "props": {
+        "src": "/arquivos/ofertas-banner-mob.png"
+      }
+    },
+    "flex-layout.row#titulo-ofertas":{
+        "children":[
+            "flex-layout.col#coltit-ofertas"
+        ]
+    },
+    "flex-layout.col#coltit-ofertas":{
+        "children":[
+            "rich-text#titulo-ofertas"
+        ],"props":{
+          "horizontalAlign":"center"
+        }
+    },
+    "rich-text#titulo-ofertas":{
+        "props":{
+            "text":"## Lorem Ipsum",
+            "blockClass": "titins"
+        }
+    },
+    "flex-layout.row#texto-ofertas":{
+        "children":[
+            "flex-layout.col#coltxt-ofertas"
+        ]
+    },
+    "flex-layout.col#coltxt-ofertas":{
+        "children":[
+            "rich-text#txtinst-ofertas"
+        ],
+        "props":{"blockClass":"content-institucional"}
+    },
+    "rich-text#txtinst-ofertas":{
+        "props":{
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "blockClass":"txtins"
+        }
+    }
+
+}

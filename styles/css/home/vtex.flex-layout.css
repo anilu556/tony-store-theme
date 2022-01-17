@@ -1,0 +1,293 @@
+/*#########################################################################################################*/
+/* Slider Banner Principal Inicio */
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel) {
+  padding-bottom: 1.5rem;
+  background: none;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+  background-color: #134197;
+}
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel) {
+  max-width: 100%;
+}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel) {
+  align-items: flex-start;
+}
+:global(.vtex-store-components-3-x-imageElement--carousel),
+:global(.vtex-store-components-3-x-imageElementLink--carousel)
+  :global(.vtex-store-components-3-x-imageElement--carousel) {
+  max-height: 480px !important;
+  min-height: 480px !important;
+  min-width: 99vw;
+}
+@media (min-width: 450px) {
+  :global(.vtex-store-components-3-x-imageElement--carousel),
+  :global(.vtex-store-components-3-x-imageElementLink--carousel)
+    :global(.vtex-store-components-3-x-imageElement--carousel) {
+    max-height: 285px !important;
+    min-height: 285px !important;
+  }
+}
+
+/*#########################################################################################################*/
+/* Slider Categorias */
+:global(.vtex-rich-text-0-x-container--shelfTitle),
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-categories) {
+  margin-top: 1rem;
+}
+:global(.vtex-rich-text-0-x-paragraph--shelfTitle),
+:global(.vtex-rich-text-0-x-paragraph--shelfTitle-cats) {
+  font-family: "TitilliumWebBold";
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+}
+@media (min-width: 450px) {
+  :global(.vtex-rich-text-0-x-paragraph--shelfTitle) {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+}
+:global(.vtex-rich-text-0-x-container--shelfTitle),
+:global(.vtex-rich-text-0-x-container--shelfTitle-cats) {
+  justify-content: center;
+}
+@media (min-width: 450px) {
+  :global(.vtex-rich-text-0-x-paragraph--shelfTitle-cats) {
+    font-size: 36px;
+    margin-top: 38px;
+  }
+}
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel-categories) {
+  padding-bottom: 1.5rem;
+  background: none;
+}
+:global(.vtex-slider-layout-0-x-paginationDot--carousel-categories--isActive) {
+  background-color: #134197;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--category-container) {
+  flex-direction: column;
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--category-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--category-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-rich-text-0-x-container) {
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--category-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-rich-text-0-x-container)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: "TitilliumWebRegular";
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+}
+@media (min-width: 450px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--category-container)
+    :global(.vtex-store-components-3-x-imageElement) {
+    width: 155px;
+  }
+}
+
+/*#########################################################################################################*/
+/* Slider Banner Escolar */
+@media (min-width: 758px) {
+  :global(.vtex-store-components-3-x-imageElement--slider-escolar) {
+    max-width: 691px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+  }
+  :global(.vtex-slider-layout-0-x-slide--slider-escolar--visible) {
+    justify-content: center;
+  }
+}
+@media (min-width: 1500px) {
+  :global(.vtex-store-components-3-x-imageElement--slider-escolar) {
+    min-width: 691px !important;
+  }
+}
+:global(.vtex-slider-layout-0-x-slide--slider-escolar--firstVisible) {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+:global(.vtex-slider-layout-0-x-slide--slider-escolar--lastVisible) {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-escolar) {
+  max-width: 1400px;
+  margin: 15px auto 0 auto;
+  padding-bottom: 0.5rem;
+}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--slider-escolar) {
+  margin: 0 10px;
+}
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--slider-escolar) {
+  padding-bottom: 1.5rem;
+}
+:global(.vtex-store-components-3-x-imageElementLink--slider-escolar) {
+  width: 100%;
+  display: contents;
+}
+
+/*#########################################################################################################*/
+/* Shelf productos */
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf) {
+  max-width: 1400px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--shelf-container)
+  :global(.vtex-store-components-3-x-container) {
+  min-width: 100%;
+}
+
+/*#########################################################################################################*/
+/* Imagen Banner */
+:global(.vtex-flex-layout-0-x-flexRow--banner-home-container) {
+  margin-bottom: 36px;
+  margin-top: 1rem;
+}
+@media (min-width: 450px) {
+  :global(.vtex-flex-layout-0-x-flexRow--banner-home-container) {
+    margin-top: 30px;
+  }
+}
+:global(.vtex-store-components-3-x-imageElementLink--banner-home) {
+  display: contents;
+}
+@media (min-width: 750px) {
+  :global(.vtex-store-components-3-x-imageElement--banner-home) {
+    max-height: 200px !important;
+    min-width: 100% !important;
+  }
+}
+@media (min-width: 1400px) {
+  :global(.vtex-store-components-3-x-imageElement--banner-home) {
+    min-width: 1400px !important;
+  }
+}
+
+/*#########################################################################################################*/
+/* Slider Boutiques */
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel-boutiques) {
+  max-width: 1400px;
+}
+:global(.vtex-slider-layout-0-x-sliderTrack--carousel-boutiques) {
+  align-items: flex-start;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-boutiques) {
+  margin-top: 15px;
+  padding-bottom: 1.5rem;
+  margin-bottom: 15px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--boutique-container) {
+  flex-direction: column;
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--boutique-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--boutique-container)
+  :global(.vtex-rich-text-0-x-container) {
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--boutique-container)
+  :global(.vtex-rich-text-0-x-container)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 18px;
+  color: #000000;
+  font-family: "TitilliumWebRegular";
+  margin: 0;
+}
+@media (min-width: 450px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--boutique-container)
+    :global(.vtex-rich-text-0-x-container)
+    :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 34px;
+    font-family: "TitilliumWebBold";
+    text-align: center;
+  }
+}
+@media (min-width: 750px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--boutique-container)
+    :global(.vtex-store-components-3-x-imageElement) {
+    max-height: 241px !important;
+  }
+}
+@media (min-width: 13650px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--boutique-container)
+    :global(.vtex-store-components-3-x-imageElement) {
+    min-width: 339px !important;
+  }
+}
+
+/*#########################################################################################################*/
+/* Slider Marcas */
+:global(.vtex-slider-layout-0-x-slide--carousel-marcas) {
+  justify-content: center;
+  max-height: 125px !important;
+  max-width: 125px !important;
+}
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel-marcas) {
+  max-width: 1400px;
+}
+:global(.vtex-store-components-3-x-imageElement--carousel-marcas) {
+  min-width: 100%;
+  max-height: 125px !important;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.3s ease all;
+}
+:global(.vtex-store-components-3-x-imageElement--carousel-marcas):hover {
+  cursor: pointer;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+:global(.vtex-store-components-3-x-imageElementLink--carousel-marcas) {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 0.3s ease all;
+  max-height: 125px;
+}
+:global(.vtex-store-components-3-x-imageElementLink--carousel-marcas):hover {
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-marcas) {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-marcas) {
+  width: 105px;
+  height: 105px;
+}
+@media (min-width: 1300px) {
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-marcas) {
+    width: 125px;
+    height: 125px;
+    min-width: 100%;
+  }
+  :global(.vtex-store-components-3-x-imageElement--carousel-marcas) {
+    max-height: 125px !important;
+  }
+}
+@media (min-width: 450px) {
+  :global(.vtex-store-components-3-x-backToTopButtonActive) {
+    display: none !important;
+  }
+}
+:global(.vtex-store-components-3-x-backToTopButtonActive) {
+  left: 0.5rem !important;
+  width: fit-content !important;
+  top: 42rem !important;
+}
+:global(.vtex-store-components-3-x-backToTopButtonActive)
+  :global(.vtex-button) {
+  border: 1px solid #ffffff;
+}

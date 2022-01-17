@@ -1,0 +1,93 @@
+{
+  "tab-layout#producto": {
+    "children": ["tab-list#home", "tab-content#home"],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": ["tab-list.item#home1", "tab-list.item#home2"]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Descripción",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Ficha Técnica"
+    }
+  },
+  "tab-content#home": {
+    "children": ["tab-content.item#home1", "tab-content.item#home2"]
+  },
+
+  "tab-content.item#home1": {
+    "children": ["flex-layout.row#contdesc"],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "flex-layout.row#contdesc": {
+    "children": ["flex-layout.col#desc", "flex-layout.col#beneficios"],
+    "props": { "blockClass": "content-tablayout" }
+  },
+  "flex-layout.col#desc": {
+    "children": ["product-description"],
+    "props": {
+      "width": "60%",
+      "blockClass": "colinfo"
+    }
+  },
+  "product-description": {
+    "props": { "showTitle": false }
+  },
+  "flex-layout.col#beneficios": {
+    "children": ["image#beneficios"],
+    "props": {
+      "width": "40%",
+      "horizontalAlign": "center",
+      "blockClass": "colbenef"
+    }
+  },
+  "image#beneficios": {
+    "props": {
+      "src": "https://tonypapelerias.myvtex.com/arquivos/banner-spec-table.png"
+    }
+  },
+
+  "tab-content.item#home2": {
+    "children": ["flex-layout.row#fichacont", "flex-layout.row#fichatecnica"],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "flex-layout.row#fichacont": {
+    "children": ["flex-layout.col#fichacont", "flex-layout.col#beneficios"],
+    "props": { "blockClass": "content-tablayout" }
+  },
+  "flex-layout.col#fichacont": {
+    "children": ["product-specifications", "product-specification-group#table"],
+    "props": {
+      "width": "60%",
+      "blockClass": "colinfo"
+    }
+  },
+
+  /* DATASHEET */
+  "flex-layout.row#fichatecnica": {
+    "children": ["flex-layout.col#fichaTecnicaDescargar"]
+  },
+  "flex-layout.col#fichaTecnicaDescargar": {
+    "children": ["documentation"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "fichaTecnica"
+    }
+  }
+  /* /DATASHEET */
+}

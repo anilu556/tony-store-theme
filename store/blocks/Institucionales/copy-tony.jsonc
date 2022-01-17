@@ -1,0 +1,46 @@
+{
+  "store.custom#copy-tony": {
+      "children":[
+          "flex-layout.row#titulo-copy-tony",
+          "flex-layout.row#texto-copy-tony",
+          "back-to-top-button"
+      ]
+    },
+
+    "flex-layout.row#titulo-copy-tony":{
+        "children":[
+            "flex-layout.col#coltit-copy-tony"
+        ]
+    },
+    "flex-layout.col#coltit-copy-tony":{
+        "children":[
+            "rich-text#titulo-copy-tony"
+        ],"props":{
+          "horizontalAlign":"center"
+        }
+    },
+    "rich-text#titulo-copy-tony":{
+        "props":{
+            "text":"## Copy Tony",
+            "blockClass": "titins"
+        }
+    },
+    "flex-layout.row#texto-copy-tony":{
+        "children":[
+            "flex-layout.col#coltxt-copy-tony"
+        ]
+    },
+    "flex-layout.col#coltxt-copy-tony":{
+        "children":[
+            "rich-text#txtinst-copy-tony"
+        ],
+        "props":{"blockClass":"content-institucional"}
+    },
+    "rich-text#txtinst-copy-tony":{
+        "props":{
+            "text":"Visita nuestras m\u00E1s de 100 sucursales que cuentan con Copy Tony y encuentra los siguientes servicios:\r\n-\tCopias e impresiones en calidad l\u00E1ser a color o en blanco y negro.\r\n-\tMejora tus presentaciones con impresiones en hojas de color.\r\n-\tAmpliaciones y reducciones a color y en blanco y negro.\r\n-\tEngargolados de espiral y arillo met\u00E1lico para dar mejor presentaci\u00F3n a tus documentos.\r\n-\tProtege tus documentos con enmicado.\r\n-\tImprime con nosotros tu certificado de vacunaci\u00F3n o CURP.\n\nRecuerda que puedes traer una USB para imprimir tus documentos o bien enviarnos tus archivos por correo a la sucursal.\n\nLas sucursales y correos que cuentan con servicio de Copy Tony son:\r\n-\tACAPULCO CARACOL - copytonycaracol@gmail.com \r\n-\tACAPULCO CUAUHTEMOC - copytonyacapulco@gmail.com \r\n-\tAGUASCALIENTES BOULEVARD - copytony336@gmail.com \r\n-\tAGUASCALIENTES CENTRO - copytonyags@gmail.com \r\n-\tAGUASCALIENTES LOPEZ MATEOS - copytonylopez@gmail.com \r\n-\tALTAMIRA - copytonyaltamira@gmail.com \r\n-\tAPIZACO - copytonyapizaco@gmail.com \r\n-\tATLIXCO - copytonyatlixco@gmail.com \r\n-\tCAMPECHE GOBERNADORES - copytonycampeche@gmail.com \r\n-\tCAMPECHE TRUEBA - copytonytrueba@gmail.com \r\n-\tCANCUN ARCO NORTE - copytonyarconorte@gmail.com \r\n-\tCANCUN L. PORTILLO - copytonycancun@gmail.com \r\n-\tCANCUN VILLAS DEL MAR - copytonyvillas@gmail.com \r\n-\tCARDENAS - copytonycardenas@gmail.com \r\n-\tCD DEL CARMEN - copytonycddelcarmen@gmail.com \r\n-\tCD MADERO - copytonycdmadero@gmail.com \r\n-\tCD VICTORIA - copytonyvictoria@gmail.com \r\n-\tCDMX HUIPULCO - copytonyhuipulco@gmail.com \r\n-\tCDMX IZTAPALAPA - copytonyizta@gmail.com \r\n-\tCDMX SAN ANGEL - copytonysanangel@gmail.com \r\n-\tCELAYA - copytonycelaya@gmail.com \r\n-\tCHETUMAL - copytonychetumal@gmail.com \r\n-\tCHIMALHUACAN - copytonychimal@gmail.com \r\n-\tCOACALCO - copytonycoacalco@gmail.com \r\n-\tCOATZACIOALCOS EL DORADO - copytonydorado@gmail.com \r\n-\tCOATZACOALCOS CENTRO - copytonycoatza@gmail.com \r\n-\tCOMIT\u00C1N - copytonycomitan@gmail.com \r\n-\tCOMPUTONY SAN CRISTOBAL - copytonysancris@gmail.com \r\n-\tC\u00D3RDOBA CENTRO - copytonycordoba@gmail.com \r\n-\tC\u00D3RDOBA CRYSTAL - copytonycristal@gmail.com \r\n-\tCUAUTLA - copytonycuautla@gmail.com \r\n-\tCUERNAVACA CIVAC - copytonycivac@gmail.com \r\n-\tCUERNAVACA LA LUNA - copytonylaluna@gmail.com \r\n-\tCULIAC\u00C1N ESCOBEDO - copytonyescobedo@gmail.com \r\n-\tCULIAC\u00C1N SAN ISIDRO - copytonysanisidro@gmail.com \r\n-\tCULIAC\u00C1N SENDERO - copytonyculiacan@gmail.com \r\n-\tGDL CONTRERAS - copytonycontreras@gmail.com \r\n-\tGDL INDEPENDENCIA - copytonyindependencia@gmail.com \r\n-\tGDL RIO NILO - copytonynilo@gmail.com \r\n-\tGDL TLAJOMULCO - copytonytlajo@gmail.com \r\n-\tIRAPUATO CENTRO - copytonyirapuato@gmail.com \r\n-\tIRAPUATO JACARANDAS - copytonyjac@gmail.com \r\n-\tIXTAPALUCA - copytonyixtapaluca@gmail.com \r\n-\tLA PIEDAD - copytonylapiedad@gmail.com \r\n-\tLEON BELISARIO - copytonybelisario@gmail.com \r\n-\tLEON HILAMAS - copytonyhilamas@gmail.com \r\n-\tLEON OBELISCO - copytonyobelisco@gmail.com \r\n-\tLEON TORRES LANDA - copytonytorres@gmail.com \r\n-\tLOS REYES - copytonyreyes@gmail.com \r\n-\tMACUSPANA - copytonymacuspana@gmail.com \r\n-\tMARTINEZ DE LA TORRE - copytonymartinez@gmail.com \r\n-\tMAZATL\u00C1N - copytonymazatlan@gmail.com \r\n-\tM\u00C9RIDA AMERICAS - copytonyamericas@gmail.com \r\n-\tM\u00C9RIDA INER PLAZA - copytonyplaza@gmail.com \r\n-\tM\u00C9RIDA LA 54 - copytonymerida@gmail.com \r\n-\tM\u00C9RIDA MACROPLAZA - copytonymacro@gmail.com \r\n-\tMINATITL\u00C1N - copytonymina@gmail.com \r\n-\tMORELIA MERCADO - copytonymorelia@gmail.com \r\n-\tMORELIA MONUMENTO - copytonymonumento@gmail.com \r\n-\tMTY CHAPULTEPEC - copytonymty@gmail.com \r\n-\tMTY CONCORDIA - concordiacopytony@gmail.com \r\n-\tMTY LINCOLN - copytonylincoln@gmail.com \r\n-\tNAUCALPAN - copytonynaucalpan@gmail.com \r\n-\tNICOLAS ROMERO - copytonynicolas@gmail.com \r\n-\tOAXACA PLAZA BELLA - copytonyoaxaca@gmail.com \r\n-\tPACHUCA PERISUR - copytonypachuca@gmail.com \r\n-\tPACHUCA UNIVERSIDAD - copytonyuni@gmail.com \r\n-\tPALENQUE - copytonypalenque@gmail.com \r\n-\tPLAYA DEL CARMEN COLOSIO - copytonycolosio@gmail.com \r\n-\tPLAYA DEL CARMEN LA 30 - copytonyplaya@gmail.com \r\n-\tPUEBLA AMALUCAN - copytonyamal@gmail.com \r\n-\tPUEBLA CAPU - copytonycapu@gmail.com \r\n-\tPUEBLA PERIPLAZA - copytonyperiplaza@gmail.com \r\n-\tPUEBLA SAN DIEGO - copytonypuebla@gmail.com \r\n-\tQUERETARO CANDILES - copytonycandiles@gmail.com \r\n-\tQUERETARO PLAZA SOL - copytonysol@gmail.com \r\n-\tQUERETARO ZOCO - copytonyzoco@gmail.com \r\n-\tSALAMANCA - copytonysalamanca@gmail.com \r\n-\tSALTILLO - copytonysaltillo@gmail.com \r\n-\tSAN ANDRES - copytonysanandres@gmail.com \r\n-\tSAN LUIS ABASTOS - copytonyabastos@gmail.com \r\n-\tSAN LUIS CARRANZA - copytonycarranza@gmail.com \r\n-\tSAN LUIS MERCADO - copytonysanluis@gmail.com \r\n-\tSAN MARTIN TEXMELUCAN - copytonytexme@gmail.com \r\n-\tSANTA ANA CHIAUTEMPAN - copytonychia@gmail.com \r\n-\tTAMPICO ADUANA - copytonyaduana@gmail.com \r\n-\tTAMPICO PALMAS - copytonypalmas@gmail.com \r\n-\tTAPACHULA BOULEVARD - copytonybule@gmail.com \r\n-\tTEPIC - copytonytepic@gmail.com \r\n-\tTEXCOCO - copytonytexcoco@gmail.com \r\n-\tTEZIUTL\u00C1N - copytonyteziutlan@gmail.com \r\n-\tTLALNEPANTLA - tlanecopytony@gmail.com \r\n-\tTOLUCA FABELA - copytonyfabela@gmail.com \r\n-\tTONAL\u00C1 - copytonytonala@gmail.com \r\n-\tTUXPAN - copytonytuxpan@gmail.com \r\n-\tTUXTEPEC MULTIPLAZA - copytonymulti@gmail.com \r\n-\tTUXTLA LIBRAMIENTO - copytonylibramiento@gmail.com \r\n-\tURUAPAN - copytonyuruapan@gmail.com \r\n-\tVERACRUZ CORT\u00C9S - copytonycortes@gmail.com \r\n-\tVERACRUZ JARDINES - copytonyjardines@gmail.com \r\n-\tVERACRUZ NORTE - copytonynorte@gmail.com \r\n-\tVERACRUZ PLAZA CRISTAL - copytonyveracruz@gmail.com \r\n-\tVERACRUZ PLAZA RIO - copytony253@gmail.com \r\n-\tVILLAHERMOSA SAN JOAQUIN - copytonysanjoaquin@gmail.com \r\n-\tVILLAHERMOSA SENDERO - copytonysendero@gmail.com \r\n-\tXALAPA REVOLUCI\u00D3N - copytonyxalapa@gmail.com \r\n-\tZAMORA - copytonyzamora@gmail.com \r\n-\tZINACANTEPEC - copytonyzina@gmail.com \r\n",
+            "blockClass":"txtins"
+        }
+    }
+
+}

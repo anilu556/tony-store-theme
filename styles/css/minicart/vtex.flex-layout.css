@@ -1,0 +1,247 @@
+:global(.vtex-minicart-2-x-drawer), :global(.vtex-minicart-2-x-opened){
+  background-color: #ffffff;
+}
+@media(min-width:720px){
+  :global(.vtex-minicart-2-x-opened){
+    max-width: 500px!important;
+  }
+}
+/* Mini Cart styles starts -----------------------------------------------*/
+
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-minicart-2-x-closeIcon) {
+  color: #134197;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-minicart-2-x-minicartTitle) {
+  font-size: 0;
+  font-family: 'TitilliumWebBold';
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #134197;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-minicart-2-x-minicartTitle)::before {
+  content: "Mi carrito";
+  font-size: 34px;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+/* product brand */
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-productBrandName) {
+  display: none;
+}
+/* product name */
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-productName) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+/* trash icon */
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-deleteIcon) {
+  display: none;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-removeButton)::after {
+  content: url(assets/icons/trash-icon.svg);
+}
+/* product price */
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-productPrice) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-product-list-0-x-availabilityMessageText) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* total cost*/
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-checkout-summary-0-x-price) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  font-size: 0;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::before {
+  content: "Los gastos de envío serán calculados antes de finalizar tu compra.";
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* got checkout btn */
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button) {
+  background: #00adee;
+  border-radius: 4px;
+  border: 0;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+  :global(.vtex-button__label) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-button__label):hover {
+  background: none;
+}
+/* Mini Cart styles ends -------------------------------------------------*/
+:global(.vtex-product-list-0-x-price--price-minicart){
+  width: fit-content;
+  margin: 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--price-col-inner){
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--name-rm-container)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  max-width: 220px
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--precio-cant-container)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child,
+:global(.vtex-flex-layout-0-x-flexRowContent--precio-cant-container)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  width: fit-content;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--precio-cant-container){
+  justify-content: space-between;
+}
+:global(.vtex-minicart-2-x-minicartSummary){
+  display: flex;
+  flex-direction: column-reverse;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--row-minicart)
+:global(.vtex-product-list-0-x-productIdentifier){
+  font-family: 'TitilliumWebRegular';
+  color: #134197;
+  font-weight: 600;
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--row-unit-price)
+:global(.vtex-product-list-0-x-unitPrice ){
+  font-family: 'TitilliumWebRegular';
+  font-size: 16px;
+}
+:global(.vtex-product-list-0-x-quantitySelectorDecrease--qty-selector)::before{
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/minus.svg);
+  visibility: initial;
+}
+:global(.vtex-product-list-0-x-quantitySelectorIncrease--qty-selector)::before{
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/plus.svg);
+  visibility: initial;
+}
+:global(.vtex-product-list-0-x-quantitySelectorButton){
+  padding: 0;
+  visibility: hidden;
+}
+:global(.vtex-product-list-0-x-inputContainer){
+  border: 0;
+  max-width: 30px;
+  padding: 0;
+  padding-bottom: 8px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--price-col){
+  width: fit-content!important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--precio-cant-container)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  justify-content: flex-end;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+:global(.vtex-store-drawer-0-x-closeIconButton){
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+:global(.vtex-store-drawer-0-x-closeIconButton)
+:global(.vtex-store-drawer-0-x-closeIcon){
+  display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+:global(.vtex-store-drawer-0-x-closeIconButton)::before{
+  content: "Seguir comprando";
+  font-family: 'TitilliumWebRegular';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #00ADEE;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer)
+:global(.vtex-store-drawer-0-x-closeIconButton):hover::before{
+  color: #000000;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-button__label){
+  font-size: 0;
+}
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-button__label)::before{
+  content: "Finalizar compra";
+  font-family: 'TitilliumWebBold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}

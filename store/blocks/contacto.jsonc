@@ -1,0 +1,195 @@
+{
+  "store.custom#contacto": {
+    "children": [
+      "flex-layout.row#contacto-form",
+      "back-to-top-button"
+    ]
+  },
+
+  "flex-layout.row#contacto-form": {
+    "props": {
+      "blockClass": "contact"
+    },
+    "children": [
+      "flex-layout.col#contacto-form"
+    ]
+  },
+
+  "flex-layout.col#contacto-form": {
+    "children": [
+      "flex-layout.col#content-form",
+      "flex-layout.row#banner-info-contacto"
+    ]
+  },
+  "flex-layout.col#content-form":{
+    "children":[
+      "flex-layout.row#btn-home",
+      "rich-text#contacto-form",
+      "rich-text#link-faq",
+      "flex-layout.row#form-contacto"
+    ],
+    "props":{
+      "blockClass": "main-content-form"
+    }
+  },
+  "flex-layout.row#btn-home":{
+    "children":[
+      "rich-text#ir-a-home"
+    ]
+  },
+  "rich-text#ir-a-home":{
+    "props":{
+      "text": "[Página principal](/)",
+      "blockClass": "btn-home"
+    }
+  },
+  "rich-text#contacto-form": {
+    "props": {
+      "text": "## Contáctanos",
+      "blockClass": "titins-contacto"
+    }
+  },
+  "rich-text#link-faq":{
+    "props": {
+      "text": "Visita nuestra sección de [Preguntas frecuentes](/preguntas-frecuentes)",
+      "blockClass": "link-faq"
+    }
+  },
+  "flex-layout.row#banner-info-contacto": {
+    "children":[
+      "flex-layout.row#tel-contacto",
+      "flex-layout.row#dom-contacto"
+    ],
+    "props":{
+      "blockClass":"contenedor-banner-contacto"
+    }
+  },
+  "flex-layout.row#tel-contacto":{
+    "children":[
+      "image#tel-contacto",
+      "rich-text#tel-contacto"
+    ], "props":{
+      "blockClass":"cont-info-contacto"
+    }
+  },
+  "image#tel-contacto":{
+    "props": {
+      "src": "/arquivos/contacto-tel.png",
+      "link": {
+        "url": "tel:800-000-8669"
+      }
+    }
+  },
+  "rich-text#tel-contacto":{
+    "props": {
+      "text": "[Llámanos 800 000 TONY (8669)](tel:800-000-8669)",
+      "blockClass": "txt-banner-contacto"
+    }
+  },
+  "flex-layout.row#dom-contacto":{
+    "children":[
+      "image#dom-contacto",
+      "rich-text#dom-contacto"
+    ], "props":{
+      "blockClass":"cont-info-contacto"
+    }
+  },
+  "image#dom-contacto":{
+    "props": {
+      "src": "/arquivos/contacto-dom.png",
+      "link": {
+        "url": "tel:800-000-8669"
+      }
+    }
+  },
+  "rich-text#dom-contacto":{
+    "props": {
+      "text": "[Av. Urano 585 Interior B, Jardines de Mocambo\nBoca del Río, Ver. C.P. 94299](/store/corporativo-veracruz-94298/a755334a-8791-45fd-86db-3e3f83c6b044)",
+      "blockClass": "txt-banner-contacto"
+    }
+  },
+
+  /* Formulario Contacto ####################################################################################################################################*/
+  "flex-layout.row#form-contacto":{
+    "children":["form#contacto"],
+    "props":{"blockClass":"container-formulario"}
+  },
+  "form#contacto": {
+    "props": {
+      "entity": "Contacto",
+      "schema": "mdv1"
+    },
+    "children": [
+      "form-input.text#fullName-contacto",
+      "form-input.text#telephone-contacto",
+      "form-input.text#emailAddress-contacto",
+      "form-input.text#postalCode-contacto",
+      "form-input.dropdown#contacto",
+      "form-input.textarea#messageContent",
+      "form-submit#contacto"
+    ],
+    "blocks": ["form-success#contacto-contacto"]
+  },
+  "form-input.text#fullName-contacto": {
+    "props": {
+      "pointer": "#/properties/fullName",
+      "label": "",
+      "placeholder": "Nombre"
+    }
+  },
+  "form-input.text#telephone-contacto": {
+    "props": {
+      "pointer": "#/properties/telephone",
+      "label": "",
+      "placeholder": "Teléfono"
+    }
+  },
+  "form-input.text#emailAddress-contacto": {
+    "props": {
+      "pointer": "#/properties/emailAddress",
+      "label": "",
+      "placeholder": "Email"
+    }
+  },
+  "form-input.text#postalCode-contacto": {
+    "props": {
+      "pointer": "#/properties/postalCode",
+      "label": "",
+      "placeholder": "Código Postal"
+    }
+  },
+  "form-input.dropdown#contacto":{
+    "props": {
+      "pointer": "#/properties/serviceRequest",
+      "label": "Selecciona un motivo"
+    }
+  },
+  "form-input.textarea#messageContent": {
+    "props": {
+      "pointer": "#/properties/messageContent",
+      "label": "",
+      "placeholder": "Mensaje"
+    }
+  },
+  "form-submit#contacto": {
+    "props": {
+      "label": "Contáctanos",
+      "blockClass":"btn-submit"
+    }
+  },
+  "form-success#contacto-contacto": {
+    "children": [
+      "rich-text#successSubmit-contacto"
+    ]
+  },
+  "rich-text#successSubmit-contacto": {
+    "props": {
+      "text": "¡Mensaje enviado correctamente!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"form-exitoso"
+    }
+  }
+
+  /* Formulario Contacto Final*/
+}

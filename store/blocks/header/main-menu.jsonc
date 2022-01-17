@@ -1,0 +1,251 @@
+{
+  "vtex.menu@2.x:menu#secciones":{
+    "children":[
+      // "flex-layout.col#trigger-mega-menu",
+      "menu-item#categoriasdesk",
+      "menu-item#menudeo",
+      "menu-item#oficina",
+      "menu-item#mayoreo",
+      "menu-item#ofertas",
+      "menu-item#servicios"
+    ]
+  },
+
+  // "flex-layout.row#mega-menu": {
+  //   "children": ["mega-menu"]
+  // },
+  // "mega-menu": {
+  //   "props":{
+  //     "title": "Departamentos",
+  //     "defaultDepartmentActive": "Departamentos"
+  //   }
+  // },
+  // "flex-layout.col#trigger-mega-menu": {
+  //   "props": {
+  //     "verticalAlign": "middle"
+  //   },
+  //   "children": ["mega-menu-trigger-btn"]
+  // },
+
+  /* Mega menu */
+  "menu-item#categoriasdesk": {
+    "props": {
+      "blockClass":"itemcatgs",
+      "id": "menu-item-categoriasdesk",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoriasdesk"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoriasdesk": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#categorias2desk"
+    ]
+  },
+
+  /* Final Mega menu */
+
+  "menu-item#menudeo": {
+    "props": {
+      "id": "menu-item-menudeo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Menudeo",
+        "text": "Menudeo"
+      },
+      "blockClass":"itemmenudeo"
+    }
+  },
+
+
+  "menu-item#oficina": {
+    "props": {
+      "id": "menu-item-oficina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Oficina",
+        "text": "Oficina"
+      },
+      "blockClass":"itemoficina"
+    }
+  },
+
+
+  "menu-item#mayoreo": {
+    "props": {
+      "id": "menu-item-mayoreo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Mayoreo",
+        "text": "Mayoreo"
+      },
+      "blockClass":"itemmayoreo"
+    }
+  },
+
+
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      },
+      "blockClass":"itemofers"
+    }
+  },
+
+
+  "menu-item#servicios": {
+    "props": {
+      "id": "menu-item-serv",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Servicios",
+        "text": "Servicios"
+      },
+      "blockClass":"itemservicios"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#servicios"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#servicios": {
+    "props": {
+      "width": "100%",
+      "blockClass":"submenu-serv"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#sub-servicios"
+    ]
+  },
+  "vtex.menu@2.x:menu#sub-servicios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mendesplegable-servicios"
+    ]
+  },"flex-layout.row#mendesplegable-servicios":{
+    "children":[
+      "flex-layout.col#menulista-servicios"
+    ],"props":{
+      "blockClass":"rowlistaprincipal"
+    }
+  },
+  "flex-layout.col#menulista-servicios":{
+    "children":[
+      "menu-item#pago-servicios-recargas",
+      "menu-item#facturacion-desk",
+      "menu-item#consultar-factura-desk",
+      "menu-item#ubica-tu-sucursal"
+    ],"props":{
+      "paddingLeft":5,
+      "blockClass":"colcontlista",
+      "verticalAlign":"middle"
+    }
+  },
+  "menu-item#pago-servicios-recargas": {
+    "props": {
+      "id": "menu-item-pago-servicios-recargas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/copy-tony",
+        "noFollow": true,
+        "tagTitle": "Copy Tony",
+        "text": "Copy Tony"
+      },
+      "blockClass":"item-menu-desk"
+    }
+  },
+  "menu-item#facturacion-desk": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/facturacion",
+        "noFollow": true,
+        "tagTitle": "Facturación en línea",
+        "text": "Facturación en línea"
+      },
+      "blockClass":"item-menu-desk"
+    }
+  },
+  "menu-item#consultar-factura-desk": {
+    "props": {
+      "id": "menu-item-consultar-factura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "http://facturacion-tony.com.mx/portaltr/",
+        "noFollow": true,
+        "tagTitle": "Consultar factura",
+        "text": "Consultar factura"
+      },
+      "blockClass":"item-menu-desk"
+    }
+  },
+  "menu-item#ubica-tu-sucursal": {
+    "props": {
+      "id": "menu-item-consultar-factura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ubica-tu-sucursal",
+        "noFollow": true,
+        "tagTitle": "Ubica tu sucursal",
+        "text": "Ubica tu sucursal"
+      },
+      "blockClass":"item-menu-desk"
+    }
+  }
+}

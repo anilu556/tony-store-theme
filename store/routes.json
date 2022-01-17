@@ -1,0 +1,65 @@
+{
+  "store.custom#nuestra-historia": {
+    "path": "/nuestra-historia"
+  },
+  "store.custom#faq": {
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#politica-de-devoluciones": {
+    "path": "/politica-de-devoluciones"
+  },
+  "store.custom#aviso-de-privacidad": {
+    "path": "/aviso-de-privacidad"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#facturacion": {
+    "path": "/facturacion"
+  },
+  "store.custom#ofertas": {
+    "path": "/ofertas"
+  },
+  "store.custom#categorias": {
+    "path": "/categorias"
+  },
+  "store.custom#promociones": {
+    "path": "/promociones"
+  },
+  "store.custom#promociones-indiv": {
+    "path": "/promociones-1"
+  },
+  "store.custom#politica-envios": {
+    "path": "/politica-de-envios"
+  },
+  "store.custom#copy-tony": {
+    "path": "/copy-tony"
+  },
+  "store.storelocator": {
+    "path": "/ubica-tu-sucursal"
+  },
+  "store.custom#encuesta-1": {
+    "path": "/encuesta-1"
+  },
+  "store.custom#encuesta-2": {
+    "path": "/encuesta-2"
+  },
+  "store.custom#encuesta-3": {
+    "path": "/encuesta-3"
+  },
+  "store.custom#encuesta-4": {
+    "path": "/encuesta-4"
+  },
+  "store.custom#encuesta-5": {
+    "path": "/encuesta-5"
+  },
+  "store.custom#encuesta-siteEdit1": {
+    "path": "/encuesta-custom"
+  },
+  "store.custom#unete": {
+    "path": "/unete"
+  }
+}

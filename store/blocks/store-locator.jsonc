@@ -1,0 +1,80 @@
+{
+  "store.storelocator": {
+    "blocks": ["flex-layout.row#title-storeloc", "flex-layout.row#container"]
+  },
+  "flex-layout.row#title-storeloc": {
+    "children": ["flex-layout.col#title-storeloc"]
+  },
+  "flex-layout.row#container": {
+    "children": ["store-list"]
+  },
+  "flex-layout.col#title-storeloc": {
+    "children": ["rich-text#title-storeloc"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-storeloc": {
+    "props": {
+      "text": "Ubica tu sucursal"
+    }
+  },
+  "store.storedetail": {
+    "blocks": ["flex-layout.row#titleStore", "store-group"]
+  },
+  "store-group": {
+    "children": ["flex-layout.row#containerStore"],
+    "props": {
+      "title": "{storeName} Store"
+    }
+  },
+  "flex-layout.row#titleStore": {
+    "children": ["flex-layout.col#titleStore"]
+  },
+  "flex-layout.row#containerStore": {
+    "children": ["flex-layout.col#detail"]
+  },
+  "flex-layout.col#titleStore": {
+    "children": ["rich-text#titleStore"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titleStore": {
+    "props": {
+      "text": "Detalle de sucursal"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": [
+      "store-back-link",
+      "store-name",
+      "store-map",
+      "store-address",
+      "store-hours",
+      "store-instructions"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"details"
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Horarios:",
+      "format": "12h"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "Regresar"
+    }
+  },
+  "store-instructions": {
+    "props": {
+      "label": ""
+    }
+  }
+}

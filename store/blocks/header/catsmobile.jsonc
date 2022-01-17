@@ -1,0 +1,1670 @@
+{
+  "menu-item#categorias": {
+    "props": {
+      "id": "menu-item-cats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      },
+      "blockClass":"itemcatgs"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#catsmobile"]
+  },
+  "vtex.menu@2.x:submenu.accordion#catsmobile": {
+    "children": ["vtex.menu@2.x:menu#catsmobile"]
+  },
+
+  "vtex.menu@2.x:menu#catsmobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categorias1",
+      "menu-item#categorias2",
+      "menu-item#categorias3",
+      "menu-item#categorias4",
+      "menu-item#categorias5",
+      "menu-item#categorias6",
+      "menu-item#categorias7",
+      "menu-item#categorias8",
+      "menu-item#categorias9"
+      ]
+  },
+
+  "menu-item#categorias1": {
+    "props": {
+      "id": "menu-item-cats1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Arte y Manulidades",
+        "text": "Arte y manulidades"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias1"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias1": {
+    "children": ["vtex.menu@2.x:menu#categorias1"]
+  },
+
+  "vtex.menu@2.x:menu#categorias1": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category71",
+      "drawer#category72",
+      "drawer#category73",
+      "drawer#category74"
+    ]
+  },
+
+  "menu-item#categorias2": {
+    "props": {
+      "id": "menu-item-cats2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Cómputo e Impresión",
+        "text": "Cómputo e Impresión"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias2"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias2": {
+    "children": ["vtex.menu@2.x:menu#categorias2"]
+  },
+
+  "vtex.menu@2.x:menu#categorias2": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category11",
+      "drawer#category12",
+      "drawer#category13",
+      "drawer#category14",
+      "drawer#categorycompeimp5",
+      "drawer#categorycompeimp6",
+      "drawer#categorycompeimp7",
+      "drawer#categorycompeimp8"
+  ]
+  },
+
+  "menu-item#categorias3": {
+    "props": {
+      "id": "menu-item-cats3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Electrónica",
+        "text": "Electrónica"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias3"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias3": {
+    "children": ["vtex.menu@2.x:menu#categorias3"]
+  },
+
+  "vtex.menu@2.x:menu#categorias3": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category22",
+      "drawer#category21",
+      "drawer#category23",
+      "drawer#category24",
+      "drawer#category25",
+      "drawer#category26",
+      "drawer#electronica7"
+  ]
+  },
+
+  "menu-item#categorias4": {
+    "props": {
+      "id": "menu-item-cats4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Escolar",
+        "text": "Escolar"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias4"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias4": {
+    "children": ["vtex.menu@2.x:menu#categorias4"]
+  },
+
+  "vtex.menu@2.x:menu#categorias4": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category31",
+      "drawer#category32",
+      "drawer#categoryEscolar3",
+      "drawer#categoryEscolar4",
+      "drawer#categoryEscolar5",
+      "drawer#categoryEscolar6",
+      "drawer#categoryEscolar7",
+      "drawer#categoryEscolar8",
+      "drawer#categoryEscolar9"
+  ]
+  },
+
+
+  "menu-item#categorias5": {
+    "props": {
+      "id": "menu-item-cats5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Higiene y limpieza",
+        "text": "Higiene y limpieza"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias5"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias5": {
+    "children": ["vtex.menu@2.x:menu#categorias5"]
+  },
+
+  "vtex.menu@2.x:menu#categorias5": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category51",
+      "drawer#categoryhigylip2",
+      "drawer#categoryhigylip3"
+
+  ]
+  },
+
+  "menu-item#categorias6": {
+    "props": {
+      "id": "menu-item-cats6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Muebles y pizarrones",
+        "text": "Muebles y pizarrones"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias6"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias6": {
+    "children": ["vtex.menu@2.x:menu#categorias6"]
+  },
+
+  "vtex.menu@2.x:menu#categorias6": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category91",
+      "drawer#category92"
+  ]
+  },
+
+  "menu-item#categorias7": {
+    "props": {
+      "id": "menu-item-cats7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Oficina",
+        "text": "Oficina"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias7"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias7": {
+    "children": ["vtex.menu@2.x:menu#categorias7"]
+  },
+
+  "vtex.menu@2.x:menu#categorias7": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category61",
+      "drawer#category62",
+      "drawer#categoryofis-4",
+      "drawer#categoryofis-5",
+      "drawer#categoryofis-6",
+      "drawer#categoryofis-7",
+      "drawer#categoryofis-8"
+    ]
+  },
+
+  "menu-item#categorias8": {
+    "props": {
+      "id": "menu-item-cats8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Papel",
+        "text": "Papel"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias8"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias8": {
+    "children": ["vtex.menu@2.x:menu#categorias8"]
+  },
+
+  "vtex.menu@2.x:menu#categorias8": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category41",
+      "drawer#category42",
+      "drawer#category43",
+      "drawer#category44"
+  ]
+  },
+
+  "menu-item#categorias9": {
+    "props": {
+      "id": "menu-item-cats9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Regalos y fiestas",
+        "text": "Regalos y fiestas"
+      },
+      "blockClass":"itemcatgsdraw"
+    },"blocks": ["vtex.menu@2.x:submenu.accordion#categorias9"]
+  },
+  "vtex.menu@2.x:submenu.accordion#categorias9": {
+    "children": ["vtex.menu@2.x:menu#categorias9"]
+  },
+  "vtex.menu@2.x:menu#categorias9": {
+    "props": {
+      "orientation": "vertical"
+    },"children":[
+      "drawer#category81",
+      "drawer#categoryregyfiest2",
+      "drawer#categoryregyfiest3"
+    ]
+  },
+
+ //----------------- Inicio Cómputo e impresión ---------------------------------
+  "drawer#category11":{
+      "children":[
+        "menu#niv3cat11"
+      ],"blocks":[
+        "drawer-trigger#cat11"
+      ]
+    },"drawer-trigger#cat11":{
+      "children":[
+        "rich-text#catego11"
+      ]
+    },
+    "rich-text#catego11":{
+      "props":{
+        "text":"Accesorios de Cómputo",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3cat11":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel21"
+      ]
+    },
+
+
+    "drawer#category12":{
+      "children":[
+        "menu#niv3cat12"
+      ],"blocks":[
+        "drawer-trigger#cat12"
+      ]
+    },"drawer-trigger#cat12":{
+      "children":[
+        "rich-text#catego12"
+      ]
+    },
+    "rich-text#catego12":{
+      "props":{
+        "text":"Almacenamiento",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3cat12":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel22"
+      ]
+    },
+
+    "drawer#category13":{
+      "children":[
+        "menu#niv3cat13"
+      ],"blocks":[
+        "drawer-trigger#cat13"
+      ]
+    },"drawer-trigger#cat13":{
+      "children":[
+        "rich-text#catego13"
+      ]
+    },
+    "rich-text#catego13":{
+      "props":{
+        "text":"Computadoras",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3cat13":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel23"
+      ]
+    },
+
+    "drawer#category14":{
+      "children":[
+        "menu#niv3cat14"
+      ],"blocks":[
+        "drawer-trigger#cat14"
+      ]
+    },"drawer-trigger#cat14":{
+      "children":[
+        "rich-text#catego14"
+      ]
+    },
+    "rich-text#catego14":{
+      "props":{
+        "text":"Equipos",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3cat14":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel24"
+      ]
+    },
+
+
+    "drawer#categorycompeimp5":{
+      "children":[
+        "menu#niv3catcompeimp5"
+      ],"blocks":[
+        "drawer-trigger#catcompeimp5"
+      ]
+    },"drawer-trigger#catcompeimp5":{
+      "children":[
+        "rich-text#categocompeimp5"
+      ]
+    },
+    "rich-text#categocompeimp5":{
+      "props":{
+        "text":"Gaming",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3catcompeimp5":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel25"
+      ]
+    },
+
+    "drawer#categorycompeimp6":{
+      "children":[
+        "menu#niv3catcompeimp6"
+      ],"blocks":[
+        "drawer-trigger#catcompeimp6"
+      ]
+    },"drawer-trigger#catcompeimp6":{
+      "children":[
+        "rich-text#categocompeimp6"
+      ]
+    },
+    "rich-text#categocompeimp6":{
+      "props":{
+        "text":"Impresoras y multifuncionales",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3catcompeimp6":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel26"
+      ]
+    },
+
+    "drawer#categorycompeimp7":{
+      "children":[
+        "menu#niv3catcompeimp7"
+      ],"blocks":[
+        "drawer-trigger#catcompeimp7"
+      ]
+    },"drawer-trigger#catcompeimp7":{
+      "children":[
+        "rich-text#categocompeimp7"
+      ]
+    },
+    "rich-text#categocompeimp7":{
+      "props":{
+        "text":"Mochilas",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3catcompeimp7":{
+      "children":[
+        "vtex.menu@2.x:menu#impresoras"
+      ]
+    },
+
+    "drawer#categorycompeimp8":{
+      "children":[
+        "menu#niv3catcompeimp8"
+      ],"blocks":[
+        "drawer-trigger#catcompeimp8"
+      ]
+    },"drawer-trigger#catcompeimp8":{
+      "children":[
+        "rich-text#categocompeimp8"
+      ]
+    },
+    "rich-text#categocompeimp8":{
+      "props":{
+        "text":"Tintas y toners",
+        "blockClass":"titmendrawer"
+      }
+    },
+    "menu#niv3catcompeimp8":{
+      "children":[
+        "vtex.menu@2.x:menu#tintas"
+      ]
+    },
+
+// ---------------- Fin Cómputo e impresión ---------------------------
+
+// ---------------- Inicio Electrónica ---------------------------
+"drawer#category21":{
+    "children":[
+      "menu#niv3cat21"
+    ],"blocks":[
+      "drawer-trigger#cat21"
+    ]
+  },"drawer-trigger#cat21":{
+    "children":[
+      "rich-text#catego21"
+    ]
+  },
+  "rich-text#catego21":{
+    "props":{
+      "text":"Accesorios",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat21":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel31"
+    ]
+  },
+
+  "drawer#category22":{
+    "children":[
+      "menu#niv3cat22"
+    ],"blocks":[
+      "drawer-trigger#cat22"
+    ]
+  },"drawer-trigger#cat22":{
+    "children":[
+      "rich-text#catego22"
+    ]
+  },
+  "rich-text#catego22":{
+    "props":{
+      "text":"Artículos eléctricos",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat22":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel32"
+    ]
+  },
+
+
+  "drawer#category23":{
+    "children":[
+      "menu#niv3cat23"
+    ],"blocks":[
+      "drawer-trigger#cat23"
+    ]
+  },"drawer-trigger#cat23":{
+    "children":[
+      "rich-text#catego23"
+    ]
+  },
+  "rich-text#catego23":{
+    "props":{
+      "text":"Audio",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat23":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica3"
+    ]
+  },
+
+
+
+  "drawer#category24":{
+    "children":[
+      "menu#niv3cat24"
+    ],"blocks":[
+      "drawer-trigger#cat24"
+    ]
+  },"drawer-trigger#cat24":{
+    "children":[
+      "rich-text#catego24"
+    ]
+  },
+  "rich-text#catego24":{
+    "props":{
+      "text":"Gadgets",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat24":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica4"
+    ]
+  },
+
+
+  "drawer#category25":{
+    "children":[
+      "menu#niv3cat25"
+    ],"blocks":[
+      "drawer-trigger#cat25"
+    ]
+  },"drawer-trigger#cat25":{
+    "children":[
+      "rich-text#catego25"
+    ]
+  },
+  "rich-text#catego25":{
+    "props":{
+      "text":"Punto de venta",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat25":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica5"
+    ]
+  },
+
+
+  "drawer#category26":{
+    "children":[
+      "menu#niv3cat26"
+    ],"blocks":[
+      "drawer-trigger#cat26"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat26":{
+    "children":[
+      "rich-text#catego26"
+    ]
+  },
+  "rich-text#catego26":{
+    "props":{
+      "text":"Redes",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat26":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica6"
+    ]
+  },
+
+
+  "drawer#electronica7":{
+    "children":[
+      "menu#niv3catelectronica7"
+    ],"blocks":[
+      "drawer-trigger#catelectronica7"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catelectronica7":{
+    "children":[
+      "rich-text#categoelectronica7"
+    ]
+  },
+  "rich-text#categoelectronica7":{
+    "props":{
+      "text":"Ventiladores",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catelectronica7":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica7"
+    ]
+  },
+
+// ---------------- Fin Electrónica ---------------------------
+
+// ---------------- Inicio Escolar  ---------------------------
+
+"drawer#category31":{
+    "children":[
+      "menu#niv3cat31"
+    ],"blocks":[
+      "drawer-trigger#cat31"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat31":{
+    "children":[
+      "rich-text#catego31"
+    ]
+  },
+  "rich-text#catego31":{
+    "props":{
+      "text":"Artículos escolares",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat31":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel41"
+    ]
+  },
+
+
+  "drawer#category32":{
+    "children":[
+      "menu#niv3cat32"
+    ],"blocks":[
+      "drawer-trigger#cat32"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat32":{
+    "children":[
+      "rich-text#catego32"
+    ]
+  },
+  "rich-text#catego32":{
+    "props":{
+      "text":"Cálculadoras",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat32":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel42"
+    ]
+  },
+
+
+  "drawer#categoryEscolar3":{
+    "children":[
+      "menu#niv3catEscolar3"
+    ],"blocks":[
+      "drawer-trigger#catEscolar3"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar3":{
+    "children":[
+      "rich-text#categoEscolar3"
+    ]
+  },
+  "rich-text#categoEscolar3":{
+    "props":{
+      "text":"Cintas adhesivas",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar3":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelEscolares3"
+    ]
+  },
+
+
+  "drawer#categoryEscolar4":{
+    "children":[
+      "menu#niv3catEscolar4"
+    ],"blocks":[
+      "drawer-trigger#catEscolar4"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar4":{
+    "children":[
+      "rich-text#categoEscolar4"
+    ]
+  },
+  "rich-text#categoEscolar4":{
+    "props":{
+      "text":"Cuadernos y libretas",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar4":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel44"
+    ]
+  },
+
+
+  "drawer#categoryEscolar5":{
+    "children":[
+      "menu#niv3catEscolar5"
+    ],"blocks":[
+      "drawer-trigger#catEscolar5"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar5":{
+    "children":[
+      "rich-text#categoEscolar5"
+    ]
+  },
+  "rich-text#categoEscolar5":{
+    "props":{
+      "text":"Dibujo",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar5":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel45"
+    ]
+  },
+
+
+  "drawer#categoryEscolar6":{
+    "children":[
+      "menu#niv3catEscolar6"
+    ],"blocks":[
+      "drawer-trigger#catEscolar6"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar6":{
+    "children":[
+      "rich-text#categoEscolar6"
+    ]
+  },
+  "rich-text#categoEscolar6":{
+    "props":{
+      "text":"Diccionarios y libros",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar6":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-6"
+    ]
+  },
+
+
+  "drawer#categoryEscolar7":{
+    "children":[
+      "menu#niv3catEscolar7"
+    ],"blocks":[
+      "drawer-trigger#catEscolar7"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar7":{
+    "children":[
+      "rich-text#categoEscolar7"
+    ]
+  },
+  "rich-text#categoEscolar7":{
+    "props":{
+      "text":"Escritura",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar7":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-7"
+    ]
+  },
+
+
+  "drawer#categoryEscolar8":{
+    "children":[
+      "menu#niv3catEscolar8"
+    ],"blocks":[
+      "drawer-trigger#catEscolar8"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar8":{
+    "children":[
+      "rich-text#categoEscolar8"
+    ]
+  },
+  "rich-text#categoEscolar8":{
+    "props":{
+      "text":"Mochilas y loncheras",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar8":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-8"
+    ]
+  },
+
+
+  "drawer#categoryEscolar9":{
+    "children":[
+      "menu#niv3catEscolar9"
+    ],"blocks":[
+      "drawer-trigger#catEscolar9"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catEscolar9":{
+    "children":[
+      "rich-text#categoEscolar9"
+    ]
+  },
+  "rich-text#categoEscolar9":{
+    "props":{
+      "text":"Pegamentos",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catEscolar9":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-9"
+    ]
+  },
+
+// ---------------- Fin Escolar  ---------------------------
+// ----------------Inicio Papel  ---------------------------
+
+"drawer#category41":{
+    "children":[
+      "menu#niv3cat41"
+    ],"blocks":[
+      "drawer-trigger#cat41"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat41":{
+    "children":[
+      "rich-text#catego41"
+    ]
+  },
+  "rich-text#catego41":{
+    "props":{
+      "text":"Cartones",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat41":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel81"
+    ]
+  },
+
+  "drawer#category42":{
+    "children":[
+      "menu#niv3cat42"
+    ],"blocks":[
+      "drawer-trigger#cat42"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat42":{
+    "children":[
+      "rich-text#catego42"
+    ]
+  },
+  "rich-text#catego42":{
+    "props":{
+      "text":"Papeles Cortados",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat42":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelartpfiest"
+    ]
+  },
+
+
+
+  "drawer#category43":{
+    "children":[
+      "menu#niv3cat43"
+    ],"blocks":[
+      "drawer-trigger#cat43"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat43":{
+    "children":[
+      "rich-text#catego43"
+    ]
+  },
+  "rich-text#catego43":{
+    "props":{
+      "text":"Papeles Especiales",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat43":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelpap3"
+    ]
+  },
+
+
+
+  "drawer#category44":{
+    "children":[
+      "menu#niv3cat44"
+    ],"blocks":[
+      "drawer-trigger#cat44"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat44":{
+    "children":[
+      "rich-text#catego44"
+    ]
+  },
+  "rich-text#catego44":{
+    "props":{
+      "text":"Papeles Extendidos",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat44":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelpap4"
+    ]
+  },
+
+
+// ---------------- Fin Papel  ---------------------------
+// ---------------- Inicio Higiene y limpieza  ---------------------------
+"drawer#category51":{
+    "children":[
+      "menu#niv3cat51"
+    ],"blocks":[
+      "drawer-trigger#cat51"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat51":{
+    "children":[
+      "rich-text#catego51"
+    ]
+  },
+  "rich-text#catego51":{
+    "props":{
+      "text":"Cuidado personal",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat51":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel51"
+    ]
+  },
+
+
+  "drawer#categoryhigylip2":{
+    "children":[
+      "menu#niv3cathigylip2"
+    ],"blocks":[
+      "drawer-trigger#cathigylip2"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cathigylip2":{
+    "children":[
+      "rich-text#categohigylip2"
+    ]
+  },
+  "rich-text#categohigylip2":{
+    "props":{
+      "text":"Limpieza",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cathigylip2":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelhigieneylimp2"
+    ]
+  },
+
+
+  "drawer#categoryhigylip3":{
+    "children":[
+      "menu#niv3cathigylip3"
+    ],"blocks":[
+      "drawer-trigger#cathigylip3"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cathigylip3":{
+    "children":[
+      "rich-text#categohigylip3"
+    ]
+  },
+  "rich-text#categohigylip3":{
+    "props":{
+      "text":"Protección",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cathigylip3":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelhigieneylimp"
+    ]
+  },
+
+
+// ---------------- Fin Higiene y limpieza  ---------------------------
+// ---------------- Inicio Oficina  ---------------------------
+
+"drawer#category61":{
+    "children":[
+      "menu#niv3cat61"
+    ],"blocks":[
+      "drawer-trigger#cat61"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat61":{
+    "children":[
+      "rich-text#catego61"
+    ]
+  },
+  "rich-text#catego61":{
+    "props":{
+      "text":"Archivo",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat61":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel71"
+    ]
+  },
+
+  "drawer#category62":{
+    "children":[
+      "menu#niv3cat62"
+    ],"blocks":[
+      "drawer-trigger#cat62"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat62":{
+    "children":[
+      "rich-text#catego62"
+    ]
+  },
+  "rich-text#catego62":{
+    "props":{
+      "text":"Artículos para escritorio",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat62":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel72"
+    ]
+  },
+
+
+  "drawer#categoryofis-3":{
+    "children":[
+      "menu#niv3catofis-3"
+    ],"blocks":[
+      "drawer-trigger#catofis-3"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catofis-3":{
+    "children":[
+      "rich-text#categoofis-3"
+    ]
+  },
+  "rich-text#categoofis-3":{
+    "props":{
+      "text":"Escritura",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catofis-3":{
+    "children":[
+      "vtex.menu@2.x:menu#thirleveloficina-3"
+    ]
+  },
+
+
+  "drawer#categoryofis-4":{
+    "children":[
+      "menu#niv3catofis-4"
+    ],"blocks":[
+      "drawer-trigger#catofis-4"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catofis-4":{
+    "children":[
+      "rich-text#categoofis-4"
+    ]
+  },
+  "rich-text#categoofis-4":{
+    "props":{
+      "text":"Artículos para oficina",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catofis-4":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel47"
+    ]
+  },
+
+
+  "drawer#categoryofis-5":{
+    "children":[
+      "menu#niv3catofis-5"
+    ],"blocks":[
+      "drawer-trigger#catofis-5"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catofis-5":{
+    "children":[
+      "rich-text#categoofis-5"
+    ]
+  },
+  "rich-text#categoofis-5":{
+    "props":{
+      "text":"Cálculadoras y sumadoras",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catofis-5":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel73"
+    ]
+  },
+
+
+  "drawer#categoryofis-6":{
+    "children":[
+      "menu#niv3catofis-6"
+    ],"blocks":[
+      "drawer-trigger#catofis-6"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catofis-6":{
+    "children":[
+      "rich-text#categoofis-6"
+    ]
+  },
+  "rich-text#categoofis-6":{
+    "props":{
+      "text":"Engargolado y enmicado",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catofis-6":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel74"
+    ]
+  },
+
+
+  "drawer#categoryofis-7":{
+    "children":[
+      "menu#niv3catofis-7"
+    ],"blocks":[
+      "drawer-trigger#catofis-7"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catofis-7":{
+    "children":[
+      "rich-text#categoofis-7"
+    ]
+  },
+  "rich-text#categoofis-7":{
+    "props":{
+      "text":"Escritura",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catofis-7":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel75"
+    ]
+  },
+
+
+  "drawer#categoryofis-8":{
+    "children":[
+      "menu#niv3catofis-8"
+    ],"blocks":[
+      "drawer-trigger#catofis-8"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catofis-8":{
+    "children":[
+      "rich-text#categoofis-8"
+    ]
+  },
+  "rich-text#categoofis-8":{
+    "props":{
+      "text":"Formas impresas y contabilidad",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catofis-8":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelOficina8"
+    ]
+  },
+
+// ---------------- Fin Oficina  ---------------------------
+
+// ---------------- Inicio Arte  ---------------------------
+
+"drawer#category71":{
+    "children":[
+      "menu#niv3cat71"
+    ],"blocks":[
+      "drawer-trigger#cat71"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat71":{
+    "children":[
+      "rich-text#catego71"
+    ]
+  },
+  "rich-text#catego71":{
+    "props":{
+      "text":"Accesorios para manualidades",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat71":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel11"
+    ]
+  },
+
+
+  "drawer#category72":{
+    "children":[
+      "menu#niv3cat72"
+    ],"blocks":[
+      "drawer-trigger#cat72"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat72":{
+    "children":[
+      "rich-text#catego72"
+    ]
+  },
+  "rich-text#catego72":{
+    "props":{
+      "text":"Dibujo",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat72":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel14"
+    ]
+  },
+
+
+  "drawer#category73":{
+    "children":[
+      "menu#niv3cat73"
+    ],"blocks":[
+      "drawer-trigger#cat73"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat73":{
+    "children":[
+      "rich-text#catego73"
+    ]
+  },
+  "rich-text#catego73":{
+    "props":{
+      "text":"Manualidades",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat73":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel13"
+    ]
+  },
+
+
+  "drawer#category74":{
+    "children":[
+      "menu#niv3cat74"
+    ],"blocks":[
+      "drawer-trigger#cat74"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat74":{
+    "children":[
+      "rich-text#catego74"
+    ]
+  },
+  "rich-text#catego74":{
+    "props":{
+      "text":"Pinturas",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat74":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel12"
+    ]
+  },
+
+
+
+// ---------------- Fin Arte  ---------------------------
+
+// ---------------- Inicio Regalos y fienstas  ---------------------------
+"drawer#category81":{
+    "children":[
+      "menu#niv3cat81"
+    ],"blocks":[
+      "drawer-trigger#cat81"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat81":{
+    "children":[
+      "rich-text#catego81"
+    ]
+  },
+  "rich-text#catego81":{
+    "props":{
+      "text":"Artículos para fiestas",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat81":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel91"
+    ]
+  },
+
+
+"drawer#categoryregyfiest2":{
+    "children":[
+      "menu#niv3catregyfiest2"
+    ],"blocks":[
+      "drawer-trigger#catregyfiest2"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catregyfiest2":{
+    "children":[
+      "rich-text#categoregyfiest2"
+    ]
+  },
+  "rich-text#categoregyfiest2":{
+    "props":{
+      "text":"Bolsas y envolturas",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catregyfiest2":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel92"
+    ]
+  },
+
+
+"drawer#categoryregyfiest3":{
+    "children":[
+      "menu#niv3catregyfiest3"
+    ],"blocks":[
+      "drawer-trigger#catregyfiest3"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#catregyfiest3":{
+    "children":[
+      "rich-text#categoregyfiest3"
+    ]
+  },
+  "rich-text#categoregyfiest3":{
+    "props":{
+      "text":"Juegos de mesa y didácticos",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3catregyfiest3":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevelregyfiest-3"
+    ]
+  },
+
+
+// ---------------- Fin Regalos y fienstas  ---------------------------
+
+// ---------------- Inicio Muebes y pizarrones  ---------------------------
+
+"drawer#category91":{
+    "children":[
+      "menu#niv3cat91"
+    ],"blocks":[
+      "drawer-trigger#cat91"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat91":{
+    "children":[
+      "rich-text#catego91"
+    ]
+  },
+  "rich-text#catego91":{
+    "props":{
+      "text":"Muebles",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat91":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel61"
+    ]
+  },
+
+  "drawer#category92":{
+    "children":[
+      "menu#niv3cat92"
+    ],"blocks":[
+      "drawer-trigger#cat92"
+    ],"props":{
+        "isFullWidth":true
+    }
+  },"drawer-trigger#cat92":{
+    "children":[
+      "rich-text#catego92"
+    ]
+  },
+  "rich-text#catego92":{
+    "props":{
+      "text":"Pizarrones",
+      "blockClass":"titmendrawer"
+    }
+  },
+  "menu#niv3cat92":{
+    "children":[
+      "vtex.menu@2.x:menu#thirlevel62"
+    ]
+  },
+
+// ---------------- Fin Muebles y pizarrones  ---------------------------
+
+"menu-item#servcios-mob": {
+  "props": {
+    "id": "menu-item-cats",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "tagTitle": "Servicios",
+      "text": "Servicios"
+    },
+    "blockClass":"itemcatgs"
+  },"blocks": ["vtex.menu@2.x:submenu.accordion#servsmobile"]
+},
+"vtex.menu@2.x:submenu.accordion#servsmobile": {
+  "children": ["vtex.menu@2.x:menu#servscatsmobile"]
+},
+
+"vtex.menu@2.x:menu#servscatsmobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#serv1",
+    "menu-item#serv2",
+    "menu-item#serv3",
+    "menu-item#serv4"
+    ]
+},
+
+"menu-item#serv1": {
+  "props": {
+    "id": "menu-item-cats1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "href": "/facturacion",
+      "type": "internal",
+      "tagTitle": "Facturación en línea",
+      "text": "Facturación en línea"
+    },
+    "blockClass":"itemcatgsdraw"
+  }
+},
+
+"menu-item#serv2": {
+  "props": {
+    "id": "menu-item-cats1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "href": "/copy-tony",
+      "type": "internal",
+      "tagTitle": "Copy Tony",
+      "text": "Copy Tony"
+    },
+    "blockClass":"itemcatgsdraw"
+  }
+},
+
+"menu-item#serv3": {
+  "props": {
+    "id": "menu-item-cats1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "href": "#",
+      "type": "internal",
+      "tagTitle": "Consultar factura",
+      "text": "Consultar factura"
+    },
+    "blockClass":"itemcatgsdraw"
+  }
+},
+
+"menu-item#serv4": {
+  "props": {
+    "id": "menu-item-cats1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "href": "/ubica-tu-sucursal",
+      "type": "internal",
+      "tagTitle": "Ubica tu sucursal",
+      "text": "Ubica tu sucursal"
+    },
+    "blockClass":"itemcatgsdraw"
+  }
+},
+
+
+
+
+"menu-item#contacto-mob": {
+  "props": {
+    "id": "menu-item-cats",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "tagTitle": "Contacto",
+      "text": "Whats App Tony",
+      "href": "https://api.whatsapp.com/send/?phone=%2B522291349423&text&app_absent=0"
+    },
+    "blockClass":"itemcatgs"
+  }
+}
+
+
+
+
+
+
+
+}

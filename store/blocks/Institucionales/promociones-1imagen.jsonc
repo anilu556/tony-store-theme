@@ -1,0 +1,116 @@
+{
+  "store.custom#promociones-indiv": {
+    "children": [
+      "responsive-layout.desktop#promo-indiv",
+      "responsive-layout.tablet#promo-indiv",
+      "responsive-layout.phone#promo-indiv",
+      "back-to-top-button"
+    ]
+  },
+  "responsive-layout.desktop#promo-indiv":{
+    "children":[
+      "flex-layout.row#titulo-promociones-indiv",
+      "flex-layout.row#texto-promociones-indiv"
+    ]
+  },
+  "responsive-layout.tablet#promo-indiv":{
+    "children":[
+      "flex-layout.row#titulo-promociones-indiv",
+      "flex-layout.row#texto-promociones-indiv"
+    ]
+  },
+  "responsive-layout.phone#promo-indiv":{
+    "children":[
+      "flex-layout.row#titulo-promociones-indiv",
+      "flex-layout.row#texto-promociones-indiv-mobile"
+    ]
+  },
+  "flex-layout.row#titulo-promociones-indiv": {
+    "children": [
+      "flex-layout.col#coltit-promociones-indiv"
+    ]
+  },
+  "flex-layout.col#coltit-promociones-indiv": {
+    "children": [
+      "rich-text#titulo-promociones-indiv"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titulo-promociones-indiv": {
+    "props": {
+      "text": "## Lorem Ipsum",
+      "blockClass": "titins"
+    }
+  },
+  "flex-layout.row#texto-promociones-indiv": {
+    "children": [
+      "flex-layout.col#coltxt-promociones-indiv"
+    ],
+    "props": {
+      "blockClass": "row-content-promo-institucional-indiv"
+    }
+  },
+  "flex-layout.col#coltxt-promociones-indiv": {
+    "children": [
+      "flex-layout.row#cont-promo-indiv"
+    ],
+    "props": {
+      "blockClass": "content-promo-institucional-indiv"
+    }
+  },
+  "flex-layout.row#cont-promo-indiv":{
+    "children":[
+      "image#box-promo-indiv"
+    ],
+    "props":{
+      "blockClass":"left-box"
+    }
+  },
+  "image#box-promo-indiv":{
+    "props": {
+      "src": "/arquivos/promo-main-desk.png",
+      "blockClass":"image-box-promo-indiv",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  },
+
+
+  "flex-layout.row#texto-promociones-indiv-mobile": {
+    "children": [
+      "flex-layout.col#coltxt-promociones-indiv-mobile"
+    ],
+    "props": {
+      "blockClass": "row-content-promo-institucional"
+    }
+  },
+  "flex-layout.col#coltxt-promociones-indiv-mobile": {
+    "children": [
+      "flex-layout.row#cont-promo-indiv-mobile"
+    ],
+    "props": {
+      "blockClass": "content-promo-institucional"
+    }
+  },
+  "flex-layout.row#cont-promo-indiv-mobile":{
+    "children":[
+      "image#box-promo-indiv-mobile"
+    ],
+    "props":{
+      "blockClass":"left-box"
+    }
+  },
+  "image#box-promo-indiv-mobile":{
+    "props": {
+      "src": "/arquivos/promo-main-mob.png",
+      "blockClass":"image-box-promo-indiv",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  }
+}
+

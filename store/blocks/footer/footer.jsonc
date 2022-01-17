@@ -1,0 +1,356 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#cintillo",
+      "flex-layout.row#footer-1-desktop",
+      // "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-4-desktop"
+
+    ]
+  },
+  "flex-layout.row#cintillo":{
+    "children":["rich-text#cintillo"],
+    "props":{"blockClass":"cintillo"}
+  },
+  "rich-text#cintillo": {
+    "props": {
+      "text": "Líder Nacional en Precios Bajos",
+      "blockClass": "texto-cintillo"
+    }
+  },
+
+  // Row 1 Main footer ########################################################################
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Contacto",
+      "vtex.menu@2.x:menu#Empresa",
+      "vtex.menu@2.x:menu#Institucionales",
+      "vtex.menu@2.x:menu#Facturas",
+      "vtex.menu@2.x:menu#Formas-de-envio",
+      "footer-spacer",
+      "flex-layout.row#newsletter"
+    ],
+    "props": {
+      "blockClass": "menu-row-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  // Row 2 Radio Tony footer ########################################################################
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["image#radio-tony"],
+    "props":{
+      "blockClass": "radio-tony-container"
+    }
+  },
+  "image#radio-tony": {
+    "props": {
+      "title": "Imagen radio tony",
+      "src": "/arquivos/radio-tony.png",
+      "maxHeight": 34,
+      "blockClass": "radio-tony",
+      "link": {
+        "url": "/radio-tony",
+        "openNewTab": true
+      }
+    }
+  },
+
+  // Row 3 Sociales y metodos de pago ########################################################################
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["flex-layout.row#pmt-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.row#pmt-methods":{
+    "children":["image#visa", "image#master", "image#amex", "image#mercadop", "image#paypal", "image#oxxo", "image#7en", "image#farmacias", "image#telecomm", "image#chedraui"],
+    "props":{"blockClass": "pmt-methods-col"}
+  },
+  "image#visa": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200X600visa-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#master": {
+    "props": {
+      "blockClass":"img-pmt-logo-master",
+      "src": "/arquivos/1200x600mastercard-01.svg",
+      "maxHeight": 51
+    }
+  },
+  "image#amex": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600americanexpress-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#mercadop": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600mercadopago-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#paypal": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600paypal-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#oxxo": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600oxxo-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#7en": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600seveneleven-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#farmacias": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600farmaciasdelahorro-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#telecomm": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600telecommexico-01.svg",
+      "maxHeight": 30
+    }
+  },
+  "image#chedraui": {
+    "props": {
+      "blockClass":"img-pmt-logo",
+      "src": "/arquivos/1200x600chedraui-01.svg",
+      "maxHeight": 30
+    }
+  },
+
+  "flex-layout.row#social-desk":{
+    "children":["flex-layout.row#facebook", "flex-layout.row#instagram"],
+    "props":{"blockClass":"sociales-contenedor-desk"}
+  },
+
+  "flex-layout.row#social":{
+    "children":["flex-layout.row#facebook", "flex-layout.row#instagram"],
+    "props":{"blockClass":"sociales-contenedor"}
+  },
+  "flex-layout.row#facebook":{
+    "children":["image#facebook"],
+    "props":{"blockClass":"sociales-facebook"}
+  },
+  "image#facebook": {
+    "props": {
+      "blockClass":"img-sociales",
+      "src": "/arquivos/1200x600fblogo-01.svg",
+      "maxHeight": 30,
+      "link": {
+        "url": "https://www.facebook.com/TonySuperPapelerias/",
+        "openNewTab": true
+      }
+    }
+  },
+  "rich-text#facebook":{
+    "props": {
+      "text": "[TonySuperPapelerias](https://www.facebook.com/TonySuperPapelerias/)",
+      "blockClass": "texto-sociales"
+    }
+  },
+  "flex-layout.row#instagram":{
+    "children":["image#instagram"],
+    "props":{"blockClass":"sociales-instagram"}
+  },
+  "image#instagram": {
+    "props": {
+      "blockClass":"img-sociales",
+      "src": "/arquivos/1200x600iglogo-01.svg",
+      "maxHeight": 30,
+      "link": {
+        "url": "https://www.instagram.com/tonysuperpapelerias/",
+        "openNewTab": true
+      }
+    }
+  },
+  "rich-text#instagram":{
+    "props": {
+      "text": "[tonysuperpapelerias](https://www.instagram.com/tonysuperpapelerias/)",
+      "blockClass": "texto-sociales"
+    }
+  },
+
+
+  // Row 4 cintillo msg der reserv ###########################################################################################################################################
+  "flex-layout.row#footer-4-desktop":{
+    "children":["rich-text#cintillo-der-reserv"],
+    "props":{"blockClass": "cont-der-reserv"}
+  },
+  "rich-text#cintillo-der-reserv": {
+    "props": {
+      "text": "©2021 Tony Superpapelerías. Todos los derechos reservados.",
+      "blockClass": "texto-der-reserv"
+    }
+  },
+
+  // Custom Newsletter ########################################################################################################################################################
+  "flex-layout.row#newsletter":{
+    "children":[
+      "newsletter-form#nlgral"
+    ],
+    "props":{
+      "blockClass": "contenedor-newsletter"
+    }
+  },
+  "newsletter-form#nlgral":{
+    "children":[
+      "rich-text#titnl",
+      "newsletter-input-email",
+      "newsletter-submit",
+      "flex-layout.row#social-desk"
+    ]
+  },
+  "rich-text#titnl":{
+    "props":{
+      "text":"Suscríbete a Nuestro Newsletter",
+      "textPosition":"CENTER",
+      "textAlignment":"center",
+      "blockClass": "titnl"
+    }
+  },
+  "newsletter-input-email":{
+    "props":{
+      "placeholderText": "Escribe aquí tu correo electrónico"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel": "Enviar"
+    }
+  },
+
+  // Footer mobile #############################################################################################################################################################
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#cintillo",
+      // "flex-layout.row#radiotony-mobile",
+      "flex-layout.row#newsletter",
+      "flex-layout.row#separador",
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile",
+      "flex-layout.row#3-footer-mobile-sociales",
+      "flex-layout.row#der-res-mob"
+    ],
+    "props":{
+      "blockClass": "mobile"
+    }
+  },
+  "flex-layout.row#separador":{
+    "children":["image#separador"],
+    "props":{"blockClass":"separador-cont"}
+  },
+  "image#separador": {
+    "props": {
+      "title": "Separador",
+      "src": "/arquivos/separador.svg",
+      "maxHeight": 5,
+      "blockClass": "separador"
+    }
+  },
+  "flex-layout.row#radiotony-mobile":{
+    "children":["image#radio-tony-mobile"],
+    "props":{
+      "blockClass": "radio-tony-container-mobile"
+    }
+  },
+  "image#radio-tony-mobile": {
+    "props": {
+      "title": "Imagen radio tony",
+      "src": "/arquivos/radio-tony.png",
+      "maxHeight": 56,
+      "blockClass": "radio-tony-mobile",
+      "link": {
+        "url": "/radio-tony",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "flex-layout.row#2-footer-mobile":{
+    "children":["image#visa", "image#master", "image#amex", "image#mercadop", "image#paypal"],
+    "props":{"blockClass":"pymt-mobile-row1"}
+  },
+  "flex-layout.row#3-footer-mobile":{
+    "children":["image#oxxo", "image#7en", "image#farmacias", "image#telecomm", "image#chedraui"],
+    "props":{"blockClass":"pymt-mobile-row2"}
+  },
+  "flex-layout.row#3-footer-mobile-sociales":{
+    "children":["rich-text#siguenos", "flex-layout.row#social-icons"],
+    "props":{"blockClass":"cont-sociales-mob"}
+  },
+  "rich-text#siguenos":{
+    "props":{
+      "text": "Siguenos",
+      "blockClass": "texto-sociales-mobile"
+    }
+  },
+  "flex-layout.row#social-icons":{
+    "children":["image#facebook-mobile", "image#instagram-mobile"],
+    "props":{"blockClass":"soc-icons-mob"}
+  },
+  "image#facebook-mobile": {
+    "props": {
+      "blockClass":"img-sociales",
+      "src": "/arquivos/1200x600fblogo-01.svg",
+      "maxHeight": 30,
+      "link": {
+        "url": "https://www.facebook.com/TonySuperPapelerias/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#instagram-mobile": {
+    "props": {
+      "blockClass":"img-sociales",
+      "src": "/arquivos/1200x600iglogo-01.svg",
+      "maxHeight": 30,
+      "link": {
+        "url": "https://www.instagram.com/tonysuperpapelerias/",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.row#der-res-mob":{
+    "children":["rich-text#der-res-mob"],
+    "props":{"blockClass":"cintillo-der-res-mob"}
+  },
+  "rich-text#der-res-mob":{
+    "props":{
+      "text": "©2021 Tony Superpapelerías. Todos los derechos reservados.",
+      "blockClass": "der-res-mob"
+    }
+  }
+
+}

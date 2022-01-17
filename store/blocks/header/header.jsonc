@@ -1,0 +1,313 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "Envíos a domicilio disponibles"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#3-desktop"
+      // "flex-layout.row#mega-menu"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#sucursal-ubicacion",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass":"logo-col"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/tony-logo.svg",
+      "width": "180"
+    }
+  },
+  "flex-layout.col#sucursal-ubicacion": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "modal-PC-col"
+    },
+    "children": ["ButtonFranquicia"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Busca aquí lo que necesitas",
+      "blockClass": "search-bar-custom",
+      "isOpen": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "simulationBehavior":"default"
+    }
+  },
+  "product-summary.shelf#search":{
+    "children":[
+    "stack-layout#prodsum",
+    "product-summary-name",
+    "product-summary-space",
+    "product-list-price#summary",
+    "flex-layout.row#selling-price-savings",
+    "product-summary-description"
+    ]
+  },
+
+  "flex-layout.col#category-menu": {
+    "children": ["category-menu#category-menu"]
+  },
+  "category-menu#category-menu": {
+    "props": {
+      "blockClass": "categorymenu",
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "center"
+    }
+  },
+  "flex-layout.col#boton":{
+    "children":[
+      "image#boton"
+    ],"props":{
+      "blockClass":"ubicacion",
+      "verticalAlign":"middle",
+      "paddingLeft": 7,
+      "paddingRight":7
+
+    }
+  },"image#boton":{
+    "props":{
+      "src": "assets/tony-logo.svg",
+      "link": {
+        "url": "/ubica-tu-sucursal"
+      },
+      "blockClass":"ubimg"
+    }
+  },
+
+
+
+  "header-layout.mobile": {
+    "children": ["notification.bar#phone","sticky-layout#1-mobile","search-bar#inteldraw"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "notification.bar#phone":{
+    "props":{
+      "content": "Envío a todo México",
+      "blockClass": "notifbar"
+    }
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#ubcmob",
+      "flex-layout.col#logomob",
+      "flex-layout.col#accesos"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#ubcmob":{
+    "children":["ButtonFranquicia"]
+  },
+
+  "flex-layout.col#logomob":{
+    "children":[
+      "logo#mobile"
+    ],"props":{
+      "blockClass":"cologo",
+      "width":"grow"
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"],
+    "props":{
+      "isFullWidth": true
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "flex-layout.row#mendraw"
+      //"flex-layout.col#menumob"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menmobo"
+    }
+  },
+
+  "flex-layout.row#mendraw":{
+    "children":[
+      "rich-text#title-mob",
+      "vtex.menu@2.x:menu#catsmob"
+    ],"props":{
+      "fullWidth":false
+    }
+  },
+  "rich-text#title-mob":{
+    "props":{
+      "text": "Menú",
+      "blockClass":"title-menu-mob"
+    }
+  },
+  "vtex.menu@2.x:menu#catsmob":{
+    "children":[
+      "menu-item#categorias",
+      "menu-item#menudeo",
+      "menu-item#oficina",
+      "menu-item#mayoreo",
+      "menu-item#ofertas",
+      "menu-item#servcios-mob",
+      "menu-item#contacto-mob"
+    ],"props":{
+      "orientation": "vertical"
+    }
+  },
+
+  "flex-layout.col#accesos":{
+    "children":[
+      "flex-layout.row#accesos"
+    ],"props":{
+      "verticalAlign":"middle",
+      "blockClass":"colaccesos"
+    }
+  },"flex-layout.row#accesos":{
+    "children":[
+      "login",
+      "minicart.v2"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"rowaccesos",
+      "preserveLayoutOnMobile":true
+    }
+  },
+
+  "flex-layout.row#srchdrawe":{
+    "children":[
+      "search-bar#inteldraw"
+    ]
+  },"search-bar#inteldraw":{
+    "props":{
+      "fullWidth":false,
+      "blockClass":"srchdraw",
+      "placeholder": "Busca aquí lo que necesitas"
+    }
+  },
+
+  "category-menu#mobile":{
+    "props":{
+      "showAllDepartments":true,
+      "mobileMode":true
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/tony-logo.svg",
+      "width": "100",
+      "blockClass":"logohome"
+    }
+  },
+
+  "flex-layout.row#3-desktop":{
+    "children":[
+      "flex-layout.col#catmenu",
+      "flex-layout.col#contacto"
+    ],
+    "props":{
+      "fullWidth":true,
+      "blockClass":"catmensticky"
+    }
+  },
+  "flex-layout.col#catmenu":{
+    "children":[
+      "vtex.menu@2.x:menu#secciones"
+    ],"props":{
+      "width": "80%",
+      "blockClass":"catmen"
+    }
+  },
+  "flex-layout.col#contacto": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "20%"
+    },
+    "children": ["rich-text#contacto"]
+  },
+  "rich-text#contacto": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
+      "text": "[800 000 TONY (8669)](tel:800-000-8669)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "contact-phone"
+    }
+  }
+}

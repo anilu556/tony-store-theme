@@ -1,0 +1,1237 @@
+/* add transitions */
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-logoLink),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-minicart-2-x-openIconContainer),
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  transition: all 0.3s ease;
+  display: block;
+}
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  transition: background 0.3s ease;
+  will-change: padding, background;
+  box-shadow: 0 0 0 0 #134197 !important;
+}
+
+/* main header desktop has a bigger padding when not stuck */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+/* add a box-shadow to desktop/mobile header when stuck */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease, background 0.3s ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* if supported add some translucency to the desktop/mobile header background */
+@supports (backdrop-filter: blur(5px)) {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    backdrop-filter: blur(8px);
+  }
+
+  /* header background when stuck and not hovered */
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    background: rgba(240, 240, 240, 0.8);
+  }
+}
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: #f0f0f0;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-logoLink),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-minicart-2-x-openIconContainer),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    transition: none;
+  }
+}
+
+/* Header styles starts -----------------------------------------------*/
+/* notificaciones bar */
+:global(.vtex-store-components-3-x-notificationBarContainer) {
+  background-color: #000000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+:global(.vtex-store-components-3-x-notificationContent) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+:global(.vtex-store-components-3-x-notificationBarInner) {
+  height: 25px;
+  min-height: 25px;
+}
+/* main header */
+:global(.vtex-store-components-3-x-logoImage) {
+  width: 141px;
+  height: 60px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  background-color: #134197 !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  background-color: #134197 !important;
+  padding-top: 0 !important;
+}
+:global(.vtex-rich-text-0-x-link--sucursal-name) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-decoration: none;
+}
+:global(.vtex-rich-text-0-x-link--sucursal-name)::before {
+  content: url(assets/icons/location-icon.svg);
+  margin-right: 5px;
+}
+/* sucursal name */
+:global(.vtex-flex-layout-0-x-flexCol--modal-PC-col) {
+  padding-left: 10px;
+}
+
+/* Search starts*/
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  max-width: 100%;
+}
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 514px;
+  margin-left: 36px;
+  margin-top: -1px;
+  display: flex !important;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    position: absolute;
+    left: 36%;
+    margin-left: -50px;
+  }
+}
+@media (min-width: 1600px) {
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    position: absolute;
+    left: 39%;
+    margin-left: -50px;
+  }
+}
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group) {
+  height: 40px;
+  border: 0;
+}
+/* search big autocomplete  */
+:global(.vtex-search-1-x-biggy-autocomplete) {
+  left: 50px;
+  border-radius: 4px;
+}
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group) {
+  background-color: #ffffff;
+}
+:global(.vtex-search-1-x-itemListPrefix) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* Search sugerenncias text */
+:global(.vtex-search-1-x-itemList--suggestion)
+  :global(.vtex-search-1-x-itemListTitle) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-search-1-x-itemListTitle) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* search title */
+:global(.vtex-search-1-x-tileList) :global(.vtex-search-1-x-tileListTitle) {
+  display: none;
+}
+/* search items list */
+:global(.vtex-search-1-x-tileList) :global(.vtex-search-1-x-tileListItem) {
+  margin: 0 5px;
+}
+/* more products link */
+:global(.vtex-search-1-x-tileList) :global(.vtex-search-1-x-tileListSeeMore) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+/* Search icon */
+:global(.vtex-store-components-3-x-searchBarIcon--search) {
+  padding-top: 6px;
+}
+:global(.vtex-store-components-3-x-searchBarIcon--search)::before {
+  content: url(assets/icons/search-icon.svg);
+}
+:global(.vtex-store-components-3-x-searchBarIcon--search)
+  :global(.vtex-store-components-3-x-searchIcon) {
+  display: none;
+}
+/* account icon */
+:global(.vtex-login-2-x-container)::before {
+  content: "Mi cuenta";
+  margin-right: 10px;
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-login-2-x-container)::before {
+    font-weight: 600;
+  }
+}
+:global(.vtex-login-2-x-container) {
+  /* border: 1px solid red; */
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button) {
+  font-size: 0;
+  background-color: #fff !important;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-login-2-x-container) :global(.vtex-button) {
+    width: 45px;
+    height: 45px;
+  }
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button):hover {
+  background-color: #fff !important;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button)::before {
+  content: url(assets/icons/account-icon-v2.svg);
+  padding-top: 15px;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+  display: none;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button):focus {
+  background-color: transparent;
+}
+
+/* cart icon */
+:global(.vtex-minicart-2-x-openIconContainer) {
+  padding: 0;
+  padding-right: 12px;
+}
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
+  font-size: 0;
+  background-color: #fff !important;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
+    width: 45px;
+    height: 45px;
+  }
+}
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):hover {
+  background-color: #fff !important;
+}
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button)::before {
+  content: url(assets/icons/cart-icon-v2.svg);
+  position: absolute;
+  top: 10px;
+  left: 4px;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button)::before {
+    top: 13px;
+    left: 8px;
+  }
+}
+:global(.vtex-minicart-2-x-openIconContainer)
+  :global(.vtex-store-icons-0-x-cartIcon) {
+  display: none;
+}
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):focus {
+  background-color: transparent;
+}
+:global(.vtex-minicart-2-x-minicartQuantityBadge) {
+  color: #f8002e;
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+  font-size: 16px;
+  background: none;
+  top: -23px;
+  right: -9px;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    top: -24px;
+    right: -10px;
+  }
+}
+
+/* bars icon mobile */
+:global(.vtex-sticky-layout-0-x-wrapper)
+  :global(.vtex-store-drawer-0-x-openIconContainer)::before {
+  content: url(assets/icons/bars-icon.svg);
+}
+:global(.vtex-store-drawer-0-x-openIconContainer)
+  :global(.vtex-store-drawer-0-x-menuIcon) {
+  display: none;
+}
+/* Header styles ends -----------------------------------------------*/
+
+@media (max-width: 1025.98px) {
+  /* account text */
+  :global(.vtex-login-2-x-container)::before {
+    font-size: 0;
+  }
+  /* sucursal name size 0 */
+  :global(.vtex-rich-text-0-x-link--sucursal-name) {
+    font-size: 0;
+  }
+  /* logo mobile */
+  :global(.vtex-store-components-3-x-logoImage) {
+    width: 101px !important;
+    height: 43px !important;
+  }
+  /* header mobile */
+  :global(.vtex-sticky-layout-0-x-container) {
+    background-color: #134197;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+    height: 72px;
+    padding: 0;
+  }
+  /* Search mobile */
+  :global(.vtex-store-components-3-x-resultsList--srchdraw) {
+    left: 1vw;
+    padding: 15px 20px;
+    color: #000000;
+    max-width: 98vw;
+    font-family: "TitilliumWebRegular";
+    border-radius: 4px;
+  }
+  @media (min-width: 750px) {
+    :global(.vtex-store-components-3-x-resultsList--srchdraw) {
+      padding: 3rem;
+    }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--search-mobile) {
+    background-color: #134197;
+    height: 64px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--search-mobile)
+    :global(.vtex-flex-layout-0-x-flexRowContent--search-mobile) {
+    background-color: #134197;
+    height: 54px;
+  }
+  :global(.vtex-store-components-3-x-searchBarContainer)
+    :global(.vtex-input-prefix__group) {
+    background-color: #ffffff;
+  }
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    width: 100%;
+    margin-left: 0;
+    display: flex !important;
+    align-items: center;
+    padding: 10px;
+    background-color: #134197;
+  }
+  :global(.vtex-store-components-3-x-portalContainer) {
+    left: -361px;
+  }
+  :global(.vtex-search-1-x-biggy-autocomplete-wrapper) {
+    max-width: 100%;
+    position: fixed;
+    width: 100% !important;
+    height: auto;
+    left: 0;
+    margin-top: 5px;
+  }
+
+  :global(.vtex-search-1-x-biggy-autocomplete) {
+    position: absolute;
+    transition: opacity 0.15s ease-in 0.05s, max-height 0.3s ease-out,
+      padding 0.6s ease-out;
+    padding: 20px 0 10px;
+    max-height: 630px;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 20%);
+    background: #fff;
+    overflow: auto;
+    display: flex;
+    left: 0;
+    width: initial;
+    margin: 0 10px;
+  }
+  /* search title */
+  :global(.vtex-search-1-x-tileList) :global(.vtex-search-1-x-tileListTitle) {
+    display: flex;
+    font-family: "TitilliumWebBold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  /* Search sugerenncias text */
+  :global(.vtex-search-1-x-itemList--suggestion)
+    :global(.vtex-search-1-x-itemListTitle) {
+    font-family: "TitilliumWebBold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  /* product item row*/
+  :global(.vtex-search-1-x-element) {
+    height: 112px;
+  }
+  /* product image */
+  :global(.vtex-search-1-x-element) :global(.vtex-search-1-x-image) {
+    width: 106px;
+    height: 105px;
+  }
+  /* product name */
+  :global(.vtex-search-1-x-element) :global(.vtex-search-1-x-productBrand) {
+    font-family: "TitilliumWebBold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  /* product list price */
+  :global(.vtex-search-1-x-element) :global(.vtex-search-1-x-listPrice) {
+    font-family: "TitilliumWebBold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: rgba(116, 116, 116, 0.42);
+  }
+
+  /* product price */
+  :global(.vtex-search-1-x-sellingPriceValue) {
+    font-family: "TitilliumWebBold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  /* more products link */
+  :global(.vtex-search-1-x-tileList) :global(.vtex-search-1-x-tileListSeeMore) {
+    font-family: "TitilliumWebRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #134197;
+  }
+}
+
+/* Sticky menu ###########################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--catmensticky) {
+  background-color: #134197;
+  padding: 0 20px;
+  padding-bottom: 8px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--catmen) {
+  display: flex;
+  align-items: center;
+}
+:global(.vtex-rich-text-0-x-link--contact-phone) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-decoration: none;
+}
+:global(.vtex-rich-text-0-x-link--contact-phone)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/telephone.png);
+  padding-right: 10px;
+}
+:global(.vtex-rich-text-0-x-paragraph--contact-phone) {
+  margin: 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--catmen)
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+:global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-styledLinkContainer) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+:global(.vtex-menu-2-x-submenu) {
+  display: block;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-menu-2-x-styledLink--itemcatgs)
+  :global(.vtex-menu-2-x-styledLinkContent--itemcatgs)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/list.png);
+  margin-right: 10px;
+  width: 13px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-menu-2-x-styledLink--itemmenudeo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemmenudeo)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/pen.png);
+  margin-right: 10px;
+  width: 13px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-menu-2-x-styledLink--itemoficina)
+  :global(.vtex-menu-2-x-styledLinkContent--itemoficina)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/clip-de-papel-de-metal.png);
+  margin-right: 10px;
+  width: 13px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-menu-2-x-styledLink--itemmayoreo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemmayoreo)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/carrito-de-compras.png);
+  margin-right: 10px;
+  width: 16px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-menu-2-x-styledLink--itemofers)
+  :global(.vtex-menu-2-x-styledLinkContent--itemofers)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/price-tag.png);
+  margin-right: 10px;
+  width: 13px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-menu-2-x-styledLink--itemservicios)
+  :global(.vtex-menu-2-x-styledLinkContent--itemservicios)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/list.png);
+  margin-right: 10px;
+  width: 13px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+  :global(.vtex-flex-layout-0-x-flexRow--catmensticky)
+  :global(.vtex-rich-text-0-x-link--contact-phone)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/telephone.png);
+  margin-right: 10px;
+  width: 13px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--ahorra),
+:global(.vtex-category-menu-2-x-closeIcon) {
+  color: #ff0000;
+  font-weight: 500;
+}
+
+:global(.vtex-rich-text-0-x-link--ahorra) {
+  text-decoration: none;
+  color: #ff0000;
+  font-family: "Inter Medium";
+}
+
+:global(.vtex-rich-text-0-x-strong--ahorra)
+  :global(.vtex-rich-text-0-x-link--ahorra) {
+  font-family: "Inter Medium";
+  color: #194681;
+  font-weight: 400;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--club),
+:global(.vtex-store-drawer-0-x-menuIcon),
+:global(.vtex-category-menu-2-x-plusIcon),
+:global(.vtex-category-menu-2-x-menuIcon) {
+  color: #194681;
+  font-weight: 500;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  padding: 0%;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--itemcatgs),
+:global(.vtex-menu-2-x-styledLinkContainer--itemmenudeo),
+:global(.vtex-menu-2-x-styledLinkContainer--itemoficina),
+:global(.vtex-menu-2-x-styledLinkContainer--itemmayoreo),
+:global(.vtex-menu-2-x-styledLinkContainer--itemofers),
+:global(.vtex-menu-2-x-styledLinkContainer--itemservicios) {
+  margin-right: 43px !important;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  :global(.vtex-menu-2-x-styledLinkContainer--itemcatgs),
+  :global(.vtex-menu-2-x-styledLinkContainer--itemmenudeo),
+  :global(.vtex-menu-2-x-styledLinkContainer--itemoficina),
+  :global(.vtex-menu-2-x-styledLinkContainer--itemmayoreo),
+  :global(.vtex-menu-2-x-styledLinkContainer--itemofers),
+  :global(.vtex-menu-2-x-styledLinkContainer--itemservicios) {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+}
+:global(.vtex-store-components-3-x-imageElementLink--imgwish) {
+  display: none;
+}
+:global(.vtex-store-components-3-x-logoLink--logohome) {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+@media (min-width: 1300px) {
+  :global(.vtex-store-components-3-x-logoLink--logohome) {
+    padding-left: 20px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexCol--logo-col) {
+  padding-left: 27px;
+}
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  justify-content: flex-start;
+  color: #ffffff;
+}
+:global(.vtex-overlay-layout-0-x-popper) {
+  margin-top: 1px !important;
+  transform: translate(299px, -1px) !important;
+}
+
+/* Login and account styles ###############################################################################################################################################*/
+:global(.vtex-login-2-x-content) {
+  border-radius: 4px;
+}
+:global(.vtex-login-2-x-contentContainer) {
+  box-shadow: none;
+}
+:global(.vtex-login-2-x-formTitle) {
+  margin-bottom: 12px;
+}
+:global(.vtex-login-2-x-content) {
+  width: 477px;
+}
+:global(.vtex-login-2-x-loginOptionsContainer)
+  :global(.vtex-login-2-x-options) {
+  width: 382px;
+}
+:global(.vtex-login-2-x-loginOptionsContainer)
+  :global(.vtex-login-2-x-formTitle) {
+  font-size: 0 !important;
+}
+:global(.vtex-login-2-x-loginOptionsContainer)
+  :global(.vtex-login-2-x-formTitle)::before {
+  content: "Ingresa o crea tu cuenta";
+  font-size: 26px;
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+}
+:global(.vtex-login-2-x-content--emailAndPassword)
+  :global(.vtex-login-2-x-formTitle) {
+  font-size: 0;
+}
+:global(.vtex-login-2-x-content--emailAndPassword)
+  :global(.vtex-login-2-x-formTitle)::before {
+  content: "Entrar con correo y contraseña" !important;
+  font-size: 26px;
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+}
+:global(.vtex-login-2-x-emailVerification) :global(.vtex-login-2-x-formTitle) {
+  font-size: 0;
+}
+:global(.vtex-login-2-x-emailVerification)
+  :global(.vtex-login-2-x-formTitle)::before {
+  content: "Recibir código de acceso por correo";
+  font-size: 26px;
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+}
+:global(.vtex-login-2-x-optionsList) :global(.vtex-button) {
+  background-color: #f5f5f5;
+  border: 0;
+}
+:global(.vtex-login-2-x-loginOptionsContainer) {
+  margin-top: 40px;
+}
+@media (min-width: 450px) {
+  :global(.vtex-login-2-x-loginOptionsContainer) {
+    margin-top: 0;
+  }
+}
+:global(.vtex-login-2-x-formTitle) {
+  margin-top: 0;
+}
+:global(.vtex-login-2-x-optionsList) :global(.vtex-button):hover {
+  background-color: #e4e4e4;
+}
+:global(.vtex-login-2-x-optionsList)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  color: #000000;
+  text-transform: initial;
+  font-family: "TitilliumWebLight";
+  font-weight: 300;
+  font-size: 16px;
+}
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button),
+:global(.vtex-login-2-x-accountOptions) :global(.vtex-button) {
+  border: 1px solid #00adee;
+  border-radius: 4px;
+  background-color: #ffffff;
+  height: 30px;
+}
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button):hover,
+:global(.vtex-login-2-x-accountOptions) :global(.vtex-button):hover {
+  background-color: #00adee;
+}
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label),
+:global(.vtex-login-2-x-accountOptions) :global(.vtex-button__label) {
+  color: #00adee;
+  font-size: 16;
+  font-family: "TitilliumWebRegular";
+  font-weight: 700;
+}
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-accountOptions) :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-accountOptions) :global(.vtex-button__label):hover,
+:global(.vtex-login-2-x-backButton) :global(.vtex-button):hover,
+:global(.vtex-pageHeader-link__container) :global(.vtex-button):hover {
+  background: none;
+}
+:global(.vtex-login-2-x-backButton) :global(.vtex-button__label),
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) {
+  color: #00adee;
+}
+:global(.vtex-login-2-x-dontHaveAccount),
+:global(.vtex-login-2-x-forgotPasswordLink) {
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #00adee;
+}
+:global(.vtex-login-2-x-dontHaveAccount),
+:global(.vtex-login-2-x-forgotPasswordLink):hover {
+  color: #000000;
+  opacity: 1;
+}
+:global(.vtex-login-2-x-dontHaveAccount) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+:global(.vtex-login-2-x-button)
+  :global(.vtex-button)
+  :global(.vtex-login-2-x-oauthLabel) {
+  font-family: "TitilliumWebBold";
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-transform: inherit;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+/* Search #################################################################################################################################################################*/
+@media (min-width: 1024px) {
+  :global(.vtex-search-1-x-biggy-autocomplete) {
+    left: 2vw;
+    width: 986px;
+  }
+}
+@media (min-width: 1600px) {
+  :global(.vtex-search-1-x-biggy-autocomplete) {
+    left: 11.5vw;
+  }
+}
+:global(.vtex-search-1-x-itemList--suggestion) {
+  max-width: 198px;
+}
+
+/* Minicart #################################################################################################################################################################*/
+:global(.vtex-minicart-2-x-opened) {
+  max-width: 30vw;
+}
+:global(.vtex-minicart-2-x-drawerContent)
+  :global(.vtex-product-list-0-x-productPrice) {
+  margin-top: -6px;
+}
+
+/* Submenu ##################################################################################################################################################################*/
+:global(.vtex-menu-2-x-submenuWrapper) {
+  border: 0;
+  height: fit-content;
+  margin-left: 5%;
+  margin-top: 1rem;
+  width: 15%;
+  min-width: 300px;
+}
+:global(.vtex-rich-text-0-x-paragraph--submenuniv2),
+:global(.vtex-rich-text-0-x-paragraph--menucategoria) {
+  margin: 4px 0;
+}
+:global(.vtex-menu-2-x-styledLinkContent--subcatniv3),
+:global(.vtex-rich-text-0-x-paragraph--submenuniv2),
+:global(.vtex-rich-text-0-x-paragraph--menucategoria),
+:global(.vtex-rich-text-0-x-link--submenuniv2),
+:global(.vtex-rich-text-0-x-link--menucategoria) {
+  font-family: "TitilliumWebRegular";
+  font-size: 22px;
+  color: #000000 !important;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+:global(.vtex-menu-2-x-styledLinkContent--subcatniv3):hover,
+:global(.vtex-rich-text-0-x-paragraph--submenuniv2):hover,
+:global(.vtex-rich-text-0-x-paragraph--menucategoria):hover,
+:global(.vtex-rich-text-0-x-link--submenuniv2):hover,
+:global(.vtex-rich-text-0-x-link--menucategoria):hover {
+  color: #00adee !important;
+}
+:global(.vtex-overlay-layout-0-x-arrow) {
+  visibility: hidden;
+}
+:global(.vtex-overlay-layout-0-x-arrow)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/right-black.svg);
+  position: absolute;
+  left: -10px;
+  visibility: initial;
+}
+
+/* Submenu mobile ########################################################################################################################################################*/
+:global(.vtex-store-drawer-0-x-closeIconButton) {
+  position: absolute;
+  top: 36px;
+}
+:global(.vtex-rich-text-0-x-container--title-menu-mob) {
+  margin-left: 1.5rem;
+}
+:global(.vtex-store-drawer-0-x-closeIconContainer) {
+  justify-content: flex-end;
+}
+:global(.vtex-rich-text-0-x-paragraph--title-menu-mob) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #134197;
+}
+:global(.vtex-store-drawer-0-x-closeIcon),
+:global(.vtex-menu-2-x-accordionIcon) {
+  color: #134197;
+}
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-flex-layout-0-x-flexRow)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+  flex-direction: column;
+}
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #000000;
+  font-family: "TitilliumWebRegular";
+}
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemcatgs),
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemmenudeo),
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemoficina),
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemmayoreo),
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemofers),
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemservicios) {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 9px 0;
+}
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-menu-2-x-styledLinkContent--itemcatgsdraw) {
+  font-size: 22px;
+  font-weight: 600;
+  justify-content: flex-start !important;
+}
+:global(.vtex-menu-2-x-menuContainer--menmobo)
+  :global(.vtex-rich-text-0-x-paragraph--titmendrawer) {
+  color: #000000;
+  font-family: "TitilliumWebRegular";
+  font-size: 16px;
+  font-weight: 300;
+  margin: 2px 0;
+}
+:global(.vtex-menu-2-x-accordionIcon--itemcatgsdraw) {
+  position: absolute;
+  right: 8rem;
+}
+:global(.vtex-menu-2-x-accordionIcon--itemcatgs),
+:global(.vtex-menu-2-x-accordionIcon--itemcatgsdraw) {
+  font-size: 0;
+}
+:global(.vtex-menu-2-x-accordionIcon--itemcatgs--isOpen)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/up-arrow-24x24.png);
+}
+:global(.vtex-menu-2-x-accordionIcon--itemcatgs--isClosed)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/down-arrow-24x24.png);
+}
+:global(.vtex-menu-2-x-accordionIcon--itemcatgsdraw--isOpen)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/up-arrow-16x16.png);
+}
+:global(.vtex-menu-2-x-menuItem--itemcatgsdraw) {
+  margin: 5px 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--colcontlista)
+  :global(.vtex-menu-2-x-menuItem--item-menu-desk)
+  :global(.vtex-menu-2-x-styledLinkContent--item-menu-desk),
+:global(.vtex-menu-2-x-submenu--submenu-serv)
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--colcontlista)
+  :global(.vtex-menu-2-x-menuItem--item-menu-desk--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContent--item-menu-desk),
+:global(.vtex-menu-2-x-submenu--submenu-serv)
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuItem)
+  :global(.vtex-menu-2-x-styledLinkContent):hover {
+  color: #00adee;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-serv)
+  :global(.vtex-menu-2-x-submenuWrapper--submenu-serv) {
+  border-left: 1px solid #e1e1e1;
+  height: fit-content;
+  margin-left: 49%;
+  margin-top: 1rem;
+  width: fit-content;
+  min-width: 300px;
+}
+:global(.vtex-menu-2-x-submenu--submenu-serv)
+  :global(.vtex-flex-layout-0-x-flexCol--colcontlista),
+:global(.vtex-flex-layout-0-x-flexCol--colcontlista) {
+  padding: 0 !important;
+}
+:global(.vtex-menu-2-x-submenu--submenu-serv)
+  :global(.vtex-menu-2-x-menuContainerNav),
+:global(.vtex-menu-2-x-styledLinkContainer--subcatniv3) {
+  margin-left: 0;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+:global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--catmensticky) {
+  height: 50px;
+  justify-content: space-between;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 70% !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--catmensticky)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 30% !important;
+  }
+}
+:global(.vtex-menu-2-x-menuContainerNav) {
+  width: 100%;
+}
+:global(.vtex-menu-2-x-styledLinkContent--itemcatgsdraw) {
+  color: #194681;
+}
+:global(.vtex-menu-2-x-menuItem--itemcatgs),
+:global(.vtex-menu-2-x-menuItem--itemmenudeo),
+:global(.vtex-menu-2-x-menuItem--itemoficina),
+:global(.vtex-menu-2-x-menuItem--itemmayoreo),
+:global(.vtex-menu-2-x-menuItem--itemofers) {
+  border-right: 1px solid #ffffff;
+}
+:global(.vtex-menu-2-x-styledLinkContent--itemcatgs) {
+  justify-content: space-between !important;
+}
+
+/*-------------------------------- Menu 3 niveles ----------------------------------*/
+
+:global(.vtex-overlay-layout-0-x-trigger--trigersubmenu),
+:global(.vtex-overlay-layout-0-x-trigger--trigermenu) {
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--colcontlista) {
+  border-right: 1px solid #e1e1e1;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--submenuniv2) {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+:global(.vtex-overlay-layout-0-x-container--contenedorsubs) {
+  width: 100%;
+  min-height: 393px;
+  border-radius: 0%;
+  border-color: #e1e1e1;
+  border-left: 3px solid #f0f0f0;
+  background-color: #ffffff;
+  min-width: 300px;
+  padding: 0.75rem 0;
+  padding-right: 2rem;
+}
+
+/* ----------------------------- 3er Nivle mobile ----------------------- */
+
+:global(.vtex-store-drawer-0-x-openIconContainer) {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+:global(.vtex-search-2-x-tileListItem)
+  :global(.vtex-product-summary-2-x-containerNormal) {
+  padding: 5px;
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--search-bar-custom)
+  :global(.vtex-styleguide-9-x-input)::placeholder,
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--srchdraw)
+  :global(.vtex-styleguide-9-x-input)::placeholder {
+  text-align: left;
+}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--search-bar-custom)
+  :global(.vtex-styleguide-9-x-input) {
+  text-align: start;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer) {
+  padding: 7rem 0;
+}
+:global(.vtex-store-drawer-0-x-childrenContainer)
+  :global(.vtex-menu-2-x-menuContainer) {
+  flex-direction: column;
+}
+:global(.vtex-store-drawer-0-x-childrenContainer)
+  :global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-menu-2-x-menuContainer--subcatniv3)
+  :global(.vtex-menu-2-x-styledLinkContainer--subcatniv3) {
+  margin: 0.5rem 1.5rem;
+}
+
+/* Mega menu app ################################################################################################################################*/
+:global(.vtex-mega-menu-0-x-menuContainer) {
+  min-width: 300px;
+  width: 300px;
+}
+:global(.vtex-mega-menu-0-x-menuContainerNav) {
+  min-width: 300px;
+  width: fit-content !important;
+}
+:global(.vtex-mega-menu-0-x-triggerContainer) {
+  padding: 0;
+  margin-right: 43px !important;
+  margin-left: 1.5rem;
+}
+:global(.vtex-mega-menu-0-x-triggerContainer)::after {
+  content: "Departamentos";
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+:global(.vtex-menu-2-x-menuContainer)
+  :global(.vtex-flex-layout-0-x-flexCol):first-child {
+  width: 100%;
+  border: 0;
+}
+:global(.vtex-mega-menu-0-x-triggerButtonIcon) {
+  color: #ffffff;
+  margin-right: 7px;
+}
+:global(.vtex-mega-menu-0-x-styledLinkText) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+:global(.vtex-mega-menu-0-x-styledLinkContent) {
+  align-items: center;
+}
+:global(.vtex-menu-2-x-menuContainerNav) {
+  min-width: fit-content;
+}
+@media (min-width: 750px) {
+  :global(.vtex-menu-2-x-menuContainerNav) {
+    min-width: fit-content;
+    margin-left: 2rem;
+  }
+  :global(.vtex-rich-text-0-x-container--title-menu-mob) {
+    margin-left: 0;
+  }
+}
+:global(.vtex-telemarketing-2-x-loginAsText),
+:global(.vtex-telemarketing-2-x-loginFormMessage),
+:global(.vtex-telemarketing-2-x-loginForm) :global(.vtex-button__label),
+:global(.vtex-telemarketing-2-x-phoneField) {
+  font-size: 0;
+}
+:global(.vtex-telemarketing-2-x-loginAsText)::before {
+  content: "Ingresar";
+  font-family: "TitilliumWebRegular";
+  font-size: 0.75rem;
+}
+:global(.vtex-telemarketing-2-x-loginFormMessage)::before {
+  content: "Ingresar";
+  font-family: "TitilliumWebRegular";
+  font-size: 0.875rem;
+}
+:global(.vtex-telemarketing-2-x-loginForm)
+  :global(.vtex-button__label)::before {
+  content: "Ingresar";
+  font-size: 16px;
+}
+:global(.vtex-telemarketing-2-x-loginForm) :global(.vtex-button),
+:global(.vtex-telemarketing-2-x-logoutButtonsContainer) :global(.vtex-button) {
+  background: none;
+}
+:global(.vtex-telemarketing-2-x-phoneField)::before {
+  content: "Teléfono";
+  font-size: 0.875rem;
+}

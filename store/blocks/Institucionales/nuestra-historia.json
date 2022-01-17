@@ -1,0 +1,47 @@
+{
+  "store.custom#nuestra-historia": {
+    "children": [
+      "flex-layout.row#titulo-historia",
+      "flex-layout.row#texto-historia",
+      "back-to-top-button"
+    ]
+  },
+  "flex-layout.row#titulo-historia": {
+    "children": [
+      "flex-layout.col#coltit-historia"
+    ]
+  },
+  "flex-layout.col#coltit-historia": {
+    "children": [
+      "rich-text#titulo-historia"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#titulo-historia": {
+    "props": {
+      "text": "## Nuestra Historia",
+      "blockClass": "titins"
+    }
+  },
+  "flex-layout.row#texto-historia": {
+    "children": [
+      "flex-layout.col#coltxt-historia"
+    ]
+  },
+  "flex-layout.col#coltxt-historia": {
+    "children": [
+      "rich-text#txtinst-historia"
+    ],
+    "props": {
+      "blockClass": "content-institucional"
+    }
+  },
+  "rich-text#txtinst-historia": {
+    "props": {
+      "text": "**TONY** inicia operaciones en el a\u00F1o 1959 en la Ciudad de M\u00E9xico con la apertura de la primer Papeler\u00EDa TONY por Don Ramon Chedraui Caram. A trav\u00E9s de los a\u00F1os adquiere un fuerte impulso con la direcci\u00F3n de Antonio Chedraui Maf\u00FAd, actual presidente de Grupo Tony, logrando un fuerte crecimiento de su principal marca, Tony S\u00FAper Papeler\u00EDas, a lo largo de todo el pa\u00EDs a partir de los a\u00F1os setenta. Siempre con el objetivo de atender de una manera m\u00E1s especializada las necesidades del mercado y distingui\u00E9ndose desde un inicio por ofrecer la m\u00E1s amplia variedad de art\u00EDculos de los mejores fabricantes y siempre a los mejores precios.\r\n\r\nDurante los primeros a\u00F1os, **TONY** busca el afianzamiento del mercado a trav\u00E9s de la cobertura de rutas de distribuci\u00F3n teniendo como base la ciudad de Veracruz y como primeros destinos las zonas circunvecinas al Puerto de Veracruz y el estado de Oaxaca. En 1975 empieza su primera expansi\u00F3n y establece en Tampico un almac\u00E9n desde el cual se cubren tambi\u00E9n los estados de San Luis Potos\u00ED e Hidalgo. Para el a\u00F1o de 1976, se abre una sucursal en M\u00E9rida, Yucat\u00E1n para dar servicio al Estado y a sus vecinos de Quintana Roo y Campeche.\r\n\r\nUnos a\u00F1os m\u00E1s tarde, se abren otros almacenes en la Ciudad de M\u00E9xico y posteriormente en Tabasco y Puebla cubriendo as\u00ED la mayor parte del sureste mexicano, teniendo influencia en las zonas de Chiapas, Oaxaca, Tlaxcala, Hidalgo, Morelos y parte de Guerrero.\r\n\r\nDurante los a\u00F1os 80\u2019s y 90\u2019s se producen las aperturas de 17 almacenes en las ciudades de C\u00F3rdoba, Puebla, Coatzacoalcos, Ciudad de M\u00E9xico, Poza Rica, Tlalnepantla, Orizaba, San Luis Potos\u00ED, Tapachula, Acayucan, Le\u00F3n, Irapuato, Toluca, Iztapalapa, Xalapa, Oaxaca y 3 almacenes m\u00E1s en Guadalajara.\r\n\r\nCon la llegada del nuevo mileno y durante su primera d\u00E9cada se abren al p\u00FAblico 30 almacenes tanto en el \u00E1rea metropolitana de la CDMX, como en los estados de Quer\u00E9taro, Chiapas, Tabasco, Puebla, Nuevo Le\u00F3n, Oaxaca, Campeche, Guanajuato, Aguascalientes, Veracruz, Michoac\u00E1n, Sinaloa, Quintana Roo, Morelos, Coahuila, Tamaulipas, Nayarit, Guerrero, Yucat\u00E1n, Hidalgo, San Luis Potos\u00ED y Tlaxcala.\r\n\r\nA partir del 2010 y hasta la fecha se han abierto m\u00E1s de 85 sucursales, llegando as\u00ED a m\u00E1s de 140 almacenes a lo largo de toda la Rep\u00FAblica Mexicana. Confirm\u00E1ndonos a todos que es la fuerza de su gente la que ha hecho de **TONY** la empresa de papeler\u00EDa m\u00E1s grande e importante del pa\u00EDs.\r\n\r\n**L\u00EDder Nacional en Precios Bajos**",
+      "blockClass": "txtins"
+    }
+  }
+}

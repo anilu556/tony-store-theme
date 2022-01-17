@@ -1,0 +1,46 @@
+{
+  "store.custom#politica-envios": {
+      "children":[
+          "flex-layout.row#titulo-envios",
+          "flex-layout.row#texto-envios",
+          "back-to-top-button"
+      ]
+    },
+
+    "flex-layout.row#titulo-envios":{
+        "children":[
+            "flex-layout.col#coltit-envios"
+        ]
+    },
+    "flex-layout.col#coltit-envios":{
+        "children":[
+            "rich-text#titulo-envios"
+        ],"props":{
+          "horizontalAlign":"center"
+        }
+    },
+    "rich-text#titulo-envios":{
+        "props":{
+            "text":"## Política de envíos",
+            "blockClass": "titins"
+        }
+    },
+    "flex-layout.row#texto-envios":{
+        "children":[
+            "flex-layout.col#coltxt-envios"
+        ]
+    },
+    "flex-layout.col#coltxt-envios":{
+        "children":[
+            "rich-text#txtinst-envios"
+        ],
+        "props":{"blockClass":"content-institucional"}
+    },
+    "rich-text#txtinst-envios":{
+        "props":{
+            "text":"**Entrega a domicilio**\r\n\r\nPara pedidos realizados en www.tony.com.mx ofrecemos dos formas de env\u00EDo diferentes, las cuales son Env\u00EDo a domicilio por mensajer\u00EDa y Env\u00EDo a domicilio por reparto.\r\n\r\nLos tiempos de entrega son de 2 a 5 d\u00EDas h\u00E1biles (dependiendo de la zona donde te encuentres) y est\u00E9 tiempo comenzar\u00E1 a correr en el momento que recibas la confirmaci\u00F3n de tu pedido.\r\n\r\nTu forma de env\u00EDo depender\u00E1 del c\u00F3digo postal que hayas elegido para la entrega. Si este se encuentra dentro de la zona de reparto de la sucursal, se entregar\u00E1 mediante nuestras camionetas, y si se encuentra fuera de la zona de reparto se enviar\u00E1 mediante mensajer\u00EDa.\r\n\r\nTe en cuenta que si en tu pedido hay art\u00EDculos que no se encuentran en tu sucursal m\u00E1s cercana, se te enviar\u00E1n por mensajer\u00EDa y el pedido podr\u00EDa llegarte en dos partes\r\n\r\nPara pedidos mayores a $250.00 enviados con reparto propio no hay costo de env\u00EDo y para entregas por mensajer\u00EDa, ir\u00E1s recibiendo descuentos en el costo de env\u00EDo en tus pedidos desde $250.00 hasta $999.99 y en pedidos a partir de $1,000.00 el env\u00EDo es totalmente gratis.\r\n\r\n**Entrega en sucursal**\r\n\r\nPodr\u00E1s recoger tus pedidos sin m\u00EDnimo de compra y sin ning\u00FAn costo en nuestras m\u00E1s de 60 sucursales con este servicio.\r\n\r\nLo \u00FAnico que tienes que hacer es seleccionar la opci\u00F3n de Recoger en sucursal al momento de finalizar tu pedido y encontrar y elegir la sucursal que se acomode m\u00E1s a tus necesidades.\r\n\r\nUna vez que tu pedido se haya confirmado, se te indicar\u00E1 el d\u00EDa y hora en que puedas pasar a recoger tu pedido. Recuerda que es muy importante presentar una identificaci\u00F3n oficial y tener a la mano tu n\u00FAmero de pedido para que se te pueda hacer entrega de la mercanc\u00EDa.",
+            "blockClass":"txtins"
+        }
+    }
+
+}

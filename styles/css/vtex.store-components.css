@@ -1,0 +1,746 @@
+.notificationContent {
+  /* font-family: TitilliumWebBold; */
+  color: #fff;
+}
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+:global(.vtex-modal__modal) {
+  background-color: #134197;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button) {
+  background-color: #134197;
+}
+:global(.vtex-store-components-3-x-backToTopButtonContainer)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  color: #ffffff;
+}
+
+/* My Account #####################################################################################################################*/
+:global(.vtex-order-placed-2-x-cancelOrderButton) {
+  display: none;
+}
+:global(.vtex-my-orders-app-3-x-cancelBtn) {
+  display: none;
+}
+:global(.vtex-login-2-x-optionsList) :global(.vtex-button__label):hover {
+  background: none !important;
+}
+:global(.vtex-login-2-x-optionsList) :global(.vtex-button__label) {
+  padding-bottom: 0;
+}
+:global(.vtex-pageHeader__container) {
+  padding-left: 13px;
+}
+:global(.vtex-pageHeader__title) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-account_menu-link) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000 !important;
+  margin: 0;
+}
+:global(.vtex-account__page) :global(.vtex-button__label) {
+  color: #00adee;
+  text-transform: initial;
+}
+:global(.vtex-account__page) :global(.vtex-button) {
+  background: #ffffff;
+}
+:global(.vtex-account__page) :global(.vtex-button):hover {
+  background: none;
+}
+:global(.vtex-my-account-1-x-profileEdit) :global(.vtex-button),
+:global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button),
+:global(.vtex-pageHeader__children) :global(.vtex-button),
+:global(.vtex_my-authentication_savePassButton_container)
+  :global(.vtex-button) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #00adee;
+  text-transform: initial;
+  border: 1px solid #00adee;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+:global(.vtex-my-account-1-x-profileEdit) :global(.vtex-button):hover {
+  color: #ffffff;
+  border-color: #00adee;
+  background-color: #00adee;
+}
+:global(.vtex-my-account-1-x-profileEdit)
+  :global(.vtex-button)
+  :global(.vtex-button__label):hover,
+:global(.vtex-my-account-1-x-boxContainerBody)
+  :global(.vtex-button)
+  :global(.vtex-button__label):hover,
+:global(.vtex-pageHeader__children)
+  :global(.vtex-button)
+  :global(.vtex-button__label):hover,
+:global(.vtex_my-authentication_savePassButton_container)
+  :global(.vtex-button)
+  :global(.vtex-button__label):hover {
+  color: #ffffff;
+  border-color: #00adee;
+  background-color: #00adee;
+  cursor: pointer;
+}
+:global(.vtex-my-account-1-x-boxContainerFooter)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #00adee;
+  text-transform: initial;
+}
+:global(.vtex-account__create-card) :global(.vtex-button) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #00adee;
+  border-color: #00adee;
+  text-transform: initial;
+  background-color: #ffffff;
+}
+:global(.vtex-account__create-card) :global(.vtex-button__label) {
+  color: #00adee;
+  text-transform: initial;
+}
+:global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-input__label),
+:global(.vtex-dropdown__label) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-my-account-1-x-dataEntryChildren),
+:global(.vtex-my-account-1-x-newsletterContainerMessage),
+:global(.vtex-checkbox__label) {
+  font-family: "TitilliumWebLight";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-button) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #00adee;
+  border: 0;
+  text-transform: initial;
+  background-color: #ffffff;
+}
+:global(.vtex-button__label) {
+  color: #00adee;
+  text-transform: initial;
+}
+:global(.vtex-button):hover {
+  background-color: #ffffff;
+}
+:global(.vtex-button__label):hover {
+  background-color: #ffffff;
+}
+:global(.vtex-my-orders-app-3-x-detailsBtn) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #00adee;
+  height: 30px;
+  padding: 0;
+  background: #ffffff;
+  border: 1px solid #00adee;
+  transition: 0.3s ease all;
+}
+:global(.vtex-my-orders-app-3-x-detailsBtn):hover {
+  color: #ffffff;
+  background: #00adee;
+}
+:global(.vtex-my-orders-app-3-x-font) {
+  font-family: "TitilliumWebLight";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-my-orders-app-3-x-orderProduct)
+  :global(.vtex-my-orders-app-3-x-orderProductName),
+:global(.vtex-my-orders-app-3-x-productName) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  text-decoration: none;
+}
+:global(.vtex-my-orders-app-3-x-productName):hover {
+  color: #00adee;
+}
+:global(.vtex-my-orders-app-3-x-orderHeaderLabe) {
+  font-family: "TitilliumWebLight";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-pageHeader__container) {
+  padding-bottom: 0;
+}
+:global(.vtex-account__page-body) {
+  padding-top: 2px;
+}
+:global(.vtex-my-account-1-x-boxContainer),
+:global(.vtex_my-authentication_box_container) {
+  border: 1px solid #f0f0f0;
+}
+:global(.vtex-my-account-1-x-newsletterContainerTitle) {
+  font-family: TitilliumWebBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+:global(.vtex-my-account-1-x-passwordBox)
+  :global(.vtex-checkbox__inner-container) {
+  border-radius: 5px !important;
+}
+:global(.vtex-my-orders-app-3-x-orderCard) {
+  margin-top: 0;
+}
+:global(.vtex-account__page-body) :global(.vtex-input-prefix__group) {
+  border: 0;
+}
+:global(.vtex-account__page-body)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-input__suffix) {
+  display: none;
+}
+:global(.vtex-account__page-body)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-address-form-4-x-input) {
+  background: #f0f0f0;
+  border-radius: 4px;
+  border: 0;
+}
+:global(.vtex-modal__confirmation) {
+  justify-content: center;
+}
+:global(.vtex-modal__confirmation) :global(.vtex-button__label):hover {
+  background: none;
+}
+
+/* Order Placed ###########################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons)
+  :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
+  :global(.vtex-button),
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-updateOrderButton)
+  :global(.vtex-button),
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-myOrdersButton)
+  :global(.vtex-button) {
+  border: 1px solid #00adee;
+  border-radius: 4px;
+  background: #ffffff;
+  width: 183px;
+  height: 30px;
+  min-height: 30px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons)
+  :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
+  :global(.vtex-button):hover,
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-updateOrderButton)
+  :global(.vtex-button):hover,
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-myOrdersButton)
+  :global(.vtex-button):hover {
+  background: #00adee;
+}
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons)
+  :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
+  :global(.vtex-button__label),
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-updateOrderButton)
+  :global(.vtex-button__label),
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-myOrdersButton)
+  :global(.vtex-button__label) {
+  background: none;
+  padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--confirmationButtons)
+  :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
+  :global(.vtex-button__label):hover,
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-updateOrderButton)
+  :global(.vtex-button__label):hover,
+:global(.vtex-order-placed-2-x-orderOptionsWrapper)
+  :global(.vtex-order-placed-2-x-myOrdersButton)
+  :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+:global(.vtex-order-placed-2-x-cancelOrderButton) :global(.vtex-button__label) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #f8002e;
+}
+:global(.vtex-order-placed-2-x-orderNumber) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-productName) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-customerInfoListName),
+:global(.vtex-order-placed-2-x-paymentGroup),
+:global(.vtex-order-placed-2-x-packageDeliveryTitle),
+:global(.vtex-order-placed-2-x-orderSeller) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-orderDatetime),
+:global(.vtex-order-placed-2-x-orderSoldBy),
+:global(.vtex-order-placed-2-x-customerInfoListEmail),
+:global(.vtex-order-placed-2-x-customerInfoListDocument),
+:global(.vtex-order-placed-2-x-customerInfoListPhone),
+:global(.vtex-order-placed-2-x-paymentValue),
+:global(.vtex-order-placed-2-x-packageShippingEstimate),
+:global(.vtex-order-placed-2-x-packageSLA),
+:global(.vtex-order-placed-2-x-productQuantity) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-noticeListItem) {
+  border: 0;
+  padding: 10px;
+}
+:global(.vtex-order-placed-2-x-confirmationTitle) {
+  font-size: 0 !important;
+}
+:global(.vtex-order-placed-2-x-confirmationTitle)::before {
+  content: "¡Gracias por tu compra!";
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-confirmationMessage) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin: auto 20px;
+}
+:global(.vtex-store-components-3-x-imageElement--order-placed-icon) {
+  max-height: 132px !important;
+  margin: 32px 0;
+}
+:global(.vtex-order-placed-2-x-totalList) {
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+:global(.vtex-order-placed-2-x-totalListItem--Items),
+:global(.vtex-order-placed-2-x-totalListItem--Shipping) {
+  border-bottom: 1px solid #e4e4e4;
+}
+:global(.vtex-order-placed-2-x-totalListItem--Items)
+  :global(.vtex-order-placed-2-x-totalListItemLabel),
+:global(.vtex-order-placed-2-x-totalListItem--Shipping)
+  :global(.vtex-order-placed-2-x-totalListItemLabel) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-totalListItemLabel) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-totalListItemValue) {
+  font-family: "TitilliumWebLight";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-order-placed-2-x-section) {
+  border: 0;
+}
+:global(.vtex-rich-text-0-x-link--link-facturar) {
+  border: 1px solid #00adee;
+  border-radius: 4px;
+  background: #ffffff;
+  width: 183px;
+  height: 30px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #00adee;
+}
+:global(.vtex-rich-text-0-x-link--link-facturar):hover {
+  color: #ffffff;
+  background: #00adee;
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonActive) {
+  left: 1rem !important;
+  top: 45rem;
+}
+:global(.vtex-store-components-3-x-backToTopButtonActive)
+  :global(.vtex-button):hover {
+  background-color: #134197;
+}
+:global(.vtex-store-components-3-x-backToTopButtonActive)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  background: none;
+}
+:global(.vtex-flex-layout-0-x-boton-captcha-container) :global(.vtex-input) {
+  width: fit-content !important;
+  margin: 0 10px;
+}
+:global(.vtex-flex-layout-0-x-boton-captcha-container)
+  :global(.vtex-input-prefix__group) {
+  width: 30px !important;
+}
+:global(.vtex-flex-layout-0-x-boton-captcha-container)
+  :global(.vtex-styleguide-9-x-input) {
+  padding: 0 !important;
+  text-align: center !important;
+  font-weight: bold;
+}
+:global(.vtex-flex-layout-0-x-boton-captcha-btncontainer) {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-boton-captcha-btncontainer)
+  :global(.vtex-button) {
+  background: none !important;
+  width: fit-content;
+}
+:global(.vtex-flex-layout-0-x-boton-captcha-btncontainer)
+  :global(.vtex-button):hover {
+  background: none !important;
+}
+:global(.vtex-order-placed-2-x-updateOrderButton) {
+  display: none;
+}
+:global(.vtex-order-placed-2-x-orderWrapper)
+  :global(.vtex-flex-layout-0-x-flexRow)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexCol)
+  :global(.vtex-flex-layout-0-x-flexColChild) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+}
+:global(.vtex-rich-text-0-x-paragraph--link-facturar) {
+  margin: 0 20px;
+}
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) {
+  align-items: baseline;
+}
+
+/* Inicia Store locator */
+:global(.vtex-store-locator-0-x-storesListCol) {
+  max-height: 40rem;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--title)
+  :global(.vtex-rich-text-0-x-container) {
+  font-family: TitilliumWebRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+}
+:global(.vtex-store-locator-0-x-addressListItem),
+:global(.vtex-flex-layout-0-x-flexCol--details) {
+  font-family: TitilliumWebRegular;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--details) {
+  margin: 0.5rem 0;
+}
+:global(.vtex-store-locator-0-x-hoursContainer) {
+  max-width: 20rem;
+}
+:global(.vtex-store-locator-0-x-addressLink) {
+  color: #000000;
+}
+@media (max-width: 750px) {
+  :global(.vtex-store-locator-0-x-container) {
+    flex-direction: column-reverse;
+  }
+  :global(.vtex-store-locator-0-x-storesListCol) {
+    width: 100%;
+  }
+  :global(.vtex-store-locator-0-x-storesList) {
+    max-height: 20rem;
+  }
+  :global(.vtex-store-locator-0-x-storesMapCol) {
+    height: 15rem;
+    width: 100%;
+  }
+  :global(.vtex-store-locator-0-x-addressList) {
+    padding: 0;
+  }
+}
+
+
+/*Cambios tickets*/
+
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
+:global(.vtex-input), 
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
+:global(.vtex-textarea),
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
+:global(.vtex-styleguide-9-x-dropdown)
+{
+  width: 70%;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
+:global(.vtex-store-form-0-x-formSubmitContainer){
+  width: 40%;
+  margin: 0 auto;
+}
+
+:global(.vtex-my-orders-app-3-x-invoiceBtn)::after{
+  content: "Orden de pago";
+}
+
+
+:global(.vtex-my-orders-app-3-x-font){
+  font-size: 0px;
+}
+
+:global(.vtex-order-placed-2-x-section--notices)
+:global(.vtex-button__label){
+  font-size: 16px;
+}
+
+:global(.vtex-order-placed-2-x-section--notices)
+:global(.vtex-button__label){
+  font-size: 0;
+}
+
+:global(.vtex-order-placed-2-x-section--notices)
+:global(.vtex-button__label)::after{
+  content: "Orden de pago Oxxo";
+  font-size: 16px;
+}
+
+/* :global(.vtex-rich-text-0-x-container--menucategoria){
+  outline: 1px solid;
+} */

@@ -1,0 +1,403 @@
+.flexRow--orderByAndSwitcher {
+  padding-right: 1.5em;
+}
+
+.flexRowContent--savingsSummaryListDesktop {
+  justify-content: flex-start;
+}
+
+.flexCol--summaryRightListDesktop {
+  justify-content: space-around;
+}
+
+.flexRow--buyNowButton :global(.vtex-button) {
+  background: #eef3f7;
+  border-color: #eef3f7;
+  color: #0f3e99;
+}
+
+.flexRow--buyNowButton:hover :global(.vtex-button) {
+  background: #dbe9fd;
+  border-color: #dbe9fd;
+}
+
+.flexCol--productRating {
+  margin-bottom: 3rem;
+}
+
+.flexCol--summaryDetailsListMobile {
+  justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+  margin-bottom: 0.25rem;
+}
+
+:global(.vtex-search-1-x-itemListTitle) {
+  text-transform: initial;
+}
+
+/* Search Results Page ###########################################################################################################################################################*/
+/* Department Banner*/
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  padding: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRow--top-search) {
+  padding-top: 1rem;
+}
+:global(.vtex-search-1-x-searchBanner--banner-search) {
+  max-height: 300px;
+  min-width: 100%;
+}
+:global(.vtex-search-result-3-x-container--layout)
+  :global(.vtex-store-components-3-x-container):first-child {
+  padding: 0;
+}
+:global(.vtex-search-result-3-x-totalProducts--layout) {
+  padding: 0 5px;
+}
+@media (min-width: 400px) {
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding: 0;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--top-search) {
+  padding: 1rem 1rem 0 1rem;
+}
+:global(.vtex-flex-layout-0-x-flexRow--resultCol) {
+  padding: 0 1rem;
+}
+@media (min-width: 750px) and (max-width: 1023px) {
+  :global(.vtex-search-1-x-searchBanner--banner-search-mobile) {
+    display: none;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--searchbread),
+  :global(.vtex-flex-layout-0-x-flexCol--productCountMobileRow) {
+    padding: 0 1rem;
+  }
+  :global(.vtex-search-result-3-x-galleryTitle--layout),
+  :global(.vtex-flex-layout-0-x-flexCol--productCountMobileRow) {
+    padding-bottom: 2rem !important;
+    padding-top: 1rem;
+  }
+  :global(.vtex-search-result-3-x-gallery) {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+  :global(.vtex-search-1-x-searchBanner--banner-search-mobile) {
+    display: none;
+  }
+  :global(.vtex-search-result-3-x-galleryTitle--layout),
+  :global(.vtex-flex-layout-0-x-flexCol--productCountMobileRow) {
+    padding-bottom: 2rem !important;
+  }
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding-right: 1rem !important;
+  }
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    padding-left: 12rem !important;
+  }
+  :global(.vtex-search-result-3-x-gallery) {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 750px) {
+  :global(.vtex-search-1-x-searchBanner--banner-search-tablet) {
+    display: none;
+  }
+}
+/* Bread crumb ################################################################################################################################################################*/
+:global(.vtex-breadcrumb-1-x-homeLink)::before {
+  content: "Home";
+  font-family: "TitilliumWebRegular";
+  font-size: 16px;
+  color: #000000;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--searchbread) {
+  padding: 0 0.5rem;
+}
+@media (min-width: 750px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--searchbread) {
+    padding: 0;
+  }
+}
+:global(.vtex-breadcrumb-1-x-homeLink) {
+  vertical-align: inherit;
+}
+:global(.vtex-breadcrumb-1-x-homeLink):hover::before {
+  color: #00adee;
+}
+:global(.vtex-breadcrumb-1-x-homeIcon) {
+  display: none;
+}
+:global(.vtex-breadcrumb-1-x-link) {
+  font-family: "TitilliumWebRegular";
+  font-size: 16px;
+  color: #000000;
+  text-transform: capitalize;
+}
+:global(.vtex-breadcrumb-1-x-link):hover {
+  color: #00adee;
+}
+
+/*Mobile top search results page*/
+:global(.vtex-flex-layout-0-x-flexRowContent--top-title-count-mobile) {
+  display: flex;
+}
+:global(.vtex-search-result-3-x-totalProducts--layout) {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  border: 0;
+}
+@media (min-width: 750px) {
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1025px) {
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    margin-top: 0;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--top-title-count-mobile)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 220% !important;
+}
+:global(.vtex-search-result-3-x-galleryTitle--layout) {
+  text-align: center;
+  margin-left: 20vw;
+}
+@media (min-width: 750px) {
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    text-align: center;
+    padding-left: 110px;
+    margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    padding-left: 0;
+  }
+}
+:global(.vtex-search-result-3-x-orderByDropdown) {
+  padding-top: 0;
+}
+
+/* Top Search results page*/
+:global(.vtex-flex-layout-0-x-flexRowContent--top-search) {
+  flex-direction: column;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--top-search)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--orderByAndSwitcher) {
+  justify-content: space-between;
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--orderByAndSwitcher) {
+  padding-left: 15vw;
+}
+:global(.vtex-search-result-3-x-galleryTitle--layout) {
+  text-transform: inherit;
+  font-family: "TitilliumWebBold";
+  font-size: 34px;
+}
+:global(.vtex-search-result-3-x-totalProductsMessage) {
+  font-size: 0;
+}
+:global(.vtex-search-result-3-x-totalProductsMessage)::before {
+  content: "Resultados";
+  font-size: 16px;
+  font-family: "TitilliumWebRegular";
+  text-transform: lowercase;
+  color: #000000;
+}
+:global(.vtex-search-result-3-x-totalProducts--layout) {
+  font-size: 16px;
+  font-family: "TitilliumWebRegular";
+  color: #000000;
+}
+@media (min-width: 1300px) {
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding: 16px 64px;
+  }
+}
+:global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0;
+}
+:global(.vtex-search-result-3-x-orderByDropdown)
+  :global(.vtex-search-result-3-x-filterPopupTitle)::before {
+  content: "Ordenar por";
+  font-size: 16px;
+  font-family: "TitilliumWebRegular";
+  text-transform: initial;
+  color: #5e5e5e;
+}
+:global(.vtex-search-result-3-x-orderByButton),
+:global(.vtex-search-result-3-x-filterPopupButton) {
+  border: 1px solid #5e5e5e;
+  border-radius: 4px;
+  height: 30px;
+  width: 165px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (min-width: 400px) {
+  :global(.vtex-search-result-3-x-orderByButton),
+  :global(.vtex-search-result-3-x-filterPopupButton) {
+    width: 183px;
+  }
+}
+:global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+  padding: 0;
+  padding-top: 5px;
+}
+:global(.vtex-search-result-3-x-filterPopupButton)
+  :global(.vtex-search-result-3-x-filterPopupTitle)::before {
+  content: "Filtrar por";
+  font-size: 16px;
+  font-family: "TitilliumWebRegular";
+  text-transform: initial;
+  color: #5e5e5e;
+}
+:global(.vtex-search-result-3-x-filterIcon),
+:global(.vtex-search-result-3-x-caretIcon) {
+  display: none;
+}
+:global(.vtex-search-result-3-x-filterPopupArrowIcon)::before {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/down-arrow-search-filters.png);
+  width: 16px;
+}
+
+/*Content search*/
+:global(.vtex-flex-layout-0-x-flexRow--content-mobile)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button) {
+  background: #82c341;
+  border-radius: 4px;
+  border: 0;
+  width: 264px;
+  height: 39px;
+  transition: 0.3s ease all;
+}
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button):hover {
+  background: #7ab83c;
+}
+:global(.vtex-search-result-3-x-buttonShowMore)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font-size: 0;
+}
+:global(.vtex-search-result-3-x-buttonShowMore)
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before {
+  content: "Ver más";
+  font-family: "TitilliumWebBold";
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: initial;
+}
+
+/* Filters column */
+:global(.vtex-search-result-3-x-filtersWrapper) {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 21px 10px;
+  position: relative;
+}
+:global(.vtex-search-result-3-x-filter__container--title) {
+  position: absolute;
+  top: -60px;
+  border: 0;
+}
+:global(.vtex-search-result-3-x-filter__container--title)
+  :global(.vtex-search-result-3-x-filterMessage) {
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+  font-size: 26px;
+}
+:global(.vtex-search-result-3-x-filterSelected)
+  :global(.vtex-search-result-3-x-filterTitle),
+:global(.vtex-search-result-3-x-filterBreadcrumbsText),
+:global(.vtex-search-result-3-x-filterBreadcrumbsText) {
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: initial;
+}
+:global(.vtex-checkbox__inner-container) {
+  border-radius: 4px;
+}
+:global(.vtex-checkbox__line-container) {
+  align-items: center;
+}
+:global(.vtex-search-result-3-x-filterTitle),
+:global(.vtex-search-result-3-x-accordionFilterItemTitle),
+:global(.vtex-search-result-3-x-filterBreadcrumbsItemName) {
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+:global(.vtex-search-result-3-x-filter__container) {
+  border-color: #ffffff;
+}
+:global(.vtex-slider__base-internal),
+:global(.vtex-slider__selector) {
+  background-color: #134197;
+}
+:global(.vtex-slider__left-value),
+:global(.vtex-slider__right-value) {
+  font-family: "TitilliumWebRegular";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+:global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__label) {
+  font-family: "TitilliumWebRegular";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+}
+:global(.vtex-breadcrumb-1-x-arrow)::before {
+  content: "/";
+  color: #000000;
+  font-size: 18px;
+}
+:global(.vtex-breadcrumb-1-x-caretIcon) {
+  display: none;
+}
+:global(.vtex-search-result-3-x-filterApplyButtonWrapper)
+  :global(.vtex-button) {
+  background: #82c341;
+  border-radius: 4px;
+  border: 0;
+}
+:global(.vtex-search-result-3-x-filterApplyButtonWrapper)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font-family: "TitilliumWebBold";
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: initial;
+}
+:global(.vtex-search-result-3-x-filterClearButtonWrapper)
+  :global(.vtex-button__label) {
+  font-family: "TitilliumWebBold";
+  color: #000000;
+  font-size: 16px;
+  text-transform: initial;
+}
+:global(.vtex-search-result-3-x-buttonShowMore)
+:global(.vtex-button__label):hover {
+  background: none;
+}

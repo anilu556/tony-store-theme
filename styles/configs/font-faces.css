@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "TitilliumWebBold";
+  src: url(assets/fonts/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+  font-family: "TitilliumWebRegular";
+  src: url(assets/fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+  font-family: "TitilliumWebLight";
+  src: url(assets/fonts/TitilliumWeb-Light.ttf);
+}

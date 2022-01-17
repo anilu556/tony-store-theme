@@ -1,0 +1,611 @@
+:global(.vtex-rich-text-0-x-heading--titins) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-rich-text-0-x-strong--txtins) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-rich-text-0-x-paragraph--txtins) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-flex-layout-0-x-flexCol--content-institucional) {
+  margin: 0 10px;
+}
+@media (min-width: 750px) {
+  :global(.vtex-flex-layout-0-x-flexCol--content-institucional) {
+    margin: 0 89px;
+  }
+}
+
+/* Preguntas frecuentes ############################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--faq-row)
+  :global(.vtex-flex-layout-0-x-flexRowContent--faq-row) {
+  max-width: 1250px;
+  margin: auto;
+}
+:global(.vtex-rich-text-0-x-wrapper--faq-title)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-rich-text-0-x-container--faq-title) {
+  justify-content: center;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--question) {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--question)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: start;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 10px 0;
+}
+@media (min-width: 1024px) {
+  :global(.vtex-disclosure-layout-1-x-trigger--question)
+    :global(.vtex-rich-text-0-x-paragraph) {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
+:global(.vtex-disclosure-layout-1-x-content--answer)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: "TitilliumWebLight";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 0;
+}
+:global(.vtex-store-icons-0-x-caretIcon) {
+  color: #00adee;
+  min-width: 16px;
+}
+:global(.vtex-disclosure-layout-1-x-trigger)
+  :global(.vtex-rich-text-0-x-container)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  padding-right: 30px;
+}
+:global(.vtex-rich-text-0-x-container--h1-instit-facturacion) {
+  justify-content: center;
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-rich-text-0-x-paragraph--h1-instit-facturacion) {
+  margin-bottom: 0.5rem;
+}
+:global(.vtex-flex-layout-0-x-disclosure-facturacion) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+:global(.vtex-flex-layout-0-x-boton-facturacion-container) {
+  margin: 2rem 0;
+}
+@media (min-width: 479px) {
+  :global(.vtex-flex-layout-0-x-boton-facturacion-container) {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+:global(.vtex-flex-layout-0-x-boton-facturacion-container)
+  :global(.vtex-button) {
+  background: #82c341;
+  border-radius: 4px;
+  height: 30px;
+}
+@media (min-width: 750px) {
+  :global(.vtex-flex-layout-0-x-boton-facturacion-container)
+    :global(.vtex-button) {
+    width: 409px;
+  }
+}
+:global(.vtex-flex-layout-0-x-boton-facturacion-container)
+  :global(.vtex-button):hover {
+  background: #7ab83c;
+}
+:global(.vtex-flex-layout-0-x-boton-facturacion-container)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  color: #ffffff;
+  background: none;
+}
+:global(.vtex-flex-layout-0-x-formContainer-facturacion)
+  :global(.vtex-input-prefix__group),
+:global(.vtex-flex-layout-0-x-table-modalAdress-container)
+  :global(.vtex-input-prefix__group) {
+  border: 0;
+}
+:global(.vtex-flex-layout-0-x-formContainer-facturacion)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input),
+:global(.vtex-flex-layout-0-x-table-modalAdress-container)
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input) {
+  background: #f0f0f0;
+  border-radius: 4px;
+  text-align: start;
+}
+:global(.vtex-flex-layout-0-x-formContainer-facturacion)
+  :global(.vtex-styleguide-9-x-container),
+:global(.vtex-flex-layout-0-x-table-modalAdress-container)
+  :global(.vtex-styleguide-9-x-container) {
+  background: #f0f0f0;
+  border: 0;
+  border-radius: 4px;
+}
+:global(.vtex-flex-layout-0-x-checkbox-option) {
+  padding: 0 1rem;
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-checkbox__inner-container) {
+  border-radius: 50% !important;
+  border: 1px solid #82c341;
+}
+:global(.vtex-flex-layout-0-x-btn-modal) :global(.vtex-button) {
+  border: 1px solid #00adee;
+  background: #ffffff;
+  margin: 2rem 0;
+  width: 100%;
+  height: 33px;
+  min-height: 33px;
+  transition: 0.3s ease all;
+}
+@media (min-width: 750px) {
+  :global(.vtex-flex-layout-0-x-btn-modal) :global(.vtex-button) {
+    width: 339px;
+  }
+}
+:global(.vtex-flex-layout-0-x-btn-modal) :global(.vtex-button__label) {
+  background: none;
+  transition: 0.3s ease all;
+}
+:global(.vtex-flex-layout-0-x-btn-modal) :global(.vtex-button):hover {
+  background-color: #00adee;
+}
+:global(.vtex-flex-layout-0-x-btn-modal) :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+:global(.vtex-flex-layout-0-x-modalAdress-container) {
+  font-family: "TitilliumWebRegular";
+}
+:global(.vtex-flex-layout-0-x-titulo-modalAdress) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+:global(.vtex-flex-layout-0-x-table-modalAdress-container) {
+  background-color: #ffffff;
+  padding: 10px;
+}
+:global(.vtex-flex-layout-0-x-header-table-item) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-modal__modal) {
+  min-width: 70vw;
+}
+:global(.vtex-flex-layout-0-x-body-table-item) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7);
+}
+:global(.vtex-flex-layout-0-x-table-modalAdress-container)
+  :global(.vtex-checkbox__line-container) {
+  margin-bottom: 6px;
+}
+:global(.vtex-flex-layout-0-x-checkbox-icon) {
+  margin-right: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--faq-row)
+  :global(.vtex-rich-text-0-x-link) {
+  color: #000000;
+  text-decoration: none;
+}
+:global(.vtex-disclosure-layout-1-x-content--answer--visible),
+:global(.vtex-disclosure-layout-1-x-content--answer--visible)
+  :global(.vtex-rich-text-0-x-listOrdered) {
+  padding-top: 0 !important;
+  margin: 0 !important;
+  padding-bottom: 20px !important;
+}
+
+/* Ofertas */
+:global(.vtex-flex-layout-0-x-flexRow--contenedor-banner-fertas) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+:global(.vtex-flex-layout-0-x-flexRow--contenedor-banner-fertas)
+  :global(.vtex-store-components-3-x-container) {
+  margin: 0;
+  padding: 0;
+}
+:global(.vtex-store-components-3-x-imageElement--contenedor-banner-fertas) {
+  min-width: 99.1vw !important;
+}
+
+/* Formulario de contacto */
+:global(.vtex-rich-text-0-x-container--titins-contacto),
+:global(.vtex-rich-text-0-x-container--link-faq) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-container--btn-home) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-link--btn-home) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-decoration: none;
+
+  padding: 0 12px;
+  background: #f8002e;
+  border-radius: 4px;
+  transition: 0.3s ease all;
+}
+:global(.vtex-rich-text-0-x-link--btn-home):hover {
+  background: #c70126;
+}
+@media (min-width: 750px) {
+  :global(.vtex-rich-text-0-x-paragraph--btn-home) {
+    margin-top: 110px;
+  }
+  :global(.vtex-rich-text-0-x-link--btn-home) {
+    padding: 0 140px;
+  }
+}
+:global(.vtex-rich-text-0-x-heading--titins) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+:global(.vtex-rich-text-0-x-paragraph--link-faq) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin-top: 0;
+}
+@media (min-width: 750px) {
+  :global(.vtex-rich-text-0-x-paragraph--link-faq) {
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-dropdown__label),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-textarea__label) {
+  display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-styleguide-9-x-input),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-textarea__input),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-dropdown__caption) {
+  text-align: left;
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-input-prefix__group),
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-textarea__input) {
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-input)::before,
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-dropdown)::before,
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-textarea)::before {
+  content: url(/arquivos/aster.png);
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-dropdown__container) {
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--container-formulario)
+  :global(.vtex-dropdown__error) {
+  margin-top: -15px;
+  margin-bottom: 1rem;
+}
+:global(.vtex-flex-layout-0-x-flexRow--contenedor-banner-contacto) {
+  background: #f0f0f0;
+  padding: 42px 0;
+  margin-bottom: -40px;
+}
+@media (min-width: 450px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contenedor-banner-contacto) {
+    margin-bottom: -100px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--contact),
+:global(.vtex-flex-layout-0-x-flexRowContent--contact),
+:global(.vtex-flex-layout-0-x-flexRow--contact)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+  max-width: none;
+}
+:global(.vtex-flex-layout-0-x-flexCol--main-content-form) {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 15px;
+}
+:global(.vtex-store-form-0-x-formSubmitContainer--btn-submit) {
+  margin-bottom: 29px;
+}
+@media (min-width: 400px) {
+  :global(.vtex-store-form-0-x-formSubmitContainer--btn-submit) {
+    margin-bottom: 58px;
+  }
+}
+:global(.vtex-store-form-0-x-formSubmitContainer--btn-submit)
+  :global(.vtex-button) {
+  background: #f8002e;
+  border-radius: 4px;
+  width: 100%;
+  transition: 0.3s ease all;
+}
+:global(.vtex-store-form-0-x-formSubmitContainer--btn-submit)
+  :global(.vtex-button):hover {
+  background: #c70126;
+}
+:global(.vtex-store-form-0-x-formSubmitContainer--btn-submit)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  color: #ffffff;
+}
+:global(.vtex-store-form-0-x-formSubmitContainer--btn-submit)
+  :global(.vtex-button)
+  :global(.vtex-button__label):hover {
+  background: none;
+}
+:global(.vtex-rich-text-0-x-paragraph--txt-banner-contacto) {
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  text-align: center;
+}
+:global(.vtex-rich-text-0-x-container--txt-banner-contacto) {
+  justify-content: center;
+  padding: 0 15px;
+}
+@media (min-width: 750px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--cont-info-contacto) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+:global(.vtex-rich-text-0-x-link--txt-banner-contacto) {
+  text-decoration: none;
+  font-family: "TitilliumWebRegular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  text-align: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--cont-info-contacto)
+  :global(.vtex-store-components-3-x-imageElementLink) {
+  display: contents;
+}
+:global(.vtex-rich-text-0-x-headingLevel2--titins-contacto) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin-bottom: 0;
+}
+@media (min-width: 750px) {
+  :global(.vtex-rich-text-0-x-headingLevel2--titins-contacto) {
+    font-size: 42px;
+    line-height: 64px;
+    margin-bottom: 1rem;
+  }
+}
+:global(.vtex-rich-text-0-x-wrapper--form-exitoso)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  font-family: "TitilliumWebBold";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+/* Encuesta #################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexColChild--content-institucional) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Promociones ###############################################################################################################################*/
+:global(.vtex-store-components-3-x-imageElementLink--image-box-promo-indiv) {
+  display: contents;
+}
+:global(.vtex-store-components-3-x-imageElement--image-box-promo-indiv) {
+  min-width: 100%;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional-indiv)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+:global(.vtex-store-components-3-x-imageElement--image-box-promo) {
+  min-height: 100%;
+}
+@media (min-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexCol--content-promo-institucional) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    row-gap: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--left-box)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-store-components-3-x-imageElementLink--image-box-promo) {
+    display: flex;
+    justify-content: flex-end;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--right-box)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+    :global(.vtex-store-components-3-x-imageElementLink--image-box-promo) {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+/* Bolsa de trabajo ##########################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRowContent--content-bolsa-trabajo) {
+  flex-direction: column;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--content-bolsa-trabajo)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+:global(.vtex-rich-text-0-x-container--txt-ins) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--txt-ins) {
+  text-align: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-flex-layout-0-x-flexRow--container-formulario) {
+  max-width: 600px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-store-form-0-x-formSubmitContainer) {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-store-form-0-x-formSubmitContainer)
+  :global(.vtex-button) {
+  background: none;
+  border: 1px solid #00adee;
+  transition: 0.3s ease all;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-store-form-0-x-formSubmitContainer)
+  :global(.vtex-button__label) {
+  background: none;
+  transition: 0.3s ease all;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-store-form-0-x-formSubmitContainer)
+  :global(.vtex-button):hover {
+  background: #00adee;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-store-form-0-x-formSubmitContainer)
+  :global(.vtex-button__label):hover {
+  background: none;
+  color: #ffffff;
+}
+:global(.vtex-flex-layout-0-x-flexRow--content-bolsa-trabajo)
+  :global(.vtex-rich-text-0-x-paragraph),
+:global(.vtex-rich-text-0-x-paragraph--txt-ins) {
+  font-family: "TitilliumWebRegular" !important;
+  font-size: 18px;
+}

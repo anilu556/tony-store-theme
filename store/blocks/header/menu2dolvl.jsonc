@@ -1,0 +1,1802 @@
+{
+  // ------------------- Inicio Arte y manualidades ----------------
+  "vtex.menu@2.x:menu#secondlevel1":{
+      "props":{
+          "orientiation":"vertical",
+          "blockClass":"segundonivel"
+      },
+      "children":[
+        "flex-layout.col#colmenusegnivel1"
+      ]
+  },"flex-layout.col#colmenusegnivel1":{
+      "children":[
+      "overlay-trigger#art-y-man1",
+      "overlay-trigger#art-y-man2",
+      "overlay-trigger#art-y-man3",
+      "overlay-trigger#art-y-man4"
+      ],"props":{
+          "blockClass":"colcontlista"
+      }
+  },
+
+
+  "overlay-trigger#art-y-man1":{
+      "children":[
+          "rich-text#categoria11",
+          "overlay-layout#categoria11"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigermenu"
+        }
+  },"rich-text#categoria11":{
+      "props":{
+          "text":"Accesorios para manualidades",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria11":{
+      "children":[
+        "vtex.menu@2.x:menu#thirlevel11"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":170
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel11":{
+    "props":{
+        "categoryId": 4,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#thirlevelnewAcces":{
+    "props":{
+        "categoryId": 4,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+
+
+
+  "overlay-trigger#art-y-man2":{
+      "children":[
+          "rich-text#categoria12",
+          "overlay-layout#categoria12"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria12":{
+      "props":{
+          "text":"Dibujo",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria12":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel12"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":100
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel12":{
+      "props":{
+          "categoryId": 300003,
+          "orientation": "vertical",
+          "blockClass":"subcatniv3"
+      }
+  },
+
+
+  "overlay-trigger#art-y-man3":{
+      "children":[
+          "rich-text#categoria13",
+          "overlay-layout#categoria13"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria13":{
+      "props":{
+          "text":"Manualidades",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria13":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel13"
+
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":57
+          }
+      }
+  },
+  "vtex.menu@2.x:menu#thirlevel13":{
+      "props":{
+          "categoryId": 299025,
+          "orientation": "vertical",
+          "blockClass":"subcatniv3"
+      }
+  },
+
+  "overlay-trigger#art-y-man4":{
+      "children":[
+          "rich-text#categoria14",
+          "overlay-layout#categoria14"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria14":{
+      "props":{
+          "text":"Pinturas",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria14":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel14"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":16
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel14":{
+      "props":{
+          "categoryId": 299033,
+          "orientation": "vertical",
+          "blockClass":"subcatniv3"
+      }
+  },
+
+
+  // ------------------- Fin Arte y manualidades ----------------
+
+  // ------------------- Inicio Computo e impresión ----------------
+  "vtex.menu@2.x:menu#secondlevel2":{
+      "props":{
+          "orientiation":"vertical",
+          "blockClass":"segundonivel"
+      },
+      "children":[
+          "flex-layout.col#colmenusegniveComputo"
+      ]
+  },"flex-layout.col#colmenusegniveComputo":{
+      "children":[
+      "overlay-trigger#computo1",
+      "overlay-trigger#computo2",
+      "overlay-trigger#computo3",
+      "overlay-trigger#computo4",
+      "overlay-trigger#computo5",
+      "overlay-trigger#computo6",
+      "overlay-trigger#computo7",
+      "overlay-trigger#computo8"
+      ],"props":{
+          "blockClass":"colcontlista"
+        }
+  },
+
+
+  "overlay-trigger#computo1":{
+      "children":[
+          "rich-text#computo1",
+          "overlay-layout#computo1"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigermenu"
+        }
+  },"rich-text#computo1":{
+      "props":{
+          "text":"Accesorios de Cómputo",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#computo1":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel21"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":170
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel21":{
+      "props":{
+          "categoryId": 1,
+          "orientation": "vertical",
+          "blockClass":"subcatniv3"
+      }
+  },
+
+  "overlay-trigger#computo2":{
+      "children":[
+          "rich-text#categoria22",
+          "overlay-layout#categoria22"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria22":{
+      "props":{
+          "text":"Almacenamiento",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria22":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel22"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":98
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel22":{
+    "props":{
+        "categoryId": 10,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+  "overlay-trigger#computo3":{
+      "children":[
+          "rich-text#categoria23",
+          "overlay-layout#categoria23"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria23":{
+      "props":{
+          "text":"Computadoras",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria23":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel23"
+
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":60
+          }
+      }
+  },
+  "vtex.menu@2.x:menu#thirlevel23":{
+    "props":{
+        "categoryId": 299011,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+  "overlay-trigger#computo4":{
+      "children":[
+          "rich-text#categoria24",
+          "overlay-layout#categoria24"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria24":{
+      "props":{
+          "text":"Equipos",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria24":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel24"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":16
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel24":{
+    "props":{
+        "categoryId": 299017,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+"overlay-trigger#computo5":{
+    "children":[
+        "rich-text#categoria25",
+        "overlay-layout#categoria25"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria25":{
+    "props":{
+        "text":"Gaming",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria25":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel25"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding": -25
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel25":{
+    "props":{
+        "categoryId": 299021,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+"overlay-trigger#computo6":{
+    "children":[
+        "rich-text#categoria26",
+        "overlay-layout#categoria26"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria26":{
+    "props":{
+        "text":"Impresoras y multifuncionales",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria26":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel26"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":-68
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel26":{
+    "props":{
+        "categoryId": 299022,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+  "overlay-trigger#computo7":{
+    "children":[
+        "rich-text#impresoras",
+        "overlay-layout#impresoras"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#impresoras":{
+    "props":{
+        "text":"Mochilas",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#impresoras":{
+    "children":[
+        "vtex.menu@2.x:menu#impresoras"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":-140
+        }
+    }
+},"vtex.menu@2.x:menu#impresoras":{
+    "props":{
+        "categoryId": 299026,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+  "overlay-trigger#computo8":{
+    "children":[
+        "rich-text#tintas",
+        "overlay-layout#tintas"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#tintas":{
+    "props":{
+        "text":"Tintas y toners",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#tintas":{
+    "children":[
+        "vtex.menu@2.x:menu#tintas"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":-182
+        }
+    }
+},"vtex.menu@2.x:menu#tintas":{
+    "props":{
+        "categoryId": 299038,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+// ------------------- Fin Computo e impresión ----------------
+
+
+// ------------------- Inicio Electronica -----------------------
+"vtex.menu@2.x:menu#secondlevel3":{
+    "props":{
+        "orientiation":"vertical",
+        "blockClass":"segundonivel"
+    },
+    "children":[
+        "flex-layout.col#colmenusegnivel3"
+    ]
+},"flex-layout.col#colmenusegnivel3":{
+    "children":[
+    "overlay-trigger#subcategoriaElectronica1",
+    "overlay-trigger#subcategoriaElectronica2",
+    "overlay-trigger#subcategoriaElectronica3",
+    "overlay-trigger#subcategoriaElectronica4",
+    "overlay-trigger#subcategoriaElectronica5",
+    "overlay-trigger#subcategoriaElectronica6",
+    "overlay-trigger#subcategoriaElectronica7"
+    ],"props":{
+        "blockClass":"colcontlista"
+      }
+},
+
+
+"overlay-trigger#subcategoriaElectronica1":{
+    "children":[
+        "rich-text#categoria31",
+        "overlay-layout#categoria31"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigermenu"
+      }
+},"rich-text#categoria31":{
+    "props":{
+        "text":"Accesorios de electrónica",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria31":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel31"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":170
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel31":{
+    "props":{
+        "categoryId": 300008,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+"overlay-trigger#subcategoriaElectronica2":{
+    "children":[
+        "rich-text#categoria32",
+        "overlay-layout#categoria32"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria32":{
+    "props":{
+        "text":"Artículos eléctricos",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria32":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel32"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":97
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel32":{
+    "props":{
+        "categoryId": 50,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+"overlay-trigger#subcategoriaElectronica3":{
+  "children":[
+      "rich-text#categoriaElectronica3",
+      "overlay-layout#categoriaElectronica3"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaElectronica3":{
+  "props":{
+      "text":"Audio",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaElectronica3":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica3"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":60
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelElectronica3":{
+  "props":{
+      "categoryId": 299005,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#subcategoriaElectronica4":{
+  "children":[
+      "rich-text#categoriaElectronica4",
+      "overlay-layout#categoriaElectronica4"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaElectronica4":{
+  "props":{
+      "text":"Gadgets",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaElectronica4":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica4"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":15
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelElectronica4":{
+  "props":{
+      "categoryId": 299020,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#subcategoriaElectronica5":{
+  "children":[
+      "rich-text#categoriaElectronica5",
+      "overlay-layout#categoriaElectronica5"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaElectronica5":{
+  "props":{
+      "text":"Punto de venta",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaElectronica5":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica5"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding": -27
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelElectronica5":{
+  "props":{
+      "categoryId": 299036,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#subcategoriaElectronica6":{
+  "children":[
+      "rich-text#categoriaElectronica6",
+      "overlay-layout#categoriaElectronica6"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaElectronica6":{
+  "props":{
+      "text":"Redes",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaElectronica6":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica6"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding": -67
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelElectronica6":{
+  "props":{
+      "categoryId": 299037,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#subcategoriaElectronica7":{
+  "children":[
+      "rich-text#categoriaElectronica7",
+      "overlay-layout#categoriaElectronica7"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaElectronica7":{
+  "props":{
+      "text":"Ventiladores",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaElectronica7":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelElectronica7"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":-107
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelElectronica7":{
+  "props":{
+      "categoryId": 299039,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+// ------------------- Fin Electronica ----------------
+
+
+// ------------------- Inicio Escolar ----------------
+"vtex.menu@2.x:menu#secondlevel4":{
+    "props":{
+        "orientiation":"vertical",
+        "blockClass":"segundonivel"
+    },
+    "children":[
+        "flex-layout.col#colmenusegnivel4"
+    ]
+},"flex-layout.col#colmenusegnivel4":{
+    "children":[
+    "overlay-trigger#subcategoriaEscolares1",
+    "overlay-trigger#subcategoria42",
+    "overlay-trigger#subcategoriaEscolares3",
+    "overlay-trigger#escolar-4",
+    "overlay-trigger#subcategoria45",
+    "overlay-trigger#escolar-6",
+    "overlay-trigger#escolar-7",
+    "overlay-trigger#escolar-8",
+    "overlay-trigger#escolar-9"
+    ],"props":{
+        "blockClass":"colcontlista"
+      }
+},
+"overlay-trigger#subcategoriaEscolares1":{
+    "children":[
+        "rich-text#categoria41",
+        "overlay-layout#categoria41"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigermenu"
+      }
+},"rich-text#categoria41":{
+    "props":{
+        "text":"Artículos escolares",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria41":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel41"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":184
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel41":{
+    "props":{
+        "categoryId": 299,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+"overlay-trigger#subcategoria42":{
+    "children":[
+        "rich-text#categoria42",
+        "overlay-layout#categoria42"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria42":{
+    "props":{
+        "text":"Cálculadoras",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria42":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel42"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":130
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel42":{
+    "props":{
+        "categoryId": 299007,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+"overlay-trigger#subcategoriaEscolares3":{
+    "children":[
+        "rich-text#categoriaEscolares3",
+        "overlay-layout#categoriaEscolares3"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoriaEscolares3":{
+    "props":{
+        "text":"Cintas adhesivas",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoriaEscolares3":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevelEscolares3"
+
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":90
+        }
+    }
+},
+"vtex.menu@2.x:menu#thirlevelEscolares3":{
+    "props":{
+        "categoryId": 299010,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+"overlay-trigger#escolar-4":{
+    "children":[
+        "rich-text#categoria44",
+        "overlay-layout#categoria44"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria44":{
+    "props":{
+        "text":"Cuadernos y libretas",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria44":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel44"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":49
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel44":{
+    "props":{
+        "categoryId": 299012,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+"overlay-trigger#subcategoria45":{
+  "children":[
+      "rich-text#categoria45",
+      "overlay-layout#categoria45"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoria45":{
+  "props":{
+      "text":"Dibujo",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoria45":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevel45"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":10
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevel45":{
+  "props":{
+      "categoryId": 299014,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#escolar-6":{
+  "children":[
+      "rich-text#categoriaescolar-6",
+      "overlay-layout#categoriaescolar-6"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaescolar-6":{
+  "props":{
+      "text":"Diccionarios y libros",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaescolar-6":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-6"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":-35
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelescolar-6":{
+  "props":{
+      "categoryId": 299015,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#escolar-7":{
+  "children":[
+      "rich-text#categoriaescolar-7",
+      "overlay-layout#categoriaescolar-7"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaescolar-7":{
+  "props":{
+      "text":"Escritura",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaescolar-7":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-7"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":-72
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelescolar-7":{
+  "props":{
+      "categoryId": 299018,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#escolar-8":{
+  "children":[
+      "rich-text#categoriaescolar-8",
+      "overlay-layout#categoriaescolar-8"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaescolar-8":{
+  "props":{
+      "text":"Mochilas y loncheras",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaescolar-8":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-8"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":-117
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelescolar-8":{
+  "props":{
+      "categoryId": 299027,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#escolar-9":{
+  "children":[
+      "rich-text#categoriaescolar-9",
+      "overlay-layout#categoriaescolar-9"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigersubmenu"
+    }
+},"rich-text#categoriaescolar-9":{
+  "props":{
+      "text":"Pegamentos",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriaescolar-9":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelescolar-9"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":-158
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelescolar-9":{
+  "props":{
+      "categoryId": 299032,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+// ------------------- Fin Escolar ----------------
+
+
+
+// ------------------- Inicio Higiene y limpieza ----------------
+"vtex.menu@2.x:menu#secondlevel5":{
+    "props":{
+        "orientiation":"vertical",
+        "blockClass":"segundonivel"
+    },
+    "children":[
+        "flex-layout.col#colmenusegnivel5"
+    ]
+},"flex-layout.col#colmenusegnivel5":{
+    "children":[
+    "overlay-trigger#higieneylimp1",
+    "overlay-trigger#higieneylimp2",
+    "overlay-trigger#higieneylimp3"
+    ],"props":{
+        "blockClass":"colcontlista"
+      }
+},
+
+
+"overlay-trigger#higieneylimp1":{
+    "children":[
+        "rich-text#categoria51",
+        "overlay-layout#categoria51"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigermenu"
+      }
+},"rich-text#categoria51":{
+    "props":{
+        "text":"Cuidado personal",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria51":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel51"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":170
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel51":{
+    "props":{
+        "categoryId": 299013,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+"overlay-trigger#higieneylimp2":{
+  "children":[
+      "rich-text#categoriahigieneylimp2",
+      "overlay-layout#categoriahigieneylimp2"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+},"rich-text#categoriahigieneylimp2":{
+  "props":{
+      "text":"Limpieza",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriahigieneylimp2":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelhigieneylimp2"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":130
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelhigieneylimp2":{
+  "props":{
+      "categoryId": 299024,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#higieneylimp3":{
+  "children":[
+      "rich-text#categoriahigieneylimp",
+      "overlay-layout#categoriahigieneylimp"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+},"rich-text#categoriahigieneylimp":{
+  "props":{
+      "text":"Protección",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#categoriahigieneylimp":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelhigieneylimp"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":90
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelhigieneylimp":{
+  "props":{
+      "categoryId": 299035,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+// ------------------- Fin Higiene y limpieza ----------------
+
+
+// ------------------- Inicio Muebles ----------------
+"vtex.menu@2.x:menu#secondlevel6":{
+    "props":{
+        "orientiation":"vertical",
+        "blockClass":"segundonivel"
+    },
+    "children":[
+        "flex-layout.col#colmenusegnivel6"
+    ]
+},"flex-layout.col#colmenusegnivel6":{
+    "children":[
+    "overlay-trigger#subcategoria61",
+    "overlay-trigger#subcategoria62"
+    ],"props":{
+        "blockClass":"colcontlista"
+      }
+},
+
+
+"overlay-trigger#subcategoria61":{
+    "children":[
+        "rich-text#categoria61",
+        "overlay-layout#categoria61"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigermenu"
+      }
+},"rich-text#categoria61":{
+    "props":{
+        "text":"Muebles",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria61":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel61"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":170
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel61":{
+    "props":{
+        "categoryId": 299028,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+"overlay-trigger#subcategoria62":{
+    "children":[
+        "rich-text#categoria62",
+        "overlay-layout#categoria62"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria62":{
+    "props":{
+        "text":"Pizarrones",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria62":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel62"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":130
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel62":{
+    "props":{
+        "categoryId": 299034,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+// ------------------- Fin Muebles ----------------
+
+
+// ------------------- Inicio Oficina ----------------
+"vtex.menu@2.x:menu#secondlevel7":{
+    "props":{
+        "orientiation":"vertical",
+        "blockClass":"segundonivel"
+    },
+    "children":[
+        "flex-layout.col#colmenusegnivel7"
+    ]
+},"flex-layout.col#colmenusegnivel7":{
+    "children":[
+    "overlay-trigger#oficina-1",
+    "overlay-trigger#oficina-2",
+    "overlay-trigger#oficina-4",
+    "overlay-trigger#subcategoria73",
+    "overlay-trigger#subcategoria74",
+    "overlay-trigger#subcategoria75",
+    "overlay-trigger#subcategoriaOficina8"
+    ],"props":{
+        "blockClass":"colcontlista"
+      }
+},
+
+
+"overlay-trigger#oficina-1":{
+    "children":[
+        "rich-text#categoria71",
+        "overlay-layout#categoria71"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigermenu"
+      }
+},"rich-text#categoria71":{
+    "props":{
+        "text":"Archivo",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria71":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel71"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":170
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel71":{
+    "props":{
+        "categoryId": 299050,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+"overlay-trigger#oficina-2":{
+    "children":[
+        "rich-text#categoria72",
+        "overlay-layout#categoria72"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria72":{
+    "props":{
+        "text":"Artículos para escritorio",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria72":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel72"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":178
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel72":{
+    "props":{
+        "categoryId": 299002,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+  "overlay-trigger#oficina-3":{
+    "children":[
+        "rich-text#categoriaoficina-3",
+        "overlay-layout#categoriaoficina-3"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoriaoficina-3":{
+    "props":{
+        "text":"Escritura",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoriaoficina-3":{
+    "children":[
+        "vtex.menu@2.x:menu#thirleveloficina-3"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":110
+        }
+    }
+},"vtex.menu@2.x:menu#thirleveloficina-3":{
+    "props":{
+        "categoryId": 17,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+  "overlay-trigger#oficina-4":{
+    "children":[
+        "rich-text#categoria47",
+        "overlay-layout#categoria47"
+    ],"props":{
+        "trigger": "hover",
+
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria47":{
+    "props":{
+        "text":"Artículos para oficina",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria47":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel47"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding": 56
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel47":{
+    "props":{
+        "categoryId": 299004,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+"overlay-trigger#subcategoria73":{
+    "children":[
+        "rich-text#categoria73",
+        "overlay-layout#categoria73"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria73":{
+    "props":{
+        "text":"Cálculadoras y sumadoras",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria73":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel73"
+
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":15
+        }
+    }
+},
+"vtex.menu@2.x:menu#thirlevel73":{
+    "props":{
+        "categoryId": 299008,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+"overlay-trigger#subcategoria74":{
+    "children":[
+        "rich-text#categoria74",
+        "overlay-layout#categoria74"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria74":{
+    "props":{
+        "text":"Engargolado y enmicado",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria74":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel74"
+
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding": -58
+        }
+    }
+},
+"vtex.menu@2.x:menu#thirlevel74":{
+    "props":{
+        "categoryId": 299016,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+"overlay-trigger#subcategoria75":{
+    "children":[
+        "rich-text#categoria75",
+        "overlay-layout#categoria75"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoria75":{
+    "props":{
+        "text":"Escritura",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoria75":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel75"
+
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":-135
+        }
+    }
+},
+"vtex.menu@2.x:menu#thirlevel75":{
+    "props":{
+        "categoryId": 300012,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+  "overlay-trigger#subcategoriaOficina8":{
+    "children":[
+        "rich-text#categoriaOficina8",
+        "overlay-layout#categoriaOficina8"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoriaOficina8":{
+    "props":{
+        "text":"Formas impresas y contabilidad",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoriaOficina8":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevelOficina8"
+
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":-177
+        }
+    }
+},
+"vtex.menu@2.x:menu#thirlevelOficina8":{
+    "props":{
+        "categoryId": 299019,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+  },
+
+
+// ------------------- Fin oficina ----------------
+
+
+// ------------------- Inicio Papel ----------------
+"vtex.menu@2.x:menu#secondlevel8":{
+    "props":{
+        "orientiation":"vertical",
+        "blockClass":"segundonivel"
+    },
+    "children":[
+        "flex-layout.col#colmenusegnivel8"
+    ]
+},"flex-layout.col#colmenusegnivel8":{
+    "children":[
+    "overlay-trigger#subcategoriapapel-1",
+    "overlay-trigger#subcategoriapapel-2",
+    "overlay-trigger#subcategoriapapel-3",
+    "overlay-trigger#subcategoriapapel-4"
+    ],"props":{
+        "blockClass":"colcontlista"
+      }
+},"overlay-trigger#subcategoriapapel-1":{
+    "children":[
+        "rich-text#cartones",
+        "overlay-layout#cartones"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigermenu"
+      }
+},"rich-text#cartones":{
+    "props":{
+        "text":"Cartones",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#cartones":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevel81"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":170
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevel81":{
+    "props":{
+        "categoryId": 299009,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+},
+
+
+
+"overlay-trigger#subcategoriapapel-2":{
+  "children":[
+      "rich-text#artpfiestas",
+      "overlay-layout#artpfiestas"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+},"rich-text#artpfiestas":{
+  "props":{
+      "text":"Papeles Cortados",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#artpfiestas":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelartpfiest"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":129
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelartpfiest":{
+  "props":{
+      "categoryId": 299029,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+"overlay-trigger#subcategoriapapel-3":{
+  "children":[
+      "rich-text#juegsydidadc",
+      "overlay-layout#juegsydidadc"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+},"rich-text#juegsydidadc":{
+  "props":{
+      "text":"Papeles Especiales",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#juegsydidadc":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelpap3"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":89
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelpap3":{
+  "props":{
+      "categoryId": 299030,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+
+
+"overlay-trigger#subcategoriapapel-4":{
+  "children":[
+      "rich-text#papespec",
+      "overlay-layout#papespec"
+  ],"props":{
+      "trigger": "hover",
+      "blockClass":"trigermenu"
+    }
+},"rich-text#papespec":{
+  "props":{
+      "text":"Papeles Extendidos",
+      "blockClass":"submenuniv2"
+  }
+},"overlay-layout#papespec":{
+  "children":[
+      "vtex.menu@2.x:menu#thirlevelpap4"
+  ],"props":{
+      "placement":"right",
+      "showArrow":true,
+      "blockClass":"contenedorsubs",
+      "offsets":{
+          "skidding":47
+      }
+  }
+},"vtex.menu@2.x:menu#thirlevelpap4":{
+  "props":{
+      "categoryId": 299031,
+      "orientation": "vertical",
+      "blockClass":"subcatniv3"
+  }
+},
+
+// ------------------- Fin Papel ----------------
+
+
+
+
+
+// ------------------- Inicio Juegos y fiestas ----------------
+  "vtex.menu@2.x:menu#secondlevel9":{
+      "props":{
+          "orientiation":"vertical",
+          "blockClass":"segundonivel"
+      },
+      "children":[
+          "flex-layout.col#colmenusegnivel"
+      ]
+  },"flex-layout.col#colmenusegnivel":{
+      "children":[
+      "overlay-trigger#subcategoria91",
+      "overlay-trigger#subcategoria92",
+      "overlay-trigger#regyfiest-3"
+      ],"props":{
+          "blockClass":"colcontlista"
+        }
+  },
+
+
+  "overlay-trigger#subcategoria91":{
+      "children":[
+          "rich-text#categoria91",
+          "overlay-layout#categoria91"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigermenu"
+        }
+  },"rich-text#categoria91":{
+      "props":{
+          "text":"Artículos para fiestas",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria91":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel91"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":170
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel91":{
+      "props":{
+          "categoryId": 299003,
+          "orientation": "vertical",
+          "blockClass":"subcatniv3"
+      }
+  },
+
+  "overlay-trigger#subcategoria92":{
+      "children":[
+          "rich-text#categoria92",
+          "overlay-layout#categoria92"
+      ],"props":{
+          "trigger": "hover",
+          "blockClass":"trigersubmenu"
+        }
+  },"rich-text#categoria92":{
+      "props":{
+          "text":"Bolsas y envolturas",
+          "blockClass":"submenuniv2"
+      }
+  },"overlay-layout#categoria92":{
+      "children":[
+          "vtex.menu@2.x:menu#thirlevel92"
+      ],"props":{
+          "placement":"right",
+          "showArrow":true,
+          "blockClass":"contenedorsubs",
+          "offsets":{
+              "skidding":128
+          }
+      }
+  },"vtex.menu@2.x:menu#thirlevel92":{
+      "props":{
+          "categoryId": 299006,
+          "orientation": "vertical",
+          "blockClass":"subcatniv3"
+      }
+  },
+
+
+  "overlay-trigger#regyfiest-3":{
+    "children":[
+        "rich-text#categoriaregyfiest-3",
+        "overlay-layout#categoriaregyfiest-3"
+    ],"props":{
+        "trigger": "hover",
+        "blockClass":"trigersubmenu"
+      }
+},"rich-text#categoriaregyfiest-3":{
+    "props":{
+        "text":"Juegos de mesa y didácticos",
+        "blockClass":"submenuniv2"
+    }
+},"overlay-layout#categoriaregyfiest-3":{
+    "children":[
+        "vtex.menu@2.x:menu#thirlevelregyfiest-3"
+    ],"props":{
+        "placement":"right",
+        "showArrow":true,
+        "blockClass":"contenedorsubs",
+        "offsets":{
+            "skidding":86
+        }
+    }
+},"vtex.menu@2.x:menu#thirlevelregyfiest-3":{
+    "props":{
+        "categoryId": 299023,
+        "orientation": "vertical",
+        "blockClass":"subcatniv3"
+    }
+}
+
+// ------------------- Fin Juegos y fiestas ----------------
+
+}

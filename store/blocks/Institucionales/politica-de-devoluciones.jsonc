@@ -1,0 +1,46 @@
+{
+    "store.custom#politica-de-devoluciones": {
+        "children":[
+            "flex-layout.row#titulo-devoluciones",
+            "flex-layout.row#texto-devoluciones",
+            "back-to-top-button"
+        ]
+      },
+
+      "flex-layout.row#titulo-devoluciones":{
+          "children":[
+              "flex-layout.col#coltit-devoluciones"
+          ]
+      },
+      "flex-layout.col#coltit-devoluciones":{
+          "children":[
+              "rich-text#titulo-devoluciones"
+          ],"props":{
+            "horizontalAlign":"center"
+          }
+      },
+      "rich-text#titulo-devoluciones":{
+          "props":{
+              "text":"## Política de devoluciones",
+              "blockClass": "titins"
+          }
+      },
+      "flex-layout.row#texto-devoluciones":{
+          "children":[
+              "flex-layout.col#coltxt-devoluciones"
+          ]
+      },
+      "flex-layout.col#coltxt-devoluciones":{
+          "children":[
+              "rich-text#txtinst-devoluciones"
+          ],
+          "props":{"blockClass":"content-institucional"}
+      },
+      "rich-text#txtinst-devoluciones":{
+          "props":{
+              "text":"**POL\u00CDTICA DE DEVOLUCIONES**\r\nLas pol\u00EDticas que se mencionan a continuaci\u00F3n s\u00F3lo aplican para las compras realizadas en la tienda en l\u00EDnea de Tony Superpapeler\u00EDas www.tony.com.mx y oficina.tony.com.mx.\r\n\r\nPara que pueda aplicar la presente pol\u00EDtica de cambio o devoluci\u00F3n, es importante que si el paquete tiene alg\u00FAn da\u00F1o visible externo no recibirlo y en caso de haberlo hecho; si el da\u00F1o es exterior (caja) o interior (producto), debe darse aviso por correo electr\u00F3nico al: **servicioventas@tony.mx** en las primeras 48 horas naturales indicando n\u00FAmero de pedido y nombre de cliente. La empresa no se hace responsable por ning\u00FAn da\u00F1o en el producto si el reporte rebasa las 48 horas naturales una vez concretada la entrega, misma que se verifica con el proveedor de mensajer\u00EDa.\r\n\r\nEn caso de haber recibido por parte de la paqueter\u00EDa o camioneta de entrega Tony un paquete visiblemente da\u00F1ado o parcialmente abierto se deber\u00E1n tomar la cantidad de fotograf\u00EDas necesarias para conseguir una toma completa del paquete da\u00F1ado o abierto. Una de las fotograf\u00EDas debe incluir la gu\u00EDa que viene pegada en la caja. Una vez completado se deber\u00E1n tomar fotograf\u00EDas del interior del paquete recibido. Estas fotograf\u00EDas deber\u00E1n ser enviadas dentro del reporte anteriormente mencionado.\r\n\r\nPara las compras a trav\u00E9s del portal de ventas en l\u00EDnea solo se aceptan devoluciones de mercanc\u00EDa defectuosa de f\u00E1brica y no por uso indebido. Deber\u00E1 estar en las mismas condiciones que al momento de la compra, es decir, sin mostrar alteraci\u00F3n o da\u00F1o e incluir todas sus partes, accesorios, manuales, garant\u00EDas y en su empaque original.\r\n\r\nLas devoluciones las canalizar\u00E1 Atenci\u00F3n a Clientes web en el correo: **servicioventas@tony.mx** o en el tel\u00E9fono **800 000 TONY (8699)** definiendo a detalle la raz\u00F3n de la devoluci\u00F3n y se solicitara fotos del da\u00F1o o mercanc\u00EDa que no corresponde.\r\n\r\nDeber\u00E1 tener a la mano para tramitar el cambio o devoluci\u00F3n de mercanc\u00EDa, la factura o nota de venta as\u00ED como el empaque original en buenas condiciones (seg\u00FAn aplique).\r\n\r\nNo se aceptar\u00E1n cambios o devoluciones de mercanc\u00EDa despu\u00E9s de 90 d\u00EDas h\u00E1biles a partir de la fecha de compra. Pasando los 90 d\u00EDas h\u00E1biles, el cliente deber\u00E1 hacer valer la garant\u00EDa directamente con el proveedor, salvo en el caso de mercanc\u00EDa de Todo Comercio Internacional (TCI).\r\n\r\nEn el caso de la marca GBC, equipos de c\u00F3mputo, accesorios y tintas (consumibles) la garant\u00EDa es directamente con el fabricante al d\u00EDa siguiente de haber recibido la mercanc\u00EDa.\r\n\r\nUna vez que nuestro equipo de atenci\u00F3n a clientes valida la informaci\u00F3n de la devoluci\u00F3n le llamar\u00E1 en los siguientes tres d\u00EDas para indicarle los pasos a seguir. En caso de ser defecto de fabricaci\u00F3n, los gastos de env\u00EDo corren por nuestra cuenta. Si es por mal uso del producto, el cliente pagar\u00E1 la reparaci\u00F3n y los gastos de env\u00EDo que se generen. En cualquier caso se le indicara al correo electr\u00F3nico registrado los pasos a seguir para el env\u00EDo as\u00ED como el tiempo de respuesta estimado para el cambio o devoluci\u00F3n que aplique.\r\n\r\nTodas las devoluciones de mercanc\u00EDa concluir\u00E1n en un reembolso de efectivo, el cual se realizar\u00E1 en la misma forma de pago en la que se efectu\u00F3 la compra original o en su defecto en Nota de Cr\u00E9dito o Monedero Electr\u00F3nico para compras en la misma tienda.\r\n\r\nPara cambio f\u00EDsico de mercanc\u00EDa se podr\u00E1 realizar en cualquiera de nuestras sucursales (sujeto a existencias) presentando copia de la nota de venta. Pol\u00EDtica de Devoluciones se actualizaron por \u00FAltima vez el 26 de agosto del 2020.",
+              "blockClass":"txtins"
+          }
+      }
+
+}

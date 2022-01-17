@@ -1,0 +1,321 @@
+{
+  "store.home": {
+    "blocks": [
+      "ModalFranquicia",
+      "responsive-layout.desktop#homePage",
+      "responsive-layout.tablet#homePage",
+      "responsive-layout.phone#homePage",
+      "back-to-top-button"
+    ]
+  },
+  "responsive-layout.desktop#homePage":{
+    "children":[
+      "list-context.image-list#top-banner",
+      "__fold__.experimentalLazyAssets",
+      "rich-text#slider-title-categorias",
+      "slider-layout#categorias",
+      "rich-text#slider-title-escolar",
+      "list-context.image-list#slider-escolar",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#banner",
+      "rich-text#slider-title-boutiques",
+      "slider-layout#boutiques",
+      "rich-text#slider-title-marcas",
+      "list-context.image-list#top-marcas"
+    ],
+    "props":{"blockClass":"desktop-body"}
+  },
+
+  "responsive-layout.tablet#homePage":{
+    "children":[
+      "list-context.image-list#top-banner-tablet",
+      "__fold__.experimentalLazyAssets",
+      "rich-text#slider-title-categorias",
+      "slider-layout#categorias",
+      "rich-text#slider-title-escolar",
+      "list-context.image-list#slider-escolar",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#banner",
+      "rich-text#slider-title-boutiques",
+      "slider-layout#boutiques",
+      "rich-text#slider-title-marcas",
+      "list-context.image-list#top-marcas"
+    ]
+  },
+
+  "responsive-layout.phone#homePage":{
+    "children":[
+      "list-context.image-list#top-banner",
+      "__fold__.experimentalLazyAssets",
+      "rich-text#slider-title-categorias",
+      "slider-layout#categorias",
+      "rich-text#slider-title-escolar",
+      "list-context.image-list#slider-escolar",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#banner-mobile",
+      "rich-text#slider-title-boutiques",
+      "slider-layout#boutiques",
+      "rich-text#slider-title-marcas",
+      "list-context.image-list#top-marcas"
+    ]
+  },
+
+  // Slider Hero ###########################################################################################################################################
+  "list-context.image-list#top-banner": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "/arquivos/main-banner-home.png",
+          "mobileImage": "/arquivos/main-banner-home-mobile.png"
+        },
+        {
+          "image": "/arquivos/main-banner-home.png",
+          "mobileImage": "/arquivos/main-banner-home-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel",
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":true
+      }
+    }
+  },
+
+  // Slider Hero Tablet ###########################################################################################################################################
+  "list-context.image-list#top-banner-tablet": {
+    "children": ["slider-layout#demo-images-tablet"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "/arquivos/main-banner-home.png",
+          "mobileImage": "/arquivos/main-banner-home-mobile.png"
+        },
+        {
+          "image": "/arquivos/main-banner-home.png",
+          "mobileImage": "/arquivos/main-banner-home-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images-tablet": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel",
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":true
+      }
+    }
+  },
+
+  // Slider Banner Escolar ###########################################################################################################################################
+  "rich-text#slider-title-escolar": {
+    "props": {
+      "text": "Materiales por curso escolar",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.image-list#slider-escolar": {
+    "children": ["slider-layout#escolar-images"],
+    "props": {
+      "height": 342,
+      "images": [
+        {
+          "image": "/arquivos/tony_337X342_kinder.png",
+          "link": "/kinder"
+        },
+        {
+          "image": "/arquivos/tony_337X342_primaria.png",
+          "link": "/primaria"
+        }
+      ]
+    }
+  },
+  "slider-layout#escolar-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "slider-escolar",
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":true
+      }
+    }
+  },
+  // Shelf productos ###########################################################################################################################################
+  "rich-text#shelf-title": {
+    "title": "title-shelf",
+    "props": {
+      "text": "Listos para el regreso a clases",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "title": "shelf",
+    "children": ["list-context.product-list#demo1"],
+    "props":{"blockClass":"shelf-container"}
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+      // "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":true
+      }
+    }
+  },
+
+ // Banner Img ###########################################################################################################################################
+  "flex-layout.row#banner": {
+    "children": ["image#banner-home"],
+    "props":{
+      "blockClass": "banner-home-container"
+    }
+  },
+  "image#banner-home": {
+    "props": {
+      "title": "Imagen banner",
+      "src": "/arquivos/tony-1400X400.png",
+      "maxHeight": 400,
+      "blockClass": "banner-home"
+    }
+  },
+  "flex-layout.row#banner-mobile": {
+    "children": ["image#banner-home-mobile"],
+    "props":{
+      "blockClass": "banner-home-container"
+    }
+  },
+  "image#banner-home-mobile": {
+    "props": {
+      "title": "Imagen banner mobile",
+      "src": "/arquivos/banner-mobile.png",
+      "maxHeight": 400,
+      "blockClass": "banner-home-mobile"
+    }
+  },
+
+  // Slider mejores marcas ###########################################################################################################################################
+  "rich-text#slider-title-marcas": {
+    "props": {
+      "title": "Titulo slider mejores marcas",
+      "text": "Las mejores marcas",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.image-list#top-marcas": {
+    "children": ["slider-layout#marcas-images"],
+    "props": {
+      "height": 65,
+      "images": [
+        {
+          "image": "/arquivos/bic-logo.png",
+          "mobileImage": "/arquivos/bic-logo.png"
+        },
+        {
+          "image": "/arquivos/sharpie-logo.png",
+          "mobileImage": "/arquivos/sharpie-logo.png"
+        },
+        {
+          "image": "/arquivos/maped-logo.png",
+          "mobileImage": "/arquivos/maped-logo.png"
+        },
+        {
+          "image": "/arquivos/bic-logo.png",
+          "mobileImage": "/arquivos/bic-logo.png"
+        },
+        {
+          "image": "/arquivos/sharpie-logo.png",
+          "mobileImage": "/arquivos/sharpie-logo.png"
+        },
+        {
+          "image": "/arquivos/bic-logo.png",
+          "mobileImage": "/arquivos/bic-logo.png"
+        },
+        {
+          "image": "/arquivos/sharpie-logo.png",
+          "mobileImage": "/arquivos/sharpie-logo.png"
+        },
+        {
+          "image": "/arquivos/maped-logo.png",
+          "mobileImage": "/arquivos/maped-logo.png"
+        },
+        {
+          "image": "/arquivos/bic-logo.png",
+          "mobileImage": "/arquivos/bic-logo.png"
+        },
+        {
+          "image": "/arquivos/sharpie-logo.png",
+          "mobileImage": "/arquivos/sharpie-logo.png"
+        }
+
+      ]
+    }
+  },
+  "slider-layout#marcas-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 5,
+        "phone": 3
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-marcas",
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":true
+      }
+    }
+  },
+  "back-to-top-button":{
+    "props":{
+      "display":"caret-icon"
+    }
+  }
+}

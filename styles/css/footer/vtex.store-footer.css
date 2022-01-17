@@ -1,0 +1,478 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) {
+  margin-top: 40px;
+}
+@media (min-width: 450px) {
+  :global(.vtex-store-footer-2-x-footerLayout) {
+    margin-top: 50px;
+  }
+}
+
+/* Cintillo ##################################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--cintillo) {
+  background-color: #f8002e;
+}
+:global(.vtex-rich-text-0-x-container--texto-cintillo) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--cintillo),
+:global(.vtex-rich-text-0-x-paragraph--texto-cintillo) {
+  font-size: 24px;
+  font-family: "TitilliumWebBold";
+  color: #ffffff;
+  margin: 0;
+}
+@media (min-width: 450px) {
+  :global(.vtex-rich-text-0-x-paragraph--cintillo),
+  :global(.vtex-rich-text-0-x-paragraph--texto-cintillo) {
+    font-size: 26px;
+  }
+}
+
+/* Footer main ##################################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--menu-row-footer) {
+  background-color: #134197;
+}
+:global(.vtex-flex-layout-0-x-flexRow--menu-row-footer)
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #ffffff;
+  justify-content: center;
+  font-family: "TitilliumWebRegular";
+  font-size: 16px;
+  font-style: normal;
+  margin: 5px 0;
+}
+@media (min-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRow--menu-row-footer)
+    :global(.vtex-menu-2-x-styledLinkContent) {
+    font-size: 12px;
+  }
+}
+:global(.vtex-menu-2-x-styledLinkContent--titulo-menu) {
+  font-family: "TitilliumWebRegular";
+  font-weight: 600;
+  font-size: 22px !important;
+  font-style: normal;
+}
+@media (min-width: 1024px) {
+  :global(.vtex-menu-2-x-styledLinkContent--titulo-menu) {
+    font-family: "TitilliumWebRegular";
+    font-weight: 600;
+    font-size: 18px !important;
+    font-style: normal;
+  }
+}
+
+/* Separador mobile ##################################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--separador) {
+  width: 90%;
+  margin-bottom: 2px solid #ffffff;
+}
+
+/* Newsletter ##################################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--contenedor-newsletter) {
+  min-width: 370px;
+  padding: 20px 0;
+  background-color: #134197;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contenedor-newsletter) {
+    min-width: fit-content !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--sociales-contenedor) {
+    padding: 0 !important;
+  }
+  :global(.vtex-rich-text-0-x-link--texto-sociales) {
+    font-size: 10px !important;
+  }
+}
+@media (min-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contenedor-newsletter) {
+    margin-left: -140px;
+    padding: 0;
+  }
+}
+@media (min-width: 1800px) {
+  :global(.vtex-flex-layout-0-x-flexRow--contenedor-newsletter) {
+    margin-left: -70px;
+  }
+}
+:global(.vtex-store-components-3-x-newsletter) {
+  background: none;
+  min-width: 357px;
+  margin: 0 15px;
+}
+:global(.vtex-rich-text-0-x-paragraph--titnl) {
+  text-align: center;
+  margin-bottom: 18px;
+}
+:global(.vtex-rich-text-0-x-paragraph--titnl) {
+  font-size: 0;
+}
+:global(.vtex-rich-text-0-x-paragraph--titnl)::before {
+  content: "Registra tu correo para recibir";
+  font-size: 18px;
+  display: block;
+  font-family: "TitilliumWebBold";
+  color: #ffffff;
+}
+:global(.vtex-rich-text-0-x-paragraph--titnl)::after {
+  content: "las mejores ofertas y promociones";
+  font-size: 24px;
+  font-family: "TitilliumWebBold";
+  color: #ffffff;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm)
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-button) {
+  border: 0;
+  margin: 0;
+  background: #82c341;
+  margin-top: 11px;
+  transition: 0.3s ease all;
+  width: 129px;
+  height: 29px;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-button):hover {
+  background: #7ab83c;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  padding: 0 44px !important;
+  font-size: 16px;
+  font-family: "TitilliumWebBold";
+  text-transform: initial;
+  color: #ffffff;
+}
+@media (min-width: 1200px) {
+  :global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-button) {
+    background: none;
+  }
+  :global(.vtex-store-newsletter-1-x-newsletterForm)
+    :global(.vtex-button):hover {
+    background: none;
+  }
+  :global(.vtex-store-newsletter-1-x-newsletterForm)
+    :global(.vtex-button)
+    :global(.vtex-button__label) {
+    padding: 0 !important;
+    width: 129px;
+    height: 29px;
+    background: #82c341;
+    border-radius: 4px;
+  }
+  :global(.vtex-store-newsletter-1-x-newsletterForm)
+    :global(.vtex-button)
+    :global(.vtex-button__label):hover {
+    background: #7ab83c;
+  }
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm)
+  :global(.vtex-store-components-3-x-inputGroup)
+  :global(.vtex-styleguide-9-x-hideDecorators) {
+  color: #000000;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm)
+  :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #000000;
+}
+:global(.vtex-store-newsletter-1-x-newsletterForm)
+  :global(.vtex-input-prefix__group) {
+  border: 0;
+  background: #ffffff;
+}
+@media (min-width: 1024px) {
+  :global(.vtex-store-newsletter-1-x-newsletterForm)
+    :global(.vtex-input-prefix__group) {
+    width: 324px;
+    height: 36px;
+    margin: auto;
+  }
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+  :global(.vtex-styleguide-9-x-input)::placeholder {
+  text-align: center;
+}
+:global(.vtex-styleguide-9-x-input) {
+  text-align: center;
+}
+:global(.vtex-store-newsletter-1-x-emailInputContainer) {
+  padding: 0 20px;
+}
+@media (min-width: 1025px) {
+  :global(.vtex-store-newsletter-1-x-emailInputContainer) {
+    padding: 0;
+  }
+}
+:global(.vtex-store-newsletter-1-x-defaultSuccessMessage) {
+  font-size: 16px;
+  font-family: "TitilliumWebBold";
+  text-transform: initial;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Row radio tony ##############################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--radio-tony-container) {
+  background: #134197;
+}
+:global(.vtex-store-components-3-x-imageElementLink--radio-tony) {
+  display: flex;
+  justify-content: center;
+  width: fit-content !important;
+}
+
+/* Row payment methods y sociales ###############################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--payment-methods) {
+  background: #134197;
+  padding: 20px 0;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--payment-methods)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 70% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pmt-methods-col)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 10% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-facebook)
+  :global(.vtex-store-components-3-x-imageElement--img-pmt-logo):first-child {
+  width: fit-content !important;
+}
+:global(.vtex-store-components-3-x-imageElement--img-pmt-logo-master) {
+  width: 102px;
+  margin-top: -11px;
+  max-width: 102px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--payment-methods)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-flex-layout-0-x-flexRow) {
+  display: flex;
+  align-items: center;
+}
+:global(.vtex-rich-text-0-x-link--texto-sociales) {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "TitilliumWebBold";
+  text-decoration: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-contenedor)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-contenedor)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 50% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-contenedor) {
+  padding: 0 8rem;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-facebook)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: fit-content !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-instagram)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: fit-content !important;
+}
+:global(.vtex-store-components-3-x-imageElement--img-sociales) {
+  width: 100%;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-facebook),
+:global(.vtex-flex-layout-0-x-flexRowContent--sociales-instagram) {
+  justify-content: center;
+}
+@media (min-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRow--sociales-contenedor-desk) {
+    padding-top: 1.7rem;
+    position: absolute;
+    padding-left: 10vw;
+  }
+}
+@media (min-width: 1200px) {
+  :global(.vtex-flex-layout-0-x-flexRow--sociales-contenedor-desk) {
+    padding-left: 8.5vw;
+  }
+}
+@media (min-width: 1300px) {
+  :global(.vtex-flex-layout-0-x-flexRow--sociales-contenedor-desk) {
+    padding-left: 8vw;
+  }
+}
+@media (min-width: 1600px) {
+  :global(.vtex-flex-layout-0-x-flexRow--sociales-contenedor-desk) {
+    padding-left: 6.5vw;
+  }
+}
+@media (max-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRow--sociales-contenedor-desk) {
+    display: none;
+  }
+}
+
+/* Cintillo derechos reservados ################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--cont-der-reserv) {
+  background: #134197;
+  padding-bottom: 12px;
+}
+:global(.vtex-rich-text-0-x-container--texto-der-reserv) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-paragraph--texto-der-reserv) {
+  margin: 0;
+  font-size: 12px;
+  font-family: "TitilliumWebLight";
+  color: #ffffff;
+}
+
+/* Footer Mobile ################################################################################################################################################*/
+:global(.vtex-flex-layout-0-x-flexRow--radio-tony-container-mobile) {
+  background: #134197;
+}
+:global(.vtex-store-components-3-x-imageElementLink--radio-tony-mobile) {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+:global(.vtex-store-footer-2-x-footerLayout--mobile)
+  :global(.vtex-store-components-3-x-newsletter) {
+  margin: 0;
+  background-color: #134197;
+  padding: 18px 0;
+}
+:global(.vtex-store-footer-2-x-footerLayout--mobile)
+  :global(.vtex-store-components-3-x-container) {
+  background-color: #134197;
+  margin-top: -3px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pymt-mobile-row1) {
+  display: flex;
+  padding: 11px 0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--pymt-mobile-row2) {
+  display: flex;
+  padding: 11px 20px;
+}
+:global(.vtex-rich-text-0-x-paragraph--texto-sociales-mobile) {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "TitilliumWebBold";
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--soc-icons-mob) {
+  display: flex;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--cont-sociales-mob) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 75px;
+}
+@media (min-width: 750px) and (max-width: 1300px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--cont-sociales-mob) {
+    padding: 0 30%;
+  }
+  :global(.vtex-store-components-3-x-imageElement--separador) {
+    max-height: 2px !important;
+    min-width: 95vw;
+  }
+}
+:global(.vtex-rich-text-0-x-paragraph--der-res-mob) {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "TitilliumWebBold";
+  text-align: center;
+  margin: 5px 0;
+}
+:global(.vtex-rich-text-0-x-container--correo) {
+  justify-content: center;
+}
+:global(.vtex-rich-text-0-x-link--correo) {
+  color: #ffffff;
+  font-family: "TitilliumWebRegular";
+  font-size: 12px;
+  text-decoration: none;
+}
+:global(.vtex-rich-text-0-x-paragraph--correo) {
+  margin: 0;
+}
+:global(.vtex-menu-2-x-styledLinkContent--telefono),
+:global(.vtex-menu-2-x-styledLinkContent--correo) {
+  margin: 0 !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--telefonos-title),
+:global(.vtex-menu-2-x-styledLinkContent--correo-title) {
+  margin-bottom: 0 !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--correo-title),
+:global(.vtex-menu-2-x-styledLinkContent--form-cont-title) {
+  margin-top: 10px !important;
+}
+:global(.vtex-rich-text-0-x-container--der-res-mob) {
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--cintillo-der-res-mob)
+  :global(.vtex-store-components-3-x-container),
+:global(.vtex-flex-layout-0-x-flexRow--cintillo)
+  :global(.vtex-store-components-3-x-container) {
+  background: #f8002e;
+}
+:global(.vtex-menu-2-x-menuContainer--footer-menu-mobile)
+  :global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-menu-2-x-menuContainer--footer-menu-mobile)
+  :global(.vtex-rich-text-0-x-link--correo) {
+  color: #ffffff;
+  font-family: "TitilliumWebRegular";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 4.5px 0;
+}
+:global(.vtex-menu-2-x-menuContainer--footer-menu-mobile)
+  :global(.vtex-rich-text-0-x-container--correo) {
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+}
+:global(.vtex-menu-2-x-styledLinkContent--link-menu-title-mobile) {
+  font-family: "TitilliumWebRegular";
+  font-size: 22px !important;
+  font-weight: 600;
+}
+:global(.vtex-menu-2-x-menuContainer--footer-menu-mobile)
+  :global(.vtex-menu-2-x-accordionIcon--isClosed) {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/arrow-down.svg);
+  width: 27px;
+  height: 13px;
+}
+:global(.vtex-menu-2-x-menuContainer--footer-menu-mobile)
+  :global(.vtex-menu-2-x-accordionIcon--isOpen) {
+  content: url(https://tonypapelerias.vtexassets.com/arquivos/arrow-up.svg);
+  width: 27px;
+  height: 13px;
+}
+:global(.vtex-rich-text-0-x-paragraph--texto-sociales) {
+  margin: 0;
+  padding-bottom: 5px;
+}
+@media (min-width: 750px) and (max-width: 1150px) {
+  :global(.vtex-rich-text-0-x-container--texto-sociales-mobile) {
+    justify-content: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--cont-sociales-mob) {
+    padding: 0 15rem;
+  }
+}

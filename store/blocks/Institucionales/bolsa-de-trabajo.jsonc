@@ -1,0 +1,110 @@
+{
+  "store.custom#unete": {
+      "children":[
+          "flex-layout.row#bolsa-trabajo",
+          "flex-layout.row#contenido-bolsa-trabajo",
+          "back-to-top-button"
+      ]
+    },
+    "flex-layout.row#bolsa-trabajo":{
+        "children":[
+            "flex-layout.col#coltit-bolsa-trabajo"
+        ]
+    },
+    "flex-layout.col#coltit-bolsa-trabajo":{
+        "children":[
+            "rich-text#bolsa-trabajo"
+        ],"props":{
+          "horizontalAlign":"center"
+        }
+    },
+    "rich-text#bolsa-trabajo":{
+        "props":{
+            "text":"## ¡Únete a Tony Superpapelerías como parte de nuestro equipo de trabajo!",
+            "blockClass": "titins"
+        }
+    },
+    "flex-layout.row#contenido-bolsa-trabajo":{
+        "children":[
+            "rich-text#txt-bolsa-trabajo",
+            "flex-layout.row#form-bolsa"
+        ],
+        "props":{
+          "blockClass":"content-bolsa-trabajo"
+        }
+    },
+    "rich-text#txt-bolsa-trabajo":{
+      "props":{
+          "text":"Somos el grupo papelero m\u00E1s grande de Latinoam\u00E9rica.\r\nEstamos en gran parte de la Rep\u00FAblica Mexicana.\r\nTe aseguramos crecimiento profesional y personal.",
+          "blockClass": "txt-ins"
+      }
+  },
+
+    /* Formulario Bolsa Trabajo*/
+    "flex-layout.row#form-bolsa":{
+    "children":["form#bolsaTrabajo"],
+    "props":{"blockClass":"container-formulario"}
+    },
+    "form#bolsaTrabajo": {
+        "props": {
+            "entity": "BolsaTrabajo",
+            "schema": "mdv1"
+        },
+        "children": [
+            "form-input.text#fullName-bolsa",
+            "form-input.text#emailAddress-bolsa",
+            "form-input.text#telephone",
+            "form-input.upload#cargarCV",
+            "form-submit#bolsa"
+        ],
+        "blocks": ["form-success#bolsa"]
+    },
+    "form-input.text#fullName-bolsa": {
+        "props": {
+            "pointer": "#/properties/fullName",
+            "placeholder": "Nombre Completo",
+            "label": ""
+        }
+    },
+    "form-input.text#emailAddress-bolsa": {
+        "props": {
+            "pointer": "#/properties/emailAddress",
+            "placeholder": "Email",
+            "label": ""
+
+        }
+    },
+    "form-input.text#telephone": {
+        "props": {
+            "pointer": "#/properties/telephone",
+            "placeholder": "Teléfono",
+            "label": ""
+        }
+    },
+    "form-input.upload#cargarCV":{
+        "props": {
+            "pointer": "#/properties/cvFile",
+            "blockClass":"dropdown-upload",
+            "accept": ".doc,.pdf,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+    },
+    "form-submit#bolsa": {
+        "props": {
+            "label": "Envíar"
+        }
+    },
+    "form-success#bolsa": {
+        "children": [
+            "rich-text#successSubmit-bolsa"
+        ]
+    },
+    "rich-text#successSubmit-bolsa": {
+        "props": {
+            "text": "Solicitud enviada correctamente!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+
+    /* Formulario Bolsa Trabajo Final*/
+}

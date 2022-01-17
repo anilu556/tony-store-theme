@@ -1,0 +1,476 @@
+{
+  "store.custom#faq": {
+    "children": [
+      "flex-layout.row#faq",
+      "back-to-top-button"
+    ],
+    "props":{"blockClass":"faq-container"}
+  },
+
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "faq-row"
+    },
+    "children": [
+      "flex-layout.col#faq"
+    ]
+  },
+
+  "flex-layout.col#faq": {
+    "children": [
+      "rich-text#faq",
+      "disclosure-layout-group#group"
+    ]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "Preguntas frecuentes",
+      "blockClass":"faq-title"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth",
+      "disclosure-layout#5",
+      "disclosure-layout#6",
+      "disclosure-layout#7",
+      "disclosure-layout#8",
+      "disclosure-layout#9",
+      "disclosure-layout#10",
+      "disclosure-layout#11",
+      "disclosure-layout#12",
+      "disclosure-layout#13"
+    ]
+  },
+
+  "disclosure-layout#first": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "¿Cómo creo mi cuenta en www.tony.com.mx?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Al ingresar a www.tony.com.mx encontrarás en la parte superior derecha de tu pantalla el botón de Mi Cuenta. Una vez adentro elige tu método de autenticación: Contraseña, Código vía mail, Facebook o Google."
+    }
+  },
+
+  "disclosure-layout#second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question2"]
+  },
+  "disclosure-content#second": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "¿Puedo agregar más direcciones de envío?"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "1. Si. Una vez que hayas creado una cuenta, da clic en Mi cuenta y despu\u00E9s en Mis direcciones. Ah\u00ED podr\u00E1s agregar, borrar y modificar tus direcciones.\r\n\r\n2. Tambi\u00E9n lo puedes hacer una vez que te encuentres en el Proceso de pago dando clic en Quiero registrar una direcci\u00F3n nueva."
+    }
+  },
+
+
+  "disclosure-layout#third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question3"]
+  },
+  "disclosure-content#third": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "¿Cómo puedo ver que ofertas tienen?"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "Podrás ver nuestras ofertas dando clic en el botón Líneas de productos y en la sección de Productos en oferta."
+    }
+  },
+
+
+
+  "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer4"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Cómo hago un pedido?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Puedes buscar por Marca, Línea de producto y Búsqueda cualquier producto de nuestro catálogo. Una vez que encontraste el producto deseado, agrega la cantidad y da clic en el botón Agregar a carrito. Cuando hayas agregado a carrito todos los productos que quieres da clic en el botón de carrito, verifica tu pedido y continúa a Proceder al pago."
+    }
+  },
+
+
+  "disclosure-layout#5": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#5", "disclosure-content#5"]
+  },
+  "disclosure-trigger#5": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question5"]
+  },
+  "disclosure-content#5": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "¿Con qué formas de pago puedo hacer mi pedido?"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Puedes pagar tu pedido con Tarjeta de crédito, Tarjeta de débito, Transferencia electrónica o Depósito bancario."
+    }
+  },
+
+
+  "disclosure-layout#6": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#6", "disclosure-content#6"]
+  },
+  "disclosure-trigger#6": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question6"]
+  },
+  "disclosure-content#6": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer6"]
+  },
+  "rich-text#question6": {
+    "props": {
+      "text": "¿Cómo hago un pago con Transferencia electrónica o depósito bancario?"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "Cuando hayas llegado al final de tu proceso de pago, se te mostrarán las instrucciones para realizar el pago y también como enviar tu comprobante."
+    }
+  },
+
+
+
+  "disclosure-layout#7": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#7", "disclosure-content#7"]
+  },
+  "disclosure-trigger#7": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question7"]
+  },
+  "disclosure-content#7": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer7"]
+  },
+  "rich-text#question7": {
+    "props": {
+      "text": "¿Cómo puedo facturar mi compra?"
+    }
+  },
+  "rich-text#answer7": {
+    "props": {
+      "text": "Cuando agregues tu dirección de envío, asegúrate que la casilla de “¿Requieres factura?” esté activada y llena los espacios con tus datos de facturación. Si olvidaste hacer este paso, puedes comunicarte al número 800 000 8669 o al correo servicioventas@tony.mx para solicitar tu factura."
+    }
+  },
+
+
+
+  "disclosure-layout#8": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#8", "disclosure-content#8"]
+  },
+  "disclosure-trigger#8": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question8"]
+  },
+  "disclosure-content#8": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer8"]
+  },
+  "rich-text#question8": {
+    "props": {
+      "text": "¿Cómo me enviarán mi pedido?"
+    }
+  },
+  "rich-text#answer8": {
+    "props": {
+      "text": "Las formas de envío que utilizamos son por mensajería o con nuestras camionetas de reparto. Toma en cuenta que un mismo pedido puede llegar en dos diferentes partes, por lo que podrías no recibirlo al mismo tiempo."
+    }
+  },
+
+
+
+  "disclosure-layout#9": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#9", "disclosure-content#9"]
+  },
+  "disclosure-trigger#9": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question9"]
+  },
+  "disclosure-content#9": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer9"]
+  },
+  "rich-text#question9": {
+    "props": {
+      "text": "¿Cómo puedo rastrear mi pedido?"
+    }
+  },
+  "rich-text#answer9": {
+    "props": {
+      "text": "Una vez que tu pedido esté listo para enviarse, se te enviará por correo electrónico tu número de guía y la mensajería con la que se mandará el pedido. Podrás ver en el PDF que recibirás en tu correo si tu pedido llegará en una o dos partes (guía y reparto TONY)."
+    }
+  },
+
+
+
+  "disclosure-layout#10": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#10", "disclosure-content#10"]
+  },
+  "disclosure-trigger#10": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question10"]
+  },
+  "disclosure-content#10": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer10"]
+  },
+  "rich-text#question10": {
+    "props": {
+      "text": "¿Cómo puedo hacer una devolución?"
+    }
+  },
+  "rich-text#answer10": {
+    "props": {
+      "text": "Contáctanos mediante el número 800 000 8669 o al correo servicioventas@tony.mx y dinos cuál fue el problema con tu pedido para darte una solución."
+    }
+  },
+
+
+
+  "disclosure-layout#11": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#11", "disclosure-content#11"]
+  },
+  "disclosure-trigger#11": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question11"]
+  },
+  "disclosure-content#11": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer11"]
+  },
+  "rich-text#question11": {
+    "props": {
+      "text": "¿Cómo localizo mi sucursal más cercana?"
+    }
+  },
+  "rich-text#answer11": {
+    "props": {
+      "text": "En la parte superior de tu pantalla encontrarás el botón Ubicar sucursales. Una vez dentro selecciona tu Estado y Ciudad y podrás ver todas las sucursales que tenemos para ti."
+    }
+  },
+
+
+
+  "disclosure-layout#12": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#12", "disclosure-content#12"]
+  },
+  "disclosure-trigger#12": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question12"]
+  },
+  "disclosure-content#12": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer12"]
+  },
+  "rich-text#question12": {
+    "props": {
+      "text": "¿Cómo puedo ser mayorista?"
+    }
+  },
+  "rich-text#answer12": {
+    "props": {
+      "text": "Llama al 800 000 8669 o envía correo a servicioventas@tony.mx proporcionando tu nombre y teléfono para que un agente te guíe en los pasos se deben de seguir o también puedes llamar a tu sucursal más cercana y pedir información de cómo ser mayorista."
+    }
+  },
+
+
+
+  "disclosure-layout#13": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#13", "disclosure-content#13"]
+  },
+  "disclosure-trigger#13": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question13"]
+  },
+  "disclosure-content#13": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer13"]
+  },
+  "rich-text#question13": {
+    "props": {
+      "text": "¿Cómo puedo obtener beneficios como cliente?"
+    }
+  },
+  "rich-text#answer13": {
+    "props": {
+      "text": "Si tu empresa o negocio se encuentra cerca de una de nuestras sucursales, acércate y pregunta por el Convenio del Buen Vecino para obtener grandes descuentos para ti y tus colaboradores."
+    }
+  },
+
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}

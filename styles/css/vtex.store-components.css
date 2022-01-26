@@ -744,3 +744,37 @@
 /* :global(.vtex-rich-text-0-x-container--menucategoria){
   outline: 1px solid;
 } */
+/*cursor: puntero sobre imagen*/
+:global(.vtex-store-components-3-x-productImage){
+  cursor: auto;
+}
+/*subrayado de menudeo*/
+:global(.vtex-menu-2-x-styledLinkContent--itemmenudeo){
+  text-decoration: underline;
+text-decoration-color: red;
+text-decoration-thickness: 6px;
+}
+/*template promociones promociones-indiv*/
+/*
+:global(.vtex-flex-layout-0-x-flexRow--left-box)
+:global(.vtex-flex-layout-0-x-flexRowContent--left-box)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)*/
+:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional),
+:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional-indiv){
+  width:calc(40%)!important;
+  margin-left: 30%!important;
+  object-fit: cover!important;
+  scroll-snap-align: center!important;
+}
+:global(.vtex-rich-text-0-x-heading-level-2)
+:global(.vtex-rich-text-0-x-paragraph)
+:global(.vtex-rich-text-0-x-paragraph--titins){
+  font-family: "TitilliumWebRegular"!important;
+  font-style: normal!important;
+  font-weight: normal!important;
+  font-size: 18px!important;
+  line-height: 27px!important;
+  text-align: justify!important;
+  letter-spacing: -0.02em!important;
+  color: #000000!important;
+}

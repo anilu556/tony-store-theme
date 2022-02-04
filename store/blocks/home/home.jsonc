@@ -188,8 +188,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
-      // "hideUnavailableItems": true
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true
     }
   },
   "slider-layout#demo-products": {

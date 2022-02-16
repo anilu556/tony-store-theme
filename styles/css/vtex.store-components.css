@@ -696,47 +696,42 @@
   }
 }
 
-
 /*Cambios tickets*/
 
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-input), 
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-textarea),
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-styleguide-9-x-dropdown)
-{
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-input),
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-textarea),
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-styleguide-9-x-dropdown) {
   width: 70%;
   margin: 0 auto;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-store-form-0-x-formSubmitContainer){
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-store-form-0-x-formSubmitContainer) {
   width: 40%;
   margin: 0 auto;
 }
 
-:global(.vtex-my-orders-app-3-x-invoiceBtn)::after{
+:global(.vtex-my-orders-app-3-x-invoiceBtn)::after {
   content: "Orden de pago";
 }
 
-
-:global(.vtex-my-orders-app-3-x-font){
+:global(.vtex-my-orders-app-3-x-font) {
   font-size: 0px;
 }
 
-:global(.vtex-order-placed-2-x-section--notices)
-:global(.vtex-button__label){
+:global(.vtex-order-placed-2-x-section--notices) :global(.vtex-button__label) {
   font-size: 16px;
 }
 
-:global(.vtex-order-placed-2-x-section--notices)
-:global(.vtex-button__label){
+:global(.vtex-order-placed-2-x-section--notices) :global(.vtex-button__label) {
   font-size: 0;
 }
 
 :global(.vtex-order-placed-2-x-section--notices)
-:global(.vtex-button__label)::after{
+  :global(.vtex-button__label)::after {
   content: "Orden de pago Oxxo";
   font-size: 16px;
 }
@@ -745,14 +740,14 @@
   outline: 1px solid;
 } */
 /*cursor: puntero sobre imagen*/
-:global(.vtex-store-components-3-x-productImage){
+:global(.vtex-store-components-3-x-productImage) {
   cursor: auto;
 }
 /*subrayado de menudeo*/
-:global(.vtex-menu-2-x-styledLinkContent--itemmenudeo){
+:global(.vtex-menu-2-x-styledLinkContent--itemmenudeo) {
   text-decoration: underline;
-text-decoration-color: red;
-text-decoration-thickness: 6px;
+  text-decoration-color: red;
+  text-decoration-thickness: 6px;
 }
 /*template promociones promociones-indiv*/
 /*
@@ -760,21 +755,28 @@ text-decoration-thickness: 6px;
 :global(.vtex-flex-layout-0-x-flexRowContent--left-box)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth)*/
 :global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional),
-:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional-indiv){
-  width:calc(40%)!important;
-  margin-left: 30%!important;
-  object-fit: cover!important;
-  scroll-snap-align: center!important;
+:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional-indiv) {
+  width: calc(40%) !important;
+  margin-left: 30% !important;
+  object-fit: cover !important;
+  scroll-snap-align: center !important;
 }
 :global(.vtex-rich-text-0-x-heading-level-2)
-:global(.vtex-rich-text-0-x-paragraph)
-:global(.vtex-rich-text-0-x-paragraph--titins){
-  font-family: "TitilliumWebRegular"!important;
-  font-style: normal!important;
-  font-weight: normal!important;
-  font-size: 18px!important;
-  line-height: 27px!important;
-  text-align: justify!important;
-  letter-spacing: -0.02em!important;
-  color: #000000!important;
+  :global(.vtex-rich-text-0-x-paragraph)
+  :global(.vtex-rich-text-0-x-paragraph--titins) {
+  font-family: "TitilliumWebRegular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  text-align: justify !important;
+  letter-spacing: -0.02em !important;
+  color: #000000 !important;
+}
+
+@media (min-width: 450px) {
+  :global(.vtex-rich-text-0-x-wrapper--shelfTitle),
+  :global(.vtex-rich-text-0-x-wrapper--shelfTitle-cats) {
+    margin-top: -50px !important;
+  }
 }

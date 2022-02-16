@@ -16,16 +16,16 @@
 :global(.vtex-store-components-3-x-imageElement--carousel),
 :global(.vtex-store-components-3-x-imageElementLink--carousel)
   :global(.vtex-store-components-3-x-imageElement--carousel) {
-  max-height: 480px !important;
+  /* max-height: 480px !important;
   min-height: 480px !important;
-  min-width: 99vw;
+  min-width: 99vw; */
 }
 @media (min-width: 450px) {
   :global(.vtex-store-components-3-x-imageElement--carousel),
   :global(.vtex-store-components-3-x-imageElementLink--carousel)
     :global(.vtex-store-components-3-x-imageElement--carousel) {
-    max-height: 285px !important;
-    min-height: 285px !important;
+    /* max-height: 285px !important;
+    min-height: 285px !important; */
   }
 }
 

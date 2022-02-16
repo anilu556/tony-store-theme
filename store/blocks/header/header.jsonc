@@ -32,7 +32,8 @@
   },
   "flex-layout.col#spacer": {
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass":"spacer-header"
     }
   },
   "sticky-layout#4-desktop": {
@@ -57,6 +58,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#sucursal-ubicacion",
+      "flex-layout.col#spacer",
       "search-bar",
       "flex-layout.col#spacer",
       "login",

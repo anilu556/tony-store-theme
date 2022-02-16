@@ -95,6 +95,7 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
+  max-width: 1920px;
 }
 :global(.vtex-store-components-3-x-notificationContent) {
   font-family: "TitilliumWebBold";
@@ -117,7 +118,17 @@
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
   background-color: #134197 !important;
+  max-width: 1920px;
+  margin: auto;
 }
+:global(.vtex-flex-layout-0-x-flexRow--catmensticky){
+  max-width: 1920px!important;
+  margin: auto;
+}
+:global(.vtex-sticky-layout-0-x-container--sticky-header){
+  background-color: white;
+}
+
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   background-color: #134197 !important;
   padding-top: 0 !important;
@@ -1127,13 +1138,15 @@
   :global(.vtex-styleguide-9-x-input)::placeholder,
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--srchdraw)
   :global(.vtex-styleguide-9-x-input)::placeholder {
-  text-align: left;
+  text-align: center!important;
 }
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--search-bar-custom)
   :global(.vtex-styleguide-9-x-input) {
-  text-align: start;
+  text-align: center!important;
 }
-
+:global(.vtex-store-components-3-x-searchBarInnerContainer--search-bar-custom){
+  
+}
 :global(.vtex-store-drawer-0-x-childrenContainer) {
   padding: 7rem 0;
 }
@@ -1234,4 +1247,8 @@
 :global(.vtex-telemarketing-2-x-phoneField)::before {
   content: "Teléfono";
   font-size: 0.875rem;
+}:global(.vtex-store-components-3-x-searchBarContainer){
+  position: sticky!important;
+  /* left: 40%; */
+  margin-right: 150px;
 }

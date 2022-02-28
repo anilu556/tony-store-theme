@@ -756,10 +756,18 @@
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth)*/
 :global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional),
 :global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional-indiv) {
-  width: calc(40%) !important;
-  margin-left: 30% !important;
+  /* width: calc(40%) !important;
+  margin-left: 30% !important; */
+  width: calc(75%)!important;
+  margin-left: 13%!important;
   object-fit: cover !important;
   scroll-snap-align: center !important;
+  margin-right: 46.797px!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--content-promo-institucional-indiv-tablet)
+:global(.vtex-flex-layout-0-x-flexRow--left-box){
+  padding: 15px 19px 0px 0px;
+  margin-left: 0%;
 }
 :global(.vtex-rich-text-0-x-heading-level-2)
   :global(.vtex-rich-text-0-x-paragraph)
@@ -779,4 +787,18 @@
   :global(.vtex-rich-text-0-x-wrapper--shelfTitle-cats) {
     margin-top: -50px !important;
   }
+}
+
+/* :global(.vtex-store-components-3-x-imageElement--image-box-promo-indiv){
+  max-width: 50rem!important;
+  min-width: 50%!important;
+} */
+
+:global(.vtex-store-components-3-x-imageElement--image-box-promo-indivDesk){
+  margin-right: 5%;
+  height: 100%;
+}
+:global(.vtex-store-components-3-x-imageElement--image-box-promo-indivDesk2){
+  margin-left: 5%;
+  height: 100%;
 }

@@ -766,7 +766,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexColChild--content-promo-institucional-indiv-tablet)
 :global(.vtex-flex-layout-0-x-flexRow--left-box){
-  padding: 15px 19px 0px 0px;
+  padding: 15px 19px 15px 19px;
   margin-left: 0%;
 }
 :global(.vtex-rich-text-0-x-heading-level-2)
@@ -801,4 +801,12 @@
 :global(.vtex-store-components-3-x-imageElement--image-box-promo-indivDesk2){
   margin-left: 5%;
   height: 100%;
+}
+
+:global(.vtex-menu-2-x-menuItem)
+:global(.vtex-menu-2-x-styledLinkContainer)
+:global(.vtex-menu-2-x-styledLinkContent){
+  /* padding: 9px; */
+  font-size: 22px;
+  font-weight: 600;
 }

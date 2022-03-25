@@ -810,3 +810,45 @@
   font-size: 22px;
   font-weight: 600;
 }
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-menu-2-x-menuItem--isClosed)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-menu-2-x-menuItem--isClosed)
+  :global(.vtex-menu-2-x-styledLinkContent),
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-menu-2-x-menuItem--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContent){
+    font-size: 12px;
+    padding-right: 20%;
+  }
+  :global(.vtex-menu-2-x-menuContainerNav--formas){
+    padding-right: 50%;
+  }
+  :global(.vtex-menu-2-x-menuContainerNav--fac){
+    padding-right: 25%;
+  }
+}
+
+@media (max-width: 1050px){
+  :global(.vtex-menu-2-x-menuContainerNav--formas){
+    padding-right: 64%;
+  }
+}
+
+@media (max-width: 320px){
+  :global(.vtex-store-components-3-x-notificationContent){
+    font-size: 14px!important;
+  }
+}

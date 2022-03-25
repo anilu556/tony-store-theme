@@ -847,70 +847,9 @@
   }
 }
 
-/* Modificaciones Ana */
-@media (max-width: 640px){
-
-  :global(.vtex-search-result-3-x-galleryItem){
-    padding: 0rem .75rem;
+@media (max-width: 320px){
+  :global(.vtex-store-components-3-x-notificationContent){
+    font-size: 14px!important;
   }
 }
 
-:global(.vtex-order-placed-2-x-cancelOrderButton){
-  display: none !important;
-}
-
-:global(.vtex-rich-text-0-x-paragraph--textoPagoTienda){
-    background: #f2f4f5;
-    margin: 20px 10px;
-    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
-    border-radius: 5px;
-    padding: 12px;
-    font-family: Sofia-Pro;
-    font-size: 18px;
-    text-align: center;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--pagoTienda){
-  padding:0 150px;
-}
-
-:global(.vtex-rich-text-0-x-wrapper--textoPagoTienda){
-  width: 100%;
-}
-
-:global(.vtex-rich-text-0-x-container--textoTop){
-  width: 100%;
-  background: #efb3cb;
-}
-
-:global(.vtex-rich-text-0-x-container--textoTop){
-  width: 100%;
-  background: #efb3cb;
-}
-
-:global(.vtex-rich-text-0-x-wrapper--textoTop){
-  display: block;
-  margin: 0 auto;
-}
-
-:global(.vtex-rich-text-0-x-paragraph--textoTop){
-  margin: 10px;
-  color: #ffffff;
-}
-
-:global(.vtex-order-placed-2-x-section--topBanner){
-  border: none;
-  margin-bottom: 20px;
-}
-
-:global(.vtex-order-placed-2-x-orderPlacedWrapper){
-  padding-top: 0;
-}
-
-:global(.vtex-rich-text-0-x-paragraph--textoBienvenida){
-  color: #000!important;
-  font-family: Sofia-Pro;
-  font-weight: 500;
-  font-size: 24px;
-  text-align: center;
-}

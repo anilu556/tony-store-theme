@@ -405,8 +405,9 @@
 :global(.vtex-rich-text-0-x-link--correo) {
   color: #ffffff;
   font-family: "TitilliumWebRegular";
-  font-size: 12px;
+  font-size: 16px;
   text-decoration: none;
+  font-weight: 600;
 }
 :global(.vtex-rich-text-0-x-paragraph--correo) {
   margin: 0;

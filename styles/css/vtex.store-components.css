@@ -696,47 +696,42 @@
   }
 }
 
-
 /*Cambios tickets*/
 
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-input), 
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-textarea),
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-styleguide-9-x-dropdown)
-{
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-input),
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-textarea),
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-styleguide-9-x-dropdown) {
   width: 70%;
   margin: 0 auto;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--container-formulario) 
-:global(.vtex-store-form-0-x-formSubmitContainer){
+:global(.vtex-flex-layout-0-x-flexRow--container-formulario)
+  :global(.vtex-store-form-0-x-formSubmitContainer) {
   width: 40%;
   margin: 0 auto;
 }
 
-:global(.vtex-my-orders-app-3-x-invoiceBtn)::after{
+:global(.vtex-my-orders-app-3-x-invoiceBtn)::after {
   content: "Orden de pago";
 }
 
-
-:global(.vtex-my-orders-app-3-x-font){
+:global(.vtex-my-orders-app-3-x-font) {
   font-size: 0px;
 }
 
-:global(.vtex-order-placed-2-x-section--notices)
-:global(.vtex-button__label){
+:global(.vtex-order-placed-2-x-section--notices) :global(.vtex-button__label) {
   font-size: 16px;
 }
 
-:global(.vtex-order-placed-2-x-section--notices)
-:global(.vtex-button__label){
+:global(.vtex-order-placed-2-x-section--notices) :global(.vtex-button__label) {
   font-size: 0;
 }
 
 :global(.vtex-order-placed-2-x-section--notices)
-:global(.vtex-button__label)::after{
+  :global(.vtex-button__label)::after {
   content: "Orden de pago Oxxo";
   font-size: 16px;
 }
@@ -744,3 +739,117 @@
 /* :global(.vtex-rich-text-0-x-container--menucategoria){
   outline: 1px solid;
 } */
+/*cursor: puntero sobre imagen*/
+:global(.vtex-store-components-3-x-productImage) {
+  cursor: auto;
+}
+/*subrayado de menudeo*/
+:global(.vtex-menu-2-x-styledLinkContent--itemmenudeo) {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 6px;
+}
+/*template promociones promociones-indiv*/
+/*
+:global(.vtex-flex-layout-0-x-flexRow--left-box)
+:global(.vtex-flex-layout-0-x-flexRowContent--left-box)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)*/
+:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional),
+:global(.vtex-flex-layout-0-x-flexRow--row-content-promo-institucional-indiv) {
+  /* width: calc(40%) !important;
+  margin-left: 30% !important; */
+  width: calc(75%)!important;
+  margin-left: 13%!important;
+  object-fit: cover !important;
+  scroll-snap-align: center !important;
+  margin-right: 46.797px!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--content-promo-institucional-indiv-tablet)
+:global(.vtex-flex-layout-0-x-flexRow--left-box){
+  padding: 15px 19px 15px 19px;
+  margin-left: 0%;
+}
+:global(.vtex-rich-text-0-x-heading-level-2)
+  :global(.vtex-rich-text-0-x-paragraph)
+  :global(.vtex-rich-text-0-x-paragraph--titins) {
+  font-family: "TitilliumWebRegular" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  text-align: justify !important;
+  letter-spacing: -0.02em !important;
+  color: #000000 !important;
+}
+
+@media (min-width: 450px) {
+  :global(.vtex-rich-text-0-x-wrapper--shelfTitle),
+  :global(.vtex-rich-text-0-x-wrapper--shelfTitle-cats) {
+    margin-top: -50px !important;
+  }
+}
+
+/* :global(.vtex-store-components-3-x-imageElement--image-box-promo-indiv){
+  max-width: 50rem!important;
+  min-width: 50%!important;
+} */
+
+:global(.vtex-store-components-3-x-imageElement--image-box-promo-indivDesk){
+  margin-right: 5%;
+  height: 100%;
+}
+:global(.vtex-store-components-3-x-imageElement--image-box-promo-indivDesk2){
+  margin-left: 5%;
+  height: 100%;
+}
+
+:global(.vtex-menu-2-x-menuItem)
+:global(.vtex-menu-2-x-styledLinkContainer)
+:global(.vtex-menu-2-x-styledLinkContent){
+  /* padding: 9px; */
+  font-size: 22px;
+  font-weight: 600;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-menu-2-x-menuItem--isClosed)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLinkContent){
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-menu-2-x-menuItem--isClosed)
+  :global(.vtex-menu-2-x-styledLinkContent),
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-menu-2-x-menuItem--isOpen)
+  :global(.vtex-menu-2-x-styledLinkContent){
+    font-size: 12px;
+    padding-right: 20%;
+  }
+  :global(.vtex-menu-2-x-menuContainerNav--formas){
+    padding-right: 50%;
+  }
+  :global(.vtex-menu-2-x-menuContainerNav--fac){
+    padding-right: 25%;
+  }
+}
+
+@media (max-width: 1050px){
+  :global(.vtex-menu-2-x-menuContainerNav--formas){
+    padding-right: 64%;
+  }
+}
+
+@media (max-width: 320px){
+  :global(.vtex-store-components-3-x-notificationContent){
+    font-size: 14px!important;
+  }
+}
+

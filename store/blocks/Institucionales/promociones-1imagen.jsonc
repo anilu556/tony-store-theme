@@ -16,7 +16,7 @@
   "responsive-layout.tablet#promo-indiv":{
     "children":[
       "flex-layout.row#titulo-promociones-indiv",
-      "flex-layout.row#texto-promociones-indiv"
+      "flex-layout.row#texto-promociones-indiv-tablet"
     ]
   },
   "responsive-layout.phone#promo-indiv":{
@@ -52,6 +52,22 @@
       "blockClass": "row-content-promo-institucional-indiv"
     }
   },
+  "flex-layout.row#texto-promociones-indiv-tablet": {
+    "children": [
+      "flex-layout.col#coltxt-promociones-indiv-tablet"
+    ],
+    "props": {
+      "blockClass": "row-content-promo-institucional-indiv-tablet"
+    }
+  },
+  "flex-layout.col#coltxt-promociones-indiv-tablet": {
+    "children": [
+      "flex-layout.row#cont-promo-indiv-tablet"
+    ],
+    "props": {
+      "blockClass": "content-promo-institucional-indiv-tablet"
+    }
+  },
   "flex-layout.col#coltxt-promociones-indiv": {
     "children": [
       "flex-layout.row#cont-promo-indiv"
@@ -60,18 +76,95 @@
       "blockClass": "content-promo-institucional-indiv"
     }
   },
-  "flex-layout.row#cont-promo-indiv":{
+  "flex-layout.row#cont-promo-indiv-tablet":{
     "children":[
-      "image#box-promo-indiv"
+      "flex-layout.col#tabletImgs"
     ],
     "props":{
       "blockClass":"left-box"
     }
   },
-  "image#box-promo-indiv":{
+
+  "flex-layout.col#tabletImgs":{
+    "props":{
+
+    },
+    "children":[
+      "flex-layout.row#rowImgTablet1",
+      "flex-layout.row#rowImgTablet2"
+    ]
+  },
+  "flex-layout.row#rowImgTablet1":{
+    "props":{
+      "blockClass":"left-box"
+    },
+    "children":[
+      "image#box-promo-indiv-tablet"
+    ]
+  },
+  "flex-layout.row#rowImgTablet2":{
+    "props":{
+      "blockClass":"left-box"
+    },
+    "children":[
+      "image#box-promo-indiv2-tablet"
+    ]
+  },
+
+  "image#box-promo-indiv-tablet":{
     "props": {
       "src": "/arquivos/promo-main-desk.png",
-      "blockClass":"image-box-promo-indiv",
+      "blockClass":"image-box-promo-indivTablet",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  },
+  "image#box-promo-indiv2-tablet":{
+    "props": {
+      "src": "/arquivos/promo-main-desk.png",
+      "blockClass":"image-box-promo-indivTablet2",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  },
+
+
+
+  "flex-layout.row#cont-promo-indiv":{
+    "children":[
+      "image#box-promo-indiv",
+      "image#box-promo-indiv2"
+    ],
+    "props":{
+      "blockClass":"left-box"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  "image#box-promo-indiv":{
+    "props": {
+      // "src": "/arquivos/promo-main-desk.png",
+      "blockClass":"image-box-promo-indivDesk",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  },
+  "image#box-promo-indiv2":{
+    "props": {
+      // "src": "/arquivos/promo-main-desk.png",
+      "blockClass":"image-box-promo-indivDesk2",
       "link":{
         "url": "/#promo1"
       }
@@ -97,7 +190,8 @@
   },
   "flex-layout.row#cont-promo-indiv-mobile":{
     "children":[
-      "image#box-promo-indiv-mobile"
+      "image#box-promo-indiv-mobile",
+      "image#box-promo-indiv-mobile2"
     ],
     "props":{
       "blockClass":"left-box"
@@ -106,7 +200,16 @@
   "image#box-promo-indiv-mobile":{
     "props": {
       "src": "/arquivos/promo-main-mob.png",
-      "blockClass":"image-box-promo-indiv",
+      "blockClass":"image-box-promo-indiv1",
+      "link":{
+        "url": "/#promo1"
+      }
+    }
+  },
+  "image#box-promo-indiv-mobile2":{
+    "props": {
+      "src": "/arquivos/promo-main-mob.png",
+      "blockClass":"image-box-promo-indiv2",
       "link":{
         "url": "/#promo1"
       }

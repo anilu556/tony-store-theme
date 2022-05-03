@@ -84,7 +84,7 @@
       ],"props":{
           "placement":"right",
           "showArrow":true,
-          "blockClass":"contenedorsubs",
+          "blockClass":["contenedorsubs","dibujo"],
           "offsets":{
               "skidding":100
           }
@@ -118,7 +118,7 @@
       ],"props":{
           "placement":"right",
           "showArrow":true,
-          "blockClass":"contenedorsubs",
+          "blockClass":["contenedorsubs","manualidades"],
           "offsets":{
               "skidding":57
           }
@@ -151,7 +151,7 @@
       ],"props":{
           "placement":"right",
           "showArrow":true,
-          "blockClass":"contenedorsubs",
+          "blockClass":["contenedorsubs","pinturas"],
           "offsets":{
               "skidding":16
           }

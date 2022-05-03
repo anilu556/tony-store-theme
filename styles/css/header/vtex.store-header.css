@@ -927,6 +927,19 @@
   visibility: initial;
 }
 
+
+:global(.vtex-overlay-layout-0-x-arrow--dibujo)::before {
+  top: -29px;
+}
+
+:global(.vtex-overlay-layout-0-x-arrow--manualidades)::before {
+  top: -30px;
+}
+
+:global(.vtex-overlay-layout-0-x-arrow--pinturas)::before {
+  top: -29px;
+}
+
 /* Submenu mobile ########################################################################################################################################################*/
 :global(.vtex-store-drawer-0-x-closeIconButton) {
   position: absolute;

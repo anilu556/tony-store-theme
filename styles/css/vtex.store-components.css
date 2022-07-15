@@ -853,3 +853,6 @@
   }
 }
 
+:global(.vtex-store-components-3-x-searchBarContainer){
+  z-index: 4;
+}

@@ -253,6 +253,7 @@
       "search-bar#inteldraw"
     ]
   },"search-bar#inteldraw":{
+    "blocks": ["autocomplete-result-list.v2"],
     "props":{
       "fullWidth":false,
       "blockClass":"srchdraw",
